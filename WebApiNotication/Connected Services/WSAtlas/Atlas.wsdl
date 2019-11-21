@@ -1,0 +1,3197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://ws.atlas.sernageomin.cl/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="Atlas" targetNamespace="http://ws.atlas.sernageomin.cl/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://ws.atlas.sernageomin.cl/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="buscaEmpresas" type="tns:buscaEmpresas" />
+      <xs:element name="buscaEmpresasAll" type="tns:buscaEmpresasAll" />
+      <xs:element name="buscaEmpresasAllResponse" type="tns:buscaEmpresasAllResponse" />
+      <xs:element name="buscaEmpresasEnRegion" type="tns:buscaEmpresasEnRegion" />
+      <xs:element name="buscaEmpresasEnRegionResponse" type="tns:buscaEmpresasEnRegionResponse" />
+      <xs:element name="buscaEmpresasResponse" type="tns:buscaEmpresasResponse" />
+      <xs:element name="buscaFaenasActivasEnRegion" type="tns:buscaFaenasActivasEnRegion" />
+      <xs:element name="buscaFaenasActivasEnRegionResponse" type="tns:buscaFaenasActivasEnRegionResponse" />
+      <xs:element name="buscaFaenasEnRegion" type="tns:buscaFaenasEnRegion" />
+      <xs:element name="buscaFaenasEnRegionResponse" type="tns:buscaFaenasEnRegionResponse" />
+      <xs:element name="buscaInstalacionesReporte" type="tns:buscaInstalacionesReporte" />
+      <xs:element name="buscaInstalacionesReporteResponse" type="tns:buscaInstalacionesReporteResponse" />
+      <xs:element name="cuentaEmpresasActivas" type="tns:cuentaEmpresasActivas" />
+      <xs:element name="cuentaEmpresasActivasResponse" type="tns:cuentaEmpresasActivasResponse" />
+      <xs:element name="cuentaEmpresasModificadas" type="tns:cuentaEmpresasModificadas" />
+      <xs:element name="cuentaEmpresasModificadasResponse" type="tns:cuentaEmpresasModificadasResponse" />
+      <xs:element name="getAllFaenas" type="tns:getAllFaenas" />
+      <xs:element name="getAllFaenasResponse" type="tns:getAllFaenasResponse" />
+      <xs:element name="getAllHistorialCatEmpresa" type="tns:getAllHistorialCatEmpresa" />
+      <xs:element name="getAllHistorialCatEmpresaResponse" type="tns:getAllHistorialCatEmpresaResponse" />
+      <xs:element name="getAllHistorialCatFaena" type="tns:getAllHistorialCatFaena" />
+      <xs:element name="getAllHistorialCatFaenaOrdenadoRegion" type="tns:getAllHistorialCatFaenaOrdenadoRegion" />
+      <xs:element name="getAllHistorialCatFaenaOrdenadoRegionResponse" type="tns:getAllHistorialCatFaenaOrdenadoRegionResponse" />
+      <xs:element name="getAllHistorialCatFaenaResponse" type="tns:getAllHistorialCatFaenaResponse" />
+      <xs:element name="getAllInstalacionesFaena" type="tns:getAllInstalacionesFaena" />
+      <xs:element name="getAllInstalacionesFaenaResponse" type="tns:getAllInstalacionesFaenaResponse" />
+      <xs:element name="getAllRecursosMinerosActivos" type="tns:getAllRecursosMinerosActivos" />
+      <xs:element name="getAllRecursosMinerosActivosResponse" type="tns:getAllRecursosMinerosActivosResponse" />
+      <xs:element name="getAllRecursosPrincipalesActivos" type="tns:getAllRecursosPrincipalesActivos" />
+      <xs:element name="getAllRecursosPrincipalesActivosResponse" type="tns:getAllRecursosPrincipalesActivosResponse" />
+      <xs:element name="getCambiosEstadoInstalacion" type="tns:getCambiosEstadoInstalacion" />
+      <xs:element name="getCambiosEstadoInstalacionResponse" type="tns:getCambiosEstadoInstalacionResponse" />
+      <xs:element name="getCategoriasEmpresaMinera" type="tns:getCategoriasEmpresaMinera" />
+      <xs:element name="getCategoriasEmpresaMineraResponse" type="tns:getCategoriasEmpresaMineraResponse" />
+      <xs:element name="getCategoriasFaena" type="tns:getCategoriasFaena" />
+      <xs:element name="getCategoriasFaenaResponse" type="tns:getCategoriasFaenaResponse" />
+      <xs:element name="getComunasPorRegionCut" type="tns:getComunasPorRegionCut" />
+      <xs:element name="getComunasPorRegionCutResponse" type="tns:getComunasPorRegionCutResponse" />
+      <xs:element name="getComunasProvincia" type="tns:getComunasProvincia" />
+      <xs:element name="getComunasProvinciaResponse" type="tns:getComunasProvinciaResponse" />
+      <xs:element name="getComunasRegion" type="tns:getComunasRegion" />
+      <xs:element name="getComunasRegionResponse" type="tns:getComunasRegionResponse" />
+      <xs:element name="getDetalleCategoriaEmpresa" type="tns:getDetalleCategoriaEmpresa" />
+      <xs:element name="getDetalleCategoriaEmpresaResponse" type="tns:getDetalleCategoriaEmpresaResponse" />
+      <xs:element name="getDetalleCategoriaFaena" type="tns:getDetalleCategoriaFaena" />
+      <xs:element name="getDetalleCategoriaFaenaResponse" type="tns:getDetalleCategoriaFaenaResponse" />
+      <xs:element name="getDetalleHistorialCatEmp" type="tns:getDetalleHistorialCatEmp" />
+      <xs:element name="getDetalleHistorialCatEmpResponse" type="tns:getDetalleHistorialCatEmpResponse" />
+      <xs:element name="getDetalleHistorialCatFaena" type="tns:getDetalleHistorialCatFaena" />
+      <xs:element name="getDetalleHistorialCatFaenaResponse" type="tns:getDetalleHistorialCatFaenaResponse" />
+      <xs:element name="getDetalleRecursoMinero" type="tns:getDetalleRecursoMinero" />
+      <xs:element name="getDetalleRecursoMineroResponse" type="tns:getDetalleRecursoMineroResponse" />
+      <xs:element name="getDetalleRecursoPrincipal" type="tns:getDetalleRecursoPrincipal" />
+      <xs:element name="getDetalleRecursoPrincipalResponse" type="tns:getDetalleRecursoPrincipalResponse" />
+      <xs:element name="getDetalleTipoInstalacion" type="tns:getDetalleTipoInstalacion" />
+      <xs:element name="getDetalleTipoInstalacionDefinicion" type="tns:getDetalleTipoInstalacionDefinicion" />
+      <xs:element name="getDetalleTipoInstalacionDefinicionResponse" type="tns:getDetalleTipoInstalacionDefinicionResponse" />
+      <xs:element name="getDetalleTipoInstalacionResponse" type="tns:getDetalleTipoInstalacionResponse" />
+      <xs:element name="getDetalleTipoRecurso" type="tns:getDetalleTipoRecurso" />
+      <xs:element name="getDetalleTipoRecursoResponse" type="tns:getDetalleTipoRecursoResponse" />
+      <xs:element name="getDetallesComuna" type="tns:getDetallesComuna" />
+      <xs:element name="getDetallesComunaResponse" type="tns:getDetallesComunaResponse" />
+      <xs:element name="getDetallesEmpresa" type="tns:getDetallesEmpresa" />
+      <xs:element name="getDetallesEmpresaResponse" type="tns:getDetallesEmpresaResponse" />
+      <xs:element name="getDetallesEstadoInstalacion" type="tns:getDetallesEstadoInstalacion" />
+      <xs:element name="getDetallesEstadoInstalacionResponse" type="tns:getDetallesEstadoInstalacionResponse" />
+      <xs:element name="getDetallesFaena" type="tns:getDetallesFaena" />
+      <xs:element name="getDetallesFaenaResponse" type="tns:getDetallesFaenaResponse" />
+      <xs:element name="getDetallesRegion" type="tns:getDetallesRegion" />
+      <xs:element name="getDetallesRegionResponse" type="tns:getDetallesRegionResponse" />
+      <xs:element name="getDigitoVerificador" type="tns:getDigitoVerificador" />
+      <xs:element name="getDigitoVerificadorResponse" type="tns:getDigitoVerificadorResponse" />
+      <xs:element name="getEmpresaFromRut" type="tns:getEmpresaFromRut" />
+      <xs:element name="getEmpresaFromRutResponse" type="tns:getEmpresaFromRutResponse" />
+      <xs:element name="getEstadosInstalacion" type="tns:getEstadosInstalacion" />
+      <xs:element name="getEstadosInstalacionResponse" type="tns:getEstadosInstalacionResponse" />
+      <xs:element name="getFaenaBasica" type="tns:getFaenaBasica" />
+      <xs:element name="getFaenaBasicaResponse" type="tns:getFaenaBasicaResponse" />
+      <xs:element name="getFaenaBasicaSIMIO" type="tns:getFaenaBasicaSIMIO" />
+      <xs:element name="getFaenaBasicaSIMIOResponse" type="tns:getFaenaBasicaSIMIOResponse" />
+      <xs:element name="getFaenasDeclarables" type="tns:getFaenasDeclarables" />
+      <xs:element name="getFaenasDeclarablesEmpresa" type="tns:getFaenasDeclarablesEmpresa" />
+      <xs:element name="getFaenasDeclarablesEmpresaResponse" type="tns:getFaenasDeclarablesEmpresaResponse" />
+      <xs:element name="getFaenasDeclarablesResponse" type="tns:getFaenasDeclarablesResponse" />
+      <xs:element name="getFaenasEmpresa" type="tns:getFaenasEmpresa" />
+      <xs:element name="getFaenasEmpresaResponse" type="tns:getFaenasEmpresaResponse" />
+      <xs:element name="getHistoriaCategoriaEmpresa" type="tns:getHistoriaCategoriaEmpresa" />
+      <xs:element name="getHistoriaCategoriaEmpresaResponse" type="tns:getHistoriaCategoriaEmpresaResponse" />
+      <xs:element name="getHistoriaCategoriaFaena" type="tns:getHistoriaCategoriaFaena" />
+      <xs:element name="getHistoriaCategoriaFaenaResponse" type="tns:getHistoriaCategoriaFaenaResponse" />
+      <xs:element name="getHistoriaFaenaByCategorias" type="tns:getHistoriaFaenaByCategorias" />
+      <xs:element name="getHistoriaFaenaByCategoriasResponse" type="tns:getHistoriaFaenaByCategoriasResponse" />
+      <xs:element name="getIdsFaenasActivas" type="tns:getIdsFaenasActivas" />
+      <xs:element name="getIdsFaenasActivasRegion" type="tns:getIdsFaenasActivasRegion" />
+      <xs:element name="getIdsFaenasActivasRegionResponse" type="tns:getIdsFaenasActivasRegionResponse" />
+      <xs:element name="getIdsFaenasActivasResponse" type="tns:getIdsFaenasActivasResponse" />
+      <xs:element name="getIdsFaenasModificadasRegion" type="tns:getIdsFaenasModificadasRegion" />
+      <xs:element name="getIdsFaenasModificadasRegionResponse" type="tns:getIdsFaenasModificadasRegionResponse" />
+      <xs:element name="getIdsInstalacionesModificadasRegion" type="tns:getIdsInstalacionesModificadasRegion" />
+      <xs:element name="getIdsInstalacionesModificadasRegionResponse" type="tns:getIdsInstalacionesModificadasRegionResponse" />
+      <xs:element name="getInstalacion" type="tns:getInstalacion" />
+      <xs:element name="getInstalacionBasica" type="tns:getInstalacionBasica" />
+      <xs:element name="getInstalacionBasicaResponse" type="tns:getInstalacionBasicaResponse" />
+      <xs:element name="getInstalacionBasicaSIMIO" type="tns:getInstalacionBasicaSIMIO" />
+      <xs:element name="getInstalacionBasicaSIMIOResponse" type="tns:getInstalacionBasicaSIMIOResponse" />
+      <xs:element name="getInstalacionRYR" type="tns:getInstalacionRYR" />
+      <xs:element name="getInstalacionRYRResponse" type="tns:getInstalacionRYRResponse" />
+      <xs:element name="getInstalacionRelave" type="tns:getInstalacionRelave" />
+      <xs:element name="getInstalacionRelaveResponse" type="tns:getInstalacionRelaveResponse" />
+      <xs:element name="getInstalacionResponse" type="tns:getInstalacionResponse" />
+      <xs:element name="getInstalacionesCercanas" type="tns:getInstalacionesCercanas" />
+      <xs:element name="getInstalacionesCercanasResponse" type="tns:getInstalacionesCercanasResponse" />
+      <xs:element name="getInstalacionesDeclarablesAccFaena" type="tns:getInstalacionesDeclarablesAccFaena" />
+      <xs:element name="getInstalacionesDeclarablesAccFaenaResponse" type="tns:getInstalacionesDeclarablesAccFaenaResponse" />
+      <xs:element name="getInstalacionesFaena" type="tns:getInstalacionesFaena" />
+      <xs:element name="getInstalacionesFaenaResponse" type="tns:getInstalacionesFaenaResponse" />
+      <xs:element name="getInstalacionesRelave" type="tns:getInstalacionesRelave" />
+      <xs:element name="getInstalacionesRelaveFaena" type="tns:getInstalacionesRelaveFaena" />
+      <xs:element name="getInstalacionesRelaveFaenaResponse" type="tns:getInstalacionesRelaveFaenaResponse" />
+      <xs:element name="getInstalacionesRelaveResponse" type="tns:getInstalacionesRelaveResponse" />
+      <xs:element name="getPaginaEmpresas" type="tns:getPaginaEmpresas" />
+      <xs:element name="getPaginaEmpresasResponse" type="tns:getPaginaEmpresasResponse" />
+      <xs:element name="getProvinciaBasica" type="tns:getProvinciaBasica" />
+      <xs:element name="getProvinciaBasicaResponse" type="tns:getProvinciaBasicaResponse" />
+      <xs:element name="getProvinciasRegion" type="tns:getProvinciasRegion" />
+      <xs:element name="getProvinciasRegionResponse" type="tns:getProvinciasRegionResponse" />
+      <xs:element name="getRecursosMinerosRecursoPrincipal" type="tns:getRecursosMinerosRecursoPrincipal" />
+      <xs:element name="getRecursosMinerosRecursoPrincipalResponse" type="tns:getRecursosMinerosRecursoPrincipalResponse" />
+      <xs:element name="getRecursosMinerosUMRecursoPrincipal" type="tns:getRecursosMinerosUMRecursoPrincipal" />
+      <xs:element name="getRecursosMinerosUMRecursoPrincipalResponse" type="tns:getRecursosMinerosUMRecursoPrincipalResponse" />
+      <xs:element name="getRecursosPrincipalesTipoRecurso" type="tns:getRecursosPrincipalesTipoRecurso" />
+      <xs:element name="getRecursosPrincipalesTipoRecursoResponse" type="tns:getRecursosPrincipalesTipoRecursoResponse" />
+      <xs:element name="getRecursosPrincipalesUMTipoRecurso" type="tns:getRecursosPrincipalesUMTipoRecurso" />
+      <xs:element name="getRecursosPrincipalesUMTipoRecursoResponse" type="tns:getRecursosPrincipalesUMTipoRecursoResponse" />
+      <xs:element name="getRecursosSecundariosInstalacion" type="tns:getRecursosSecundariosInstalacion" />
+      <xs:element name="getRecursosSecundariosInstalacionResponse" type="tns:getRecursosSecundariosInstalacionResponse" />
+      <xs:element name="getRegiones" type="tns:getRegiones" />
+      <xs:element name="getRegionesCut" type="tns:getRegionesCut" />
+      <xs:element name="getRegionesCutResponse" type="tns:getRegionesCutResponse" />
+      <xs:element name="getRegionesResponse" type="tns:getRegionesResponse" />
+      <xs:element name="getTiposInstalacion" type="tns:getTiposInstalacion" />
+      <xs:element name="getTiposInstalacionDefinicion" type="tns:getTiposInstalacionDefinicion" />
+      <xs:element name="getTiposInstalacionDefinicionResponse" type="tns:getTiposInstalacionDefinicionResponse" />
+      <xs:element name="getTiposInstalacionResponse" type="tns:getTiposInstalacionResponse" />
+      <xs:element name="getTiposRecurso" type="tns:getTiposRecurso" />
+      <xs:element name="getTiposRecursoResponse" type="tns:getTiposRecursoResponse" />
+      <xs:element name="insertHistoriaCategoriaEmpresa" type="tns:insertHistoriaCategoriaEmpresa" />
+      <xs:element name="insertHistoriaCategoriaEmpresaResponse" type="tns:insertHistoriaCategoriaEmpresaResponse" />
+      <xs:element name="insertHistoriaCategoriaFaena" type="tns:insertHistoriaCategoriaFaena" />
+      <xs:element name="insertHistoriaCategoriaFaenaResponse" type="tns:insertHistoriaCategoriaFaenaResponse" />
+      <xs:element name="updateCategoriaEmpresa" type="tns:updateCategoriaEmpresa" />
+      <xs:element name="updateCategoriaEmpresaResponse" type="tns:updateCategoriaEmpresaResponse" />
+      <xs:element name="updateCategoriaFaena" type="tns:updateCategoriaFaena" />
+      <xs:element name="updateCategoriaFaenaResponse" type="tns:updateCategoriaFaenaResponse" />
+      <xs:element name="updateHistoriaCategoriaEmpresa" type="tns:updateHistoriaCategoriaEmpresa" />
+      <xs:element name="updateHistoriaCategoriaEmpresaResponse" type="tns:updateHistoriaCategoriaEmpresaResponse" />
+      <xs:element name="updateHistoriaCategoriaFaena" type="tns:updateHistoriaCategoriaFaena" />
+      <xs:element name="updateHistoriaCategoriaFaenaResponse" type="tns:updateHistoriaCategoriaFaenaResponse" />
+      <xs:complexType name="getIdsFaenasActivasRegion">
+        <xs:sequence>
+          <xs:element name="idRegion" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getIdsFaenasActivasRegionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="buscaEmpresasEnRegion">
+        <xs:sequence>
+          <xs:element name="idRegion" type="xs:long" />
+          <xs:element minOccurs="0" name="textoBusqueda" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="buscaEmpresasEnRegionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:empresa" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="empresa">
+        <xs:sequence>
+          <xs:element name="activa" type="xs:boolean" />
+          <xs:element minOccurs="0" name="calle" type="xs:string" />
+          <xs:element name="contratistaMinero" type="xs:boolean" />
+          <xs:element minOccurs="0" name="direccionRepresentante" type="xs:string" />
+          <xs:element minOccurs="0" name="email" type="xs:string" />
+          <xs:element minOccurs="0" name="emailAdministradorDelegado" type="xs:string" />
+          <xs:element minOccurs="0" name="emailRepresentante" type="xs:string" />
+          <xs:element name="empresaMinera" type="xs:boolean" />
+          <xs:element minOccurs="0" name="fax" type="xs:string" />
+          <xs:element minOccurs="0" name="faxRepresentante" type="xs:string" />
+          <xs:element name="id" type="xs:long" />
+          <xs:element name="idCategoria" type="xs:long" />
+          <xs:element name="idComuna" type="xs:long" />
+          <xs:element minOccurs="0" name="nombreAdministradorDelegado" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreCategoria" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreComuna" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreFantasia" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreRepresentante" type="xs:string" />
+          <xs:element minOccurs="0" name="numero" type="xs:string" />
+          <xs:element minOccurs="0" name="oficina" type="xs:string" />
+          <xs:element minOccurs="0" name="razonSocial" type="xs:string" />
+          <xs:element minOccurs="0" name="rut" type="xs:string" />
+          <xs:element minOccurs="0" name="rutRepresentante" type="xs:string" />
+          <xs:element minOccurs="0" name="sitioWeb" type="xs:string" />
+          <xs:element minOccurs="0" name="telefono" type="xs:string" />
+          <xs:element minOccurs="0" name="telefonoRepresentante" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="buscaEmpresas">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="textoBusqueda" type="xs:string" />
+          <xs:element name="empresasMineras" type="xs:boolean" />
+          <xs:element name="contratistasMineros" type="xs:boolean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="buscaEmpresasResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:empresa" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getPaginaEmpresas">
+        <xs:sequence>
+          <xs:element name="desdeId" type="xs:long" />
+          <xs:element name="numeroFilas" type="xs:long" />
+          <xs:element minOccurs="0" name="fecha" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getPaginaEmpresasResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:empresaBasica" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="empresaBasica">
+        <xs:sequence>
+          <xs:element name="activa" type="xs:boolean" />
+          <xs:element minOccurs="0" name="direccionRepresentante" type="xs:string" />
+          <xs:element minOccurs="0" name="emailRepresentante" type="xs:string" />
+          <xs:element name="esContratista" type="xs:boolean" />
+          <xs:element name="esMinera" type="xs:boolean" />
+          <xs:element name="id" type="xs:long" />
+          <xs:element minOccurs="0" name="nombreFantasia" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreRepresentante" type="xs:string" />
+          <xs:element minOccurs="0" name="razonSocial" type="xs:string" />
+          <xs:element minOccurs="0" name="rut" type="xs:string" />
+          <xs:element minOccurs="0" name="rutRepresentante" type="xs:string" />
+          <xs:element minOccurs="0" name="telefonoRepresentante" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getIdsFaenasActivas">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="getIdsFaenasActivasResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="updateCategoriaEmpresa">
+        <xs:sequence>
+          <xs:element name="idEmpresa" type="xs:long" />
+          <xs:element name="idCategoria" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="updateCategoriaEmpresaResponse">
+        <xs:sequence>
+          <xs:element name="return" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getAllHistorialCatFaena">
+        <xs:sequence>
+          <xs:element name="ano" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getAllHistorialCatFaenaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:historiaCategoriaFaena" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="historiaCategoriaFaena">
+        <xs:sequence>
+          <xs:element name="ano" type="xs:int" />
+          <xs:element name="id" type="xs:long" />
+          <xs:element name="idCategoria" type="xs:long" />
+          <xs:element name="idFaena" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getEstadosInstalacion">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="getEstadosInstalacionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:estadoInstalacion" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="estadoInstalacion">
+        <xs:sequence>
+          <xs:element name="activo" type="xs:boolean" />
+          <xs:element name="id" type="xs:long" />
+          <xs:element name="instalacionActiva" type="xs:boolean" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getAllRecursosPrincipalesActivos">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="getAllRecursosPrincipalesActivosResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:recursoPrincipal" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="recursoPrincipal">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="buscaInstalacionesReporte">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="textoBusqueda" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="buscaInstalacionesReporteResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:instalacionBasica" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="instalacionBasica">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+          <xs:element name="idFaena" type="xs:long" />
+          <xs:element name="idTipo" type="xs:long" />
+          <xs:element name="latitud" type="xs:double" />
+          <xs:element name="longitud" type="xs:double" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreTipo" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getRecursosPrincipalesTipoRecurso">
+        <xs:sequence>
+          <xs:element name="idTipoRecurso" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getRecursosPrincipalesTipoRecursoResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:recursoPrincipal" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getInstalacionRelave">
+        <xs:sequence>
+          <xs:element name="idInstalacion" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getInstalacionRelaveResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:instalacionRelaveOb" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="instalacionRelaveOb">
+        <xs:sequence>
+          <xs:element name="cota" type="xs:long" />
+          <xs:element minOccurs="0" name="datum" type="xs:string" />
+          <xs:element minOccurs="0" name="este" type="xs:double" />
+          <xs:element name="huso" type="xs:long" />
+          <xs:element name="idComuna" type="xs:long" />
+          <xs:element name="idFaena" type="xs:long" />
+          <xs:element name="idInstalacion" type="xs:long" />
+          <xs:element name="idTipo" type="xs:long" />
+          <xs:element minOccurs="0" name="latitud" type="xs:double" />
+          <xs:element minOccurs="0" name="longitud" type="xs:double" />
+          <xs:element minOccurs="0" name="nombreEmpresa" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreFaena" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreInstalacion" type="xs:string" />
+          <xs:element minOccurs="0" name="norte" type="xs:double" />
+          <xs:element name="tieneCambios" type="xs:boolean" />
+          <xs:element minOccurs="0" name="tipoDeposito" type="xs:string" />
+          <xs:element minOccurs="0" name="ubicacion" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="buscaFaenasActivasEnRegion">
+        <xs:sequence>
+          <xs:element name="idRegion" type="xs:long" />
+          <xs:element minOccurs="0" name="textoBusqueda" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="buscaFaenasActivasEnRegionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:faena" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="faena">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="abreviaturaRegion" type="xs:string" />
+          <xs:element minOccurs="0" name="accesos" type="xs:string" />
+          <xs:element name="activa" type="xs:boolean" />
+          <xs:element minOccurs="0" name="calle" type="xs:string" />
+          <xs:element minOccurs="0" name="calleEmpresa" type="xs:string" />
+          <xs:element minOccurs="0" name="cargoAutoridad" type="xs:string" />
+          <xs:element minOccurs="0" name="cargoEncAmbiental" type="xs:string" />
+          <xs:element minOccurs="0" name="cargoEncPrevencion" type="xs:string" />
+          <xs:element minOccurs="0" name="direccionRepresentanteEmpresa" type="xs:string" />
+          <xs:element minOccurs="0" name="emailAutoridad" type="xs:string" />
+          <xs:element minOccurs="0" name="emailEmpresa" type="xs:string" />
+          <xs:element minOccurs="0" name="emailEncAmbiental" type="xs:string" />
+          <xs:element minOccurs="0" name="emailEncPrevencion" type="xs:string" />
+          <xs:element minOccurs="0" name="emailRepresentanteEmpresa" type="xs:string" />
+          <xs:element minOccurs="0" name="faxAutoridad" type="xs:string" />
+          <xs:element minOccurs="0" name="faxEmpresa" type="xs:string" />
+          <xs:element minOccurs="0" name="faxEncAmbiental" type="xs:string" />
+          <xs:element minOccurs="0" name="faxEncPrevencion" type="xs:string" />
+          <xs:element name="id" type="xs:long" />
+          <xs:element name="idCategoria" type="xs:long" />
+          <xs:element name="idCategoriaEmpresa" type="xs:long" />
+          <xs:element name="idComuna" type="xs:long" />
+          <xs:element name="idComunaEmpresa" type="xs:long" />
+          <xs:element name="idEmpresa" type="xs:long" />
+          <xs:element name="idProvincia" type="xs:long" />
+          <xs:element name="idRecursoPrincipal" type="xs:long" />
+          <xs:element name="idRegion" type="xs:long" />
+          <xs:element name="latitud" type="xs:double" />
+          <xs:element name="longitud" type="xs:double" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreAutoridad" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreCategoria" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreCategoriaEmpresa" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreComuna" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreEncAmbiental" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreEncPrevencion" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreFantasia" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreFantasiaEmpresa" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreProvincia" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreRecursoPrincipal" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreRegion" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreRepresentanteEmpresa" type="xs:string" />
+          <xs:element minOccurs="0" name="numero" type="xs:string" />
+          <xs:element minOccurs="0" name="numeroEmpresa" type="xs:string" />
+          <xs:element minOccurs="0" name="oficina" type="xs:string" />
+          <xs:element minOccurs="0" name="oficinaEmpresa" type="xs:string" />
+          <xs:element minOccurs="0" name="razonSocialEmpresa" type="xs:string" />
+          <xs:element minOccurs="0" name="reglamentoInterno" type="xs:string" />
+          <xs:element minOccurs="0" name="rutEmpresa" type="xs:string" />
+          <xs:element minOccurs="0" name="rutRepresentanteEmpresa" type="xs:string" />
+          <xs:element minOccurs="0" name="telefonoAutoridad" type="xs:string" />
+          <xs:element minOccurs="0" name="telefonoEmpresa" type="xs:string" />
+          <xs:element minOccurs="0" name="telefonoEncAmbiental" type="xs:string" />
+          <xs:element minOccurs="0" name="telefonoEncPrevencion" type="xs:string" />
+          <xs:element minOccurs="0" name="telefonoRepresentanteEmpresa" type="xs:string" />
+          <xs:element minOccurs="0" name="ubicacionFisica" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="updateHistoriaCategoriaFaena">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+          <xs:element name="idCategoria" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="updateHistoriaCategoriaFaenaResponse">
+        <xs:sequence>
+          <xs:element name="return" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getAllHistorialCatFaenaOrdenadoRegion">
+        <xs:sequence>
+          <xs:element name="ano" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getAllHistorialCatFaenaOrdenadoRegionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:historiaCategoriaFaena" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getFaenasEmpresa">
+        <xs:sequence>
+          <xs:element name="idEmpresa" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getFaenasEmpresaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:faena" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getInstalacionesRelaveFaena">
+        <xs:sequence>
+          <xs:element name="idFaena" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getInstalacionesRelaveFaenaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:instalacion" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="instalacion">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="accesos" type="xs:string" />
+          <xs:element name="cota" type="xs:long" />
+          <xs:element minOccurs="0" name="datum" type="xs:string" />
+          <xs:element minOccurs="0" name="emailAdministrador" type="xs:string" />
+          <xs:element name="este" type="xs:double" />
+          <xs:element minOccurs="0" name="faxAdministrador" type="xs:string" />
+          <xs:element name="huso" type="xs:long" />
+          <xs:element name="id" type="xs:long" />
+          <xs:element name="idComuna" type="xs:long" />
+          <xs:element name="idEstadoActual" type="xs:long" />
+          <xs:element name="idRecursoPrimario" type="xs:long" />
+          <xs:element name="idTipo" type="xs:long" />
+          <xs:element name="latitud" type="xs:double" />
+          <xs:element name="longitud" type="xs:double" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreAdministrador" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreEstadoActual" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreRecursoPrimario" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreTipo" type="xs:string" />
+          <xs:element name="norte" type="xs:double" />
+          <xs:element minOccurs="0" name="regimen" type="xs:string" />
+          <xs:element minOccurs="0" name="regimenDescripcion" type="xs:string" />
+          <xs:element minOccurs="0" name="regimenDiasDescanso" type="xs:string" />
+          <xs:element minOccurs="0" name="regimenDiasTrabajo" type="xs:string" />
+          <xs:element minOccurs="0" name="telefonoAdministrador" type="xs:string" />
+          <xs:element minOccurs="0" name="ubicacion" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetalleRecursoMinero">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetalleRecursoMineroResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:recursoMinero" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="recursoMinero">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetallesEmpresa">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetallesEmpresaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:empresa" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getTiposRecurso">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="getTiposRecursoResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:tipoRecurso" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="tipoRecurso">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+          <xs:element minOccurs="0" name="mineria" type="xs:string" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getInstalacionesFaena">
+        <xs:sequence>
+          <xs:element name="idFaena" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getInstalacionesFaenaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:instalacion" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getHistoriaCategoriaEmpresa">
+        <xs:sequence>
+          <xs:element name="ano" type="xs:int" />
+          <xs:element name="idEmpresa" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getHistoriaCategoriaEmpresaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:historiaCategoriaEmpresa" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="historiaCategoriaEmpresa">
+        <xs:sequence>
+          <xs:element name="ano" type="xs:int" />
+          <xs:element name="id" type="xs:long" />
+          <xs:element name="idCategoria" type="xs:long" />
+          <xs:element name="idEmpresa" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getCategoriasEmpresaMinera">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="getCategoriasEmpresaMineraResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:categoriaEmpresa" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="categoriaEmpresa">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="abreviatura" type="xs:string" />
+          <xs:element name="id" type="xs:long" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+          <xs:element name="nroTrabMandanteAnoDesde" type="xs:int" />
+          <xs:element name="nroTrabMandanteAnoHasta" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getAllFaenas">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="getAllFaenasResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:faena" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetalleTipoRecurso">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetalleTipoRecursoResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:tipoRecurso" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getCambiosEstadoInstalacion">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getCambiosEstadoInstalacionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:cambioEstadoInstalacion" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="cambioEstadoInstalacion">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="fecha" type="xs:dateTime" />
+          <xs:element name="id" type="xs:long" />
+          <xs:element minOccurs="0" name="nuevoEstado" type="tns:estadoInstalacion" />
+          <xs:element minOccurs="0" name="observaciones" type="xs:string" />
+          <xs:element minOccurs="0" name="usuarioResponsable" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getProvinciasRegion">
+        <xs:sequence>
+          <xs:element name="idRegion" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getProvinciasRegionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:provincia" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="provincia">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+          <xs:element name="latitudCentro" type="xs:double" />
+          <xs:element name="longitudCentro" type="xs:double" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+          <xs:element minOccurs="0" name="region" type="tns:region" />
+          <xs:element name="zoom" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="region">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="abreviatura" type="xs:string" />
+          <xs:element minOccurs="0" name="cut" type="xs:string" />
+          <xs:element name="id" type="xs:long" />
+          <xs:element name="latitudCentro" type="xs:double" />
+          <xs:element name="longitudCentro" type="xs:double" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+          <xs:element name="zoom" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getCategoriasFaena">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="getCategoriasFaenaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:categoriaFaena" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="categoriaFaena">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="abreviatura" type="xs:string" />
+          <xs:element name="id" type="xs:long" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+          <xs:element name="nroTrabTotalAnoDesde" type="xs:int" />
+          <xs:element name="nroTrabTotalAnoHasta" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getHistoriaCategoriaFaena">
+        <xs:sequence>
+          <xs:element name="ano" type="xs:int" />
+          <xs:element name="idFaena" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getHistoriaCategoriaFaenaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:historiaCategoriaFaena" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="updateHistoriaCategoriaEmpresa">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+          <xs:element name="idCategoria" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="updateHistoriaCategoriaEmpresaResponse">
+        <xs:sequence>
+          <xs:element name="return" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="updateCategoriaFaena">
+        <xs:sequence>
+          <xs:element name="idFaena" type="xs:long" />
+          <xs:element name="idCategoria" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="updateCategoriaFaenaResponse">
+        <xs:sequence>
+          <xs:element name="return" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getRecursosSecundariosInstalacion">
+        <xs:sequence>
+          <xs:element name="idInstalacion" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getRecursosSecundariosInstalacionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:recursoMinero" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getEmpresaFromRut">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="rutEmpresa" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getEmpresaFromRutResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:empresa" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getInstalacionesRelave">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="texto" type="xs:string" />
+          <xs:element minOccurs="0" name="listaRegiones" type="xs:string" />
+          <xs:element name="idFaena" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getInstalacionesRelaveResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:instalacionRelaveOb" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetallesRegion">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetallesRegionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:region" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getInstalacionesDeclarablesAccFaena">
+        <xs:sequence>
+          <xs:element name="idFaena" type="xs:long" />
+          <xs:element minOccurs="0" name="textoBusqueda" type="xs:string" />
+          <xs:element name="obligatorias" type="xs:boolean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getInstalacionesDeclarablesAccFaenaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:instalacion" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getComunasProvincia">
+        <xs:sequence>
+          <xs:element name="idComuna" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getComunasProvinciaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:comuna" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="comuna">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="abreviaturaRegion" type="xs:string" />
+          <xs:element name="id" type="xs:long" />
+          <xs:element name="idProvincia" type="xs:long" />
+          <xs:element name="idRegion" type="xs:long" />
+          <xs:element name="latitudCentro" type="xs:double" />
+          <xs:element name="longitudCentro" type="xs:double" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreProvincia" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreRegion" type="xs:string" />
+          <xs:element name="zoom" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getHistoriaFaenaByCategorias">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="idCategorias" type="xs:string" />
+          <xs:element name="ano" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getHistoriaFaenaByCategoriasResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:historiaCategoriaFaena" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getComunasPorRegionCut">
+        <xs:sequence>
+          <xs:element name="idRegion" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getComunasPorRegionCutResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:comunaCut" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="comunaCut">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="cut" type="xs:string" />
+          <xs:element name="id" type="xs:long" />
+          <xs:element name="idProvincia" type="xs:long" />
+          <xs:element name="idRegion" type="xs:long" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreProvincia" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreRegion" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getInstalacionBasicaSIMIO">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getInstalacionBasicaSIMIOResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:instalacionBasicaSIMIO" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="instalacionBasicaSIMIO">
+        <xs:sequence>
+          <xs:element name="activa" type="xs:boolean" />
+          <xs:element name="cota" type="xs:long" />
+          <xs:element minOccurs="0" name="estado" type="xs:string" />
+          <xs:element name="este" type="xs:double" />
+          <xs:element name="id" type="xs:long" />
+          <xs:element name="idFaena" type="xs:long" />
+          <xs:element name="idTipo" type="xs:long" />
+          <xs:element name="latitud" type="xs:double" />
+          <xs:element name="longitud" type="xs:double" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreTipo" type="xs:string" />
+          <xs:element name="norte" type="xs:double" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getRegiones">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="getRegionesResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:region" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetallesFaena">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetallesFaenaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:faena" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="cuentaEmpresasModificadas">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="fecha" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="cuentaEmpresasModificadasResponse">
+        <xs:sequence>
+          <xs:element name="return" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="buscaFaenasEnRegion">
+        <xs:sequence>
+          <xs:element name="idRegion" type="xs:long" />
+          <xs:element minOccurs="0" name="textoBusqueda" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="buscaFaenasEnRegionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:faena" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="insertHistoriaCategoriaEmpresa">
+        <xs:sequence>
+          <xs:element name="ano" type="xs:int" />
+          <xs:element name="idEmpresa" type="xs:long" />
+          <xs:element name="idCategoria" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="insertHistoriaCategoriaEmpresaResponse">
+        <xs:sequence>
+          <xs:element name="return" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getRecursosMinerosUMRecursoPrincipal">
+        <xs:sequence>
+          <xs:element name="idRecursoPrincipal" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getRecursosMinerosUMRecursoPrincipalResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:recursoMineroUM" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="recursoMineroUM">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+          <xs:element minOccurs="0" name="unidadMetrica" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getFaenaBasica">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getFaenaBasicaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:faenaBasica" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="faenaBasica">
+        <xs:sequence>
+          <xs:element name="activa" type="xs:boolean" />
+          <xs:element minOccurs="0" name="categoria" type="xs:string" />
+          <xs:element minOccurs="0" name="comuna" type="xs:string" />
+          <xs:element name="id" type="xs:long" />
+          <xs:element name="idEmpresa" type="xs:long" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="instalaciones" nillable="true" type="tns:instalacionBasica" />
+          <xs:element name="latitud" type="xs:double" />
+          <xs:element name="longitud" type="xs:double" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreRecursoPrincipal" type="xs:string" />
+          <xs:element minOccurs="0" name="provincia" type="xs:string" />
+          <xs:element minOccurs="0" name="region" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="buscaEmpresasAll">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="tipoId" type="xs:string" />
+          <xs:element minOccurs="0" name="id" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreRut" type="xs:string" />
+          <xs:element name="idCategoria" type="xs:long" />
+          <xs:element minOccurs="0" name="tipo" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="buscaEmpresasAllResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:empresaBasica" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getInstalacionRYR">
+        <xs:sequence>
+          <xs:element name="idInstalacion" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getInstalacionRYRResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:instalacionRYR" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="instalacionRYR">
+        <xs:sequence>
+          <xs:element name="cota" type="xs:long" />
+          <xs:element minOccurs="0" name="cotaWGS84" type="xs:long" />
+          <xs:element minOccurs="0" name="datum" type="xs:string" />
+          <xs:element name="este" type="xs:double" />
+          <xs:element minOccurs="0" name="esteWGS84" type="xs:double" />
+          <xs:element name="huso" type="xs:long" />
+          <xs:element minOccurs="0" name="husoWGS84" type="xs:long" />
+          <xs:element name="id" type="xs:long" />
+          <xs:element name="idComuna" type="xs:long" />
+          <xs:element name="latitud" type="xs:double" />
+          <xs:element name="longitud" type="xs:double" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+          <xs:element name="norte" type="xs:double" />
+          <xs:element minOccurs="0" name="norteWGS84" type="xs:double" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetallesEstadoInstalacion">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetallesEstadoInstalacionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:estadoInstalacion" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetalleCategoriaEmpresa">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetalleCategoriaEmpresaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:categoriaEmpresa" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getTiposInstalacion">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="getTiposInstalacionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:tipoInstalacion" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="tipoInstalacion">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getProvinciaBasica">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getProvinciaBasicaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:provinciaBasica" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="provinciaBasica">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDigitoVerificador">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDigitoVerificadorResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getAllHistorialCatEmpresa">
+        <xs:sequence>
+          <xs:element name="ano" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getAllHistorialCatEmpresaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:historiaCategoriaEmpresa" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getTiposInstalacionDefinicion">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="getTiposInstalacionDefinicionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:tipoInstalacionDefinicion" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="tipoInstalacionDefinicion">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="definicion" type="xs:string" />
+          <xs:element name="id" type="xs:long" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetalleTipoInstalacionDefinicion">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetalleTipoInstalacionDefinicionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:tipoInstalacionDefinicion" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getInstalacionBasica">
+        <xs:sequence>
+          <xs:element name="idInstalacion" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getInstalacionBasicaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:instalacionBasica" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetalleTipoInstalacion">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetalleTipoInstalacionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:tipoInstalacion" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getInstalacionesCercanas">
+        <xs:sequence>
+          <xs:element name="idInstalacion" type="xs:long" />
+          <xs:element name="radio" type="xs:int" />
+          <xs:element minOccurs="0" name="token" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getInstalacionesCercanasResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:instalacionBasica" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getInstalacion">
+        <xs:sequence>
+          <xs:element name="idInstalacion" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getInstalacionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:instalacion" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="insertHistoriaCategoriaFaena">
+        <xs:sequence>
+          <xs:element name="ano" type="xs:int" />
+          <xs:element name="idFaena" type="xs:long" />
+          <xs:element name="idCategoria" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="insertHistoriaCategoriaFaenaResponse">
+        <xs:sequence>
+          <xs:element name="return" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getIdsFaenasModificadasRegion">
+        <xs:sequence>
+          <xs:element name="idRegion" type="xs:long" />
+          <xs:element minOccurs="0" name="fecha" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getIdsFaenasModificadasRegionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetalleHistorialCatFaena">
+        <xs:sequence>
+          <xs:element name="idFaena" type="xs:long" />
+          <xs:element name="ano" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetalleHistorialCatFaenaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetalleCategoriaFaena">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetalleCategoriaFaenaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:categoriaFaena" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="cuentaEmpresasActivas">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="cuentaEmpresasActivasResponse">
+        <xs:sequence>
+          <xs:element name="return" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getFaenaBasicaSIMIO">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getFaenaBasicaSIMIOResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:faenaBasicaSIMIO" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="faenaBasicaSIMIO">
+        <xs:sequence>
+          <xs:element name="activa" type="xs:boolean" />
+          <xs:element minOccurs="0" name="categoria" type="xs:string" />
+          <xs:element minOccurs="0" name="comuna" type="xs:string" />
+          <xs:element name="id" type="xs:long" />
+          <xs:element name="idEmpresa" type="xs:long" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="instalaciones" nillable="true" type="tns:instalacionBasicaSIMIO" />
+          <xs:element name="latitud" type="xs:double" />
+          <xs:element name="longitud" type="xs:double" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreRecursoPrincipal" type="xs:string" />
+          <xs:element minOccurs="0" name="provincia" type="xs:string" />
+          <xs:element minOccurs="0" name="region" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetallesComuna">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetallesComunaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:comuna" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getAllRecursosMinerosActivos">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="getAllRecursosMinerosActivosResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:recursoMinero" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getIdsInstalacionesModificadasRegion">
+        <xs:sequence>
+          <xs:element name="idRegion" type="xs:long" />
+          <xs:element minOccurs="0" name="fecha" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getIdsInstalacionesModificadasRegionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetalleHistorialCatEmp">
+        <xs:sequence>
+          <xs:element name="idEmpresaCont" type="xs:long" />
+          <xs:element name="ano" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetalleHistorialCatEmpResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getAllInstalacionesFaena">
+        <xs:sequence>
+          <xs:element name="idFaena" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getAllInstalacionesFaenaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:instalacion" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getRegionesCut">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="getRegionesCutResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:regionCut" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="regionCut">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="abreviatura" type="xs:string" />
+          <xs:element minOccurs="0" name="cut" type="xs:string" />
+          <xs:element name="id" type="xs:long" />
+          <xs:element name="latitudCentro" type="xs:double" />
+          <xs:element name="longitudCentro" type="xs:double" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+          <xs:element name="zoom" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getFaenasDeclarables">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="getFaenasDeclarablesResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:faenaMinima" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="faenaMinima">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+          <xs:element name="idEmpresa" type="xs:long" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+          <xs:element minOccurs="0" name="nombreEmpresa" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetalleRecursoPrincipal">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDetalleRecursoPrincipalResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:recursoPrincipal" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getComunasRegion">
+        <xs:sequence>
+          <xs:element name="idRegion" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getComunasRegionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:comuna" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getRecursosMinerosRecursoPrincipal">
+        <xs:sequence>
+          <xs:element name="idRecursoPrincipal" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getRecursosMinerosRecursoPrincipalResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:recursoMinero" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getFaenasDeclarablesEmpresa">
+        <xs:sequence>
+          <xs:element name="idEmpresa" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getFaenasDeclarablesEmpresaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:faena" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getRecursosPrincipalesUMTipoRecurso">
+        <xs:sequence>
+          <xs:element name="idTipoRecurso" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getRecursosPrincipalesUMTipoRecursoResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:recursoPrincipalUM" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="recursoPrincipalUM">
+        <xs:sequence>
+          <xs:element name="id" type="xs:long" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+          <xs:element minOccurs="0" name="unidadMetrica" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="Exception" type="tns:Exception" />
+      <xs:complexType name="Exception">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="message" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getRecursosMinerosRecursoPrincipal">
+    <wsdl:part name="parameters" element="tns:getRecursosMinerosRecursoPrincipal" />
+  </wsdl:message>
+  <wsdl:message name="updateHistoriaCategoriaFaena">
+    <wsdl:part name="parameters" element="tns:updateHistoriaCategoriaFaena" />
+  </wsdl:message>
+  <wsdl:message name="buscaFaenasActivasEnRegionResponse">
+    <wsdl:part name="parameters" element="tns:buscaFaenasActivasEnRegionResponse" />
+  </wsdl:message>
+  <wsdl:message name="buscaEmpresas">
+    <wsdl:part name="parameters" element="tns:buscaEmpresas" />
+  </wsdl:message>
+  <wsdl:message name="getIdsInstalacionesModificadasRegionResponse">
+    <wsdl:part name="parameters" element="tns:getIdsInstalacionesModificadasRegionResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAllHistorialCatEmpresa">
+    <wsdl:part name="parameters" element="tns:getAllHistorialCatEmpresa" />
+  </wsdl:message>
+  <wsdl:message name="getFaenasEmpresaResponse">
+    <wsdl:part name="parameters" element="tns:getFaenasEmpresaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getRecursosPrincipalesTipoRecursoResponse">
+    <wsdl:part name="parameters" element="tns:getRecursosPrincipalesTipoRecursoResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAllHistorialCatFaenaOrdenadoRegionResponse">
+    <wsdl:part name="parameters" element="tns:getAllHistorialCatFaenaOrdenadoRegionResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateCategoriaFaena">
+    <wsdl:part name="parameters" element="tns:updateCategoriaFaena" />
+  </wsdl:message>
+  <wsdl:message name="buscaFaenasEnRegion">
+    <wsdl:part name="parameters" element="tns:buscaFaenasEnRegion" />
+  </wsdl:message>
+  <wsdl:message name="getInstalacionBasica">
+    <wsdl:part name="parameters" element="tns:getInstalacionBasica" />
+  </wsdl:message>
+  <wsdl:message name="getComunasProvincia">
+    <wsdl:part name="parameters" element="tns:getComunasProvincia" />
+  </wsdl:message>
+  <wsdl:message name="getDetalleHistorialCatEmp">
+    <wsdl:part name="parameters" element="tns:getDetalleHistorialCatEmp" />
+  </wsdl:message>
+  <wsdl:message name="getInstalacionRYRResponse">
+    <wsdl:part name="parameters" element="tns:getInstalacionRYRResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDetallesEmpresaResponse">
+    <wsdl:part name="parameters" element="tns:getDetallesEmpresaResponse" />
+  </wsdl:message>
+  <wsdl:message name="buscaEmpresasResponse">
+    <wsdl:part name="parameters" element="tns:buscaEmpresasResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDetalleHistorialCatFaenaResponse">
+    <wsdl:part name="parameters" element="tns:getDetalleHistorialCatFaenaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDetalleRecursoPrincipal">
+    <wsdl:part name="parameters" element="tns:getDetalleRecursoPrincipal" />
+  </wsdl:message>
+  <wsdl:message name="getDigitoVerificadorResponse">
+    <wsdl:part name="parameters" element="tns:getDigitoVerificadorResponse" />
+  </wsdl:message>
+  <wsdl:message name="getRecursosMinerosUMRecursoPrincipalResponse">
+    <wsdl:part name="parameters" element="tns:getRecursosMinerosUMRecursoPrincipalResponse" />
+  </wsdl:message>
+  <wsdl:message name="getFaenasDeclarablesEmpresaResponse">
+    <wsdl:part name="parameters" element="tns:getFaenasDeclarablesEmpresaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDetalleRecursoMinero">
+    <wsdl:part name="parameters" element="tns:getDetalleRecursoMinero" />
+  </wsdl:message>
+  <wsdl:message name="getRecursosSecundariosInstalacion">
+    <wsdl:part name="parameters" element="tns:getRecursosSecundariosInstalacion" />
+  </wsdl:message>
+  <wsdl:message name="getEstadosInstalacionResponse">
+    <wsdl:part name="parameters" element="tns:getEstadosInstalacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="getInstalacionesFaena">
+    <wsdl:part name="parameters" element="tns:getInstalacionesFaena" />
+  </wsdl:message>
+  <wsdl:message name="getTiposInstalacionDefinicion">
+    <wsdl:part name="parameters" element="tns:getTiposInstalacionDefinicion" />
+  </wsdl:message>
+  <wsdl:message name="getAllHistorialCatFaenaOrdenadoRegion">
+    <wsdl:part name="parameters" element="tns:getAllHistorialCatFaenaOrdenadoRegion" />
+  </wsdl:message>
+  <wsdl:message name="updateHistoriaCategoriaEmpresaResponse">
+    <wsdl:part name="parameters" element="tns:updateHistoriaCategoriaEmpresaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getInstalacion">
+    <wsdl:part name="parameters" element="tns:getInstalacion" />
+  </wsdl:message>
+  <wsdl:message name="getDetalleTipoInstalacion">
+    <wsdl:part name="parameters" element="tns:getDetalleTipoInstalacion" />
+  </wsdl:message>
+  <wsdl:message name="insertHistoriaCategoriaEmpresa">
+    <wsdl:part name="parameters" element="tns:insertHistoriaCategoriaEmpresa" />
+  </wsdl:message>
+  <wsdl:message name="getRecursosPrincipalesUMTipoRecurso">
+    <wsdl:part name="parameters" element="tns:getRecursosPrincipalesUMTipoRecurso" />
+  </wsdl:message>
+  <wsdl:message name="getDetalleCategoriaFaenaResponse">
+    <wsdl:part name="parameters" element="tns:getDetalleCategoriaFaenaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getTiposInstalacionDefinicionResponse">
+    <wsdl:part name="parameters" element="tns:getTiposInstalacionDefinicionResponse" />
+  </wsdl:message>
+  <wsdl:message name="cuentaEmpresasActivasResponse">
+    <wsdl:part name="parameters" element="tns:cuentaEmpresasActivasResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDetalleCategoriaEmpresa">
+    <wsdl:part name="parameters" element="tns:getDetalleCategoriaEmpresa" />
+  </wsdl:message>
+  <wsdl:message name="getInstalacionesDeclarablesAccFaenaResponse">
+    <wsdl:part name="parameters" element="tns:getInstalacionesDeclarablesAccFaenaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAllFaenasResponse">
+    <wsdl:part name="parameters" element="tns:getAllFaenasResponse" />
+  </wsdl:message>
+  <wsdl:message name="getCategoriasFaena">
+    <wsdl:part name="parameters" element="tns:getCategoriasFaena" />
+  </wsdl:message>
+  <wsdl:message name="updateHistoriaCategoriaFaenaResponse">
+    <wsdl:part name="parameters" element="tns:updateHistoriaCategoriaFaenaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getInstalacionBasicaSIMIO">
+    <wsdl:part name="parameters" element="tns:getInstalacionBasicaSIMIO" />
+  </wsdl:message>
+  <wsdl:message name="getFaenaBasicaSIMIOResponse">
+    <wsdl:part name="parameters" element="tns:getFaenaBasicaSIMIOResponse" />
+  </wsdl:message>
+  <wsdl:message name="getInstalacionesRelaveFaena">
+    <wsdl:part name="parameters" element="tns:getInstalacionesRelaveFaena" />
+  </wsdl:message>
+  <wsdl:message name="buscaFaenasActivasEnRegion">
+    <wsdl:part name="parameters" element="tns:buscaFaenasActivasEnRegion" />
+  </wsdl:message>
+  <wsdl:message name="getFaenasDeclarables">
+    <wsdl:part name="parameters" element="tns:getFaenasDeclarables" />
+  </wsdl:message>
+  <wsdl:message name="getCategoriasEmpresaMinera">
+    <wsdl:part name="parameters" element="tns:getCategoriasEmpresaMinera" />
+  </wsdl:message>
+  <wsdl:message name="getHistoriaCategoriaFaenaResponse">
+    <wsdl:part name="parameters" element="tns:getHistoriaCategoriaFaenaResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateCategoriaFaenaResponse">
+    <wsdl:part name="parameters" element="tns:updateCategoriaFaenaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getComunasRegionResponse">
+    <wsdl:part name="parameters" element="tns:getComunasRegionResponse" />
+  </wsdl:message>
+  <wsdl:message name="getIdsFaenasModificadasRegionResponse">
+    <wsdl:part name="parameters" element="tns:getIdsFaenasModificadasRegionResponse" />
+  </wsdl:message>
+  <wsdl:message name="getInstalacionRelaveResponse">
+    <wsdl:part name="parameters" element="tns:getInstalacionRelaveResponse" />
+  </wsdl:message>
+  <wsdl:message name="getFaenasDeclarablesResponse">
+    <wsdl:part name="parameters" element="tns:getFaenasDeclarablesResponse" />
+  </wsdl:message>
+  <wsdl:message name="getIdsInstalacionesModificadasRegion">
+    <wsdl:part name="parameters" element="tns:getIdsInstalacionesModificadasRegion" />
+  </wsdl:message>
+  <wsdl:message name="getDetalleRecursoPrincipalResponse">
+    <wsdl:part name="parameters" element="tns:getDetalleRecursoPrincipalResponse" />
+  </wsdl:message>
+  <wsdl:message name="getIdsFaenasModificadasRegion">
+    <wsdl:part name="parameters" element="tns:getIdsFaenasModificadasRegion" />
+  </wsdl:message>
+  <wsdl:message name="getIdsFaenasActivasResponse">
+    <wsdl:part name="parameters" element="tns:getIdsFaenasActivasResponse" />
+  </wsdl:message>
+  <wsdl:message name="getIdsFaenasActivas">
+    <wsdl:part name="parameters" element="tns:getIdsFaenasActivas" />
+  </wsdl:message>
+  <wsdl:message name="getAllHistorialCatFaenaResponse">
+    <wsdl:part name="parameters" element="tns:getAllHistorialCatFaenaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDetallesEstadoInstalacionResponse">
+    <wsdl:part name="parameters" element="tns:getDetallesEstadoInstalacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAllInstalacionesFaenaResponse">
+    <wsdl:part name="parameters" element="tns:getAllInstalacionesFaenaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getPaginaEmpresasResponse">
+    <wsdl:part name="parameters" element="tns:getPaginaEmpresasResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDetalleRecursoMineroResponse">
+    <wsdl:part name="parameters" element="tns:getDetalleRecursoMineroResponse" />
+  </wsdl:message>
+  <wsdl:message name="getInstalacionesRelaveResponse">
+    <wsdl:part name="parameters" element="tns:getInstalacionesRelaveResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDigitoVerificador">
+    <wsdl:part name="parameters" element="tns:getDigitoVerificador" />
+  </wsdl:message>
+  <wsdl:message name="getCambiosEstadoInstalacionResponse">
+    <wsdl:part name="parameters" element="tns:getCambiosEstadoInstalacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="getHistoriaFaenaByCategoriasResponse">
+    <wsdl:part name="parameters" element="tns:getHistoriaFaenaByCategoriasResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDetalleHistorialCatEmpResponse">
+    <wsdl:part name="parameters" element="tns:getDetalleHistorialCatEmpResponse" />
+  </wsdl:message>
+  <wsdl:message name="getFaenaBasicaSIMIO">
+    <wsdl:part name="parameters" element="tns:getFaenaBasicaSIMIO" />
+  </wsdl:message>
+  <wsdl:message name="getRegionesCut">
+    <wsdl:part name="parameters" element="tns:getRegionesCut" />
+  </wsdl:message>
+  <wsdl:message name="getEstadosInstalacion">
+    <wsdl:part name="parameters" element="tns:getEstadosInstalacion" />
+  </wsdl:message>
+  <wsdl:message name="getComunasPorRegionCutResponse">
+    <wsdl:part name="parameters" element="tns:getComunasPorRegionCutResponse" />
+  </wsdl:message>
+  <wsdl:message name="insertHistoriaCategoriaEmpresaResponse">
+    <wsdl:part name="parameters" element="tns:insertHistoriaCategoriaEmpresaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getInstalacionRYR">
+    <wsdl:part name="parameters" element="tns:getInstalacionRYR" />
+  </wsdl:message>
+  <wsdl:message name="insertHistoriaCategoriaFaena">
+    <wsdl:part name="parameters" element="tns:insertHistoriaCategoriaFaena" />
+  </wsdl:message>
+  <wsdl:message name="updateHistoriaCategoriaEmpresa">
+    <wsdl:part name="parameters" element="tns:updateHistoriaCategoriaEmpresa" />
+  </wsdl:message>
+  <wsdl:message name="getHistoriaCategoriaEmpresaResponse">
+    <wsdl:part name="parameters" element="tns:getHistoriaCategoriaEmpresaResponse" />
+  </wsdl:message>
+  <wsdl:message name="buscaEmpresasAllResponse">
+    <wsdl:part name="parameters" element="tns:buscaEmpresasAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="getCategoriasFaenaResponse">
+    <wsdl:part name="parameters" element="tns:getCategoriasFaenaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDetalleTipoRecursoResponse">
+    <wsdl:part name="parameters" element="tns:getDetalleTipoRecursoResponse" />
+  </wsdl:message>
+  <wsdl:message name="getHistoriaFaenaByCategorias">
+    <wsdl:part name="parameters" element="tns:getHistoriaFaenaByCategorias" />
+  </wsdl:message>
+  <wsdl:message name="getHistoriaCategoriaFaena">
+    <wsdl:part name="parameters" element="tns:getHistoriaCategoriaFaena" />
+  </wsdl:message>
+  <wsdl:message name="getInstalacionRelave">
+    <wsdl:part name="parameters" element="tns:getInstalacionRelave" />
+  </wsdl:message>
+  <wsdl:message name="getRegionesCutResponse">
+    <wsdl:part name="parameters" element="tns:getRegionesCutResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAllHistorialCatFaena">
+    <wsdl:part name="parameters" element="tns:getAllHistorialCatFaena" />
+  </wsdl:message>
+  <wsdl:message name="getComunasPorRegionCut">
+    <wsdl:part name="parameters" element="tns:getComunasPorRegionCut" />
+  </wsdl:message>
+  <wsdl:message name="getDetalleTipoInstalacionResponse">
+    <wsdl:part name="parameters" element="tns:getDetalleTipoInstalacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="getProvinciaBasicaResponse">
+    <wsdl:part name="parameters" element="tns:getProvinciaBasicaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getProvinciaBasica">
+    <wsdl:part name="parameters" element="tns:getProvinciaBasica" />
+  </wsdl:message>
+  <wsdl:message name="updateCategoriaEmpresa">
+    <wsdl:part name="parameters" element="tns:updateCategoriaEmpresa" />
+  </wsdl:message>
+  <wsdl:message name="getIdsFaenasActivasRegion">
+    <wsdl:part name="parameters" element="tns:getIdsFaenasActivasRegion" />
+  </wsdl:message>
+  <wsdl:message name="getTiposInstalacionResponse">
+    <wsdl:part name="parameters" element="tns:getTiposInstalacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDetallesEstadoInstalacion">
+    <wsdl:part name="parameters" element="tns:getDetallesEstadoInstalacion" />
+  </wsdl:message>
+  <wsdl:message name="getEmpresaFromRutResponse">
+    <wsdl:part name="parameters" element="tns:getEmpresaFromRutResponse" />
+  </wsdl:message>
+  <wsdl:message name="getInstalacionBasicaSIMIOResponse">
+    <wsdl:part name="parameters" element="tns:getInstalacionBasicaSIMIOResponse" />
+  </wsdl:message>
+  <wsdl:message name="getFaenasDeclarablesEmpresa">
+    <wsdl:part name="parameters" element="tns:getFaenasDeclarablesEmpresa" />
+  </wsdl:message>
+  <wsdl:message name="cuentaEmpresasModificadas">
+    <wsdl:part name="parameters" element="tns:cuentaEmpresasModificadas" />
+  </wsdl:message>
+  <wsdl:message name="getDetallesRegionResponse">
+    <wsdl:part name="parameters" element="tns:getDetallesRegionResponse" />
+  </wsdl:message>
+  <wsdl:message name="buscaEmpresasEnRegionResponse">
+    <wsdl:part name="parameters" element="tns:buscaEmpresasEnRegionResponse" />
+  </wsdl:message>
+  <wsdl:message name="buscaEmpresasEnRegion">
+    <wsdl:part name="parameters" element="tns:buscaEmpresasEnRegion" />
+  </wsdl:message>
+  <wsdl:message name="getRecursosPrincipalesTipoRecurso">
+    <wsdl:part name="parameters" element="tns:getRecursosPrincipalesTipoRecurso" />
+  </wsdl:message>
+  <wsdl:message name="getDetallesEmpresa">
+    <wsdl:part name="parameters" element="tns:getDetallesEmpresa" />
+  </wsdl:message>
+  <wsdl:message name="getInstalacionesRelaveFaenaResponse">
+    <wsdl:part name="parameters" element="tns:getInstalacionesRelaveFaenaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getPaginaEmpresas">
+    <wsdl:part name="parameters" element="tns:getPaginaEmpresas" />
+  </wsdl:message>
+  <wsdl:message name="getInstalacionesCercanas">
+    <wsdl:part name="parameters" element="tns:getInstalacionesCercanas" />
+  </wsdl:message>
+  <wsdl:message name="getDetalleTipoInstalacionDefinicion">
+    <wsdl:part name="parameters" element="tns:getDetalleTipoInstalacionDefinicion" />
+  </wsdl:message>
+  <wsdl:message name="getRecursosSecundariosInstalacionResponse">
+    <wsdl:part name="parameters" element="tns:getRecursosSecundariosInstalacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="getRegiones">
+    <wsdl:part name="parameters" element="tns:getRegiones" />
+  </wsdl:message>
+  <wsdl:message name="buscaFaenasEnRegionResponse">
+    <wsdl:part name="parameters" element="tns:buscaFaenasEnRegionResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDetallesFaenaResponse">
+    <wsdl:part name="parameters" element="tns:getDetallesFaenaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getRecursosMinerosRecursoPrincipalResponse">
+    <wsdl:part name="parameters" element="tns:getRecursosMinerosRecursoPrincipalResponse" />
+  </wsdl:message>
+  <wsdl:message name="getCambiosEstadoInstalacion">
+    <wsdl:part name="parameters" element="tns:getCambiosEstadoInstalacion" />
+  </wsdl:message>
+  <wsdl:message name="getInstalacionBasicaResponse">
+    <wsdl:part name="parameters" element="tns:getInstalacionBasicaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getTiposRecurso">
+    <wsdl:part name="parameters" element="tns:getTiposRecurso" />
+  </wsdl:message>
+  <wsdl:message name="getInstalacionesRelave">
+    <wsdl:part name="parameters" element="tns:getInstalacionesRelave" />
+  </wsdl:message>
+  <wsdl:message name="getComunasRegion">
+    <wsdl:part name="parameters" element="tns:getComunasRegion" />
+  </wsdl:message>
+  <wsdl:message name="getInstalacionesCercanasResponse">
+    <wsdl:part name="parameters" element="tns:getInstalacionesCercanasResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAllHistorialCatEmpresaResponse">
+    <wsdl:part name="parameters" element="tns:getAllHistorialCatEmpresaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getInstalacionesFaenaResponse">
+    <wsdl:part name="parameters" element="tns:getInstalacionesFaenaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getInstalacionesDeclarablesAccFaena">
+    <wsdl:part name="parameters" element="tns:getInstalacionesDeclarablesAccFaena" />
+  </wsdl:message>
+  <wsdl:message name="getAllRecursosMinerosActivosResponse">
+    <wsdl:part name="parameters" element="tns:getAllRecursosMinerosActivosResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDetalleHistorialCatFaena">
+    <wsdl:part name="parameters" element="tns:getDetalleHistorialCatFaena" />
+  </wsdl:message>
+  <wsdl:message name="getDetallesFaena">
+    <wsdl:part name="parameters" element="tns:getDetallesFaena" />
+  </wsdl:message>
+  <wsdl:message name="getDetalleTipoInstalacionDefinicionResponse">
+    <wsdl:part name="parameters" element="tns:getDetalleTipoInstalacionDefinicionResponse" />
+  </wsdl:message>
+  <wsdl:message name="cuentaEmpresasModificadasResponse">
+    <wsdl:part name="parameters" element="tns:cuentaEmpresasModificadasResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAllInstalacionesFaena">
+    <wsdl:part name="parameters" element="tns:getAllInstalacionesFaena" />
+  </wsdl:message>
+  <wsdl:message name="getHistoriaCategoriaEmpresa">
+    <wsdl:part name="parameters" element="tns:getHistoriaCategoriaEmpresa" />
+  </wsdl:message>
+  <wsdl:message name="getAllRecursosPrincipalesActivosResponse">
+    <wsdl:part name="parameters" element="tns:getAllRecursosPrincipalesActivosResponse" />
+  </wsdl:message>
+  <wsdl:message name="getProvinciasRegion">
+    <wsdl:part name="parameters" element="tns:getProvinciasRegion" />
+  </wsdl:message>
+  <wsdl:message name="getDetallesRegion">
+    <wsdl:part name="parameters" element="tns:getDetallesRegion" />
+  </wsdl:message>
+  <wsdl:message name="getAllFaenas">
+    <wsdl:part name="parameters" element="tns:getAllFaenas" />
+  </wsdl:message>
+  <wsdl:message name="getDetalleCategoriaEmpresaResponse">
+    <wsdl:part name="parameters" element="tns:getDetalleCategoriaEmpresaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getTiposRecursoResponse">
+    <wsdl:part name="parameters" element="tns:getTiposRecursoResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateCategoriaEmpresaResponse">
+    <wsdl:part name="parameters" element="tns:updateCategoriaEmpresaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getComunasProvinciaResponse">
+    <wsdl:part name="parameters" element="tns:getComunasProvinciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="cuentaEmpresasActivas">
+    <wsdl:part name="parameters" element="tns:cuentaEmpresasActivas" />
+  </wsdl:message>
+  <wsdl:message name="getIdsFaenasActivasRegionResponse">
+    <wsdl:part name="parameters" element="tns:getIdsFaenasActivasRegionResponse" />
+  </wsdl:message>
+  <wsdl:message name="buscaInstalacionesReporte">
+    <wsdl:part name="parameters" element="tns:buscaInstalacionesReporte" />
+  </wsdl:message>
+  <wsdl:message name="getDetallesComuna">
+    <wsdl:part name="parameters" element="tns:getDetallesComuna" />
+  </wsdl:message>
+  <wsdl:message name="getProvinciasRegionResponse">
+    <wsdl:part name="parameters" element="tns:getProvinciasRegionResponse" />
+  </wsdl:message>
+  <wsdl:message name="buscaEmpresasAll">
+    <wsdl:part name="parameters" element="tns:buscaEmpresasAll" />
+  </wsdl:message>
+  <wsdl:message name="getDetalleCategoriaFaena">
+    <wsdl:part name="parameters" element="tns:getDetalleCategoriaFaena" />
+  </wsdl:message>
+  <wsdl:message name="Exception">
+    <wsdl:part name="Exception" element="tns:Exception" />
+  </wsdl:message>
+  <wsdl:message name="getCategoriasEmpresaMineraResponse">
+    <wsdl:part name="parameters" element="tns:getCategoriasEmpresaMineraResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDetalleTipoRecurso">
+    <wsdl:part name="parameters" element="tns:getDetalleTipoRecurso" />
+  </wsdl:message>
+  <wsdl:message name="getRegionesResponse">
+    <wsdl:part name="parameters" element="tns:getRegionesResponse" />
+  </wsdl:message>
+  <wsdl:message name="getRecursosPrincipalesUMTipoRecursoResponse">
+    <wsdl:part name="parameters" element="tns:getRecursosPrincipalesUMTipoRecursoResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDetallesComunaResponse">
+    <wsdl:part name="parameters" element="tns:getDetallesComunaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getFaenaBasicaResponse">
+    <wsdl:part name="parameters" element="tns:getFaenaBasicaResponse" />
+  </wsdl:message>
+  <wsdl:message name="buscaInstalacionesReporteResponse">
+    <wsdl:part name="parameters" element="tns:buscaInstalacionesReporteResponse" />
+  </wsdl:message>
+  <wsdl:message name="insertHistoriaCategoriaFaenaResponse">
+    <wsdl:part name="parameters" element="tns:insertHistoriaCategoriaFaenaResponse" />
+  </wsdl:message>
+  <wsdl:message name="getEmpresaFromRut">
+    <wsdl:part name="parameters" element="tns:getEmpresaFromRut" />
+  </wsdl:message>
+  <wsdl:message name="getAllRecursosPrincipalesActivos">
+    <wsdl:part name="parameters" element="tns:getAllRecursosPrincipalesActivos" />
+  </wsdl:message>
+  <wsdl:message name="getFaenaBasica">
+    <wsdl:part name="parameters" element="tns:getFaenaBasica" />
+  </wsdl:message>
+  <wsdl:message name="getAllRecursosMinerosActivos">
+    <wsdl:part name="parameters" element="tns:getAllRecursosMinerosActivos" />
+  </wsdl:message>
+  <wsdl:message name="getRecursosMinerosUMRecursoPrincipal">
+    <wsdl:part name="parameters" element="tns:getRecursosMinerosUMRecursoPrincipal" />
+  </wsdl:message>
+  <wsdl:message name="getFaenasEmpresa">
+    <wsdl:part name="parameters" element="tns:getFaenasEmpresa" />
+  </wsdl:message>
+  <wsdl:message name="getTiposInstalacion">
+    <wsdl:part name="parameters" element="tns:getTiposInstalacion" />
+  </wsdl:message>
+  <wsdl:message name="getInstalacionResponse">
+    <wsdl:part name="parameters" element="tns:getInstalacionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Atlas">
+    <wsdl:operation name="getIdsFaenasActivasRegion">
+      <wsdl:input name="getIdsFaenasActivasRegion" message="tns:getIdsFaenasActivasRegion" />
+      <wsdl:output name="getIdsFaenasActivasRegionResponse" message="tns:getIdsFaenasActivasRegionResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="buscaEmpresasEnRegion">
+      <wsdl:input name="buscaEmpresasEnRegion" message="tns:buscaEmpresasEnRegion" />
+      <wsdl:output name="buscaEmpresasEnRegionResponse" message="tns:buscaEmpresasEnRegionResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="buscaEmpresas">
+      <wsdl:input name="buscaEmpresas" message="tns:buscaEmpresas" />
+      <wsdl:output name="buscaEmpresasResponse" message="tns:buscaEmpresasResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getPaginaEmpresas">
+      <wsdl:input name="getPaginaEmpresas" message="tns:getPaginaEmpresas" />
+      <wsdl:output name="getPaginaEmpresasResponse" message="tns:getPaginaEmpresasResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getIdsFaenasActivas">
+      <wsdl:input name="getIdsFaenasActivas" message="tns:getIdsFaenasActivas" />
+      <wsdl:output name="getIdsFaenasActivasResponse" message="tns:getIdsFaenasActivasResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="updateCategoriaEmpresa">
+      <wsdl:input name="updateCategoriaEmpresa" message="tns:updateCategoriaEmpresa" />
+      <wsdl:output name="updateCategoriaEmpresaResponse" message="tns:updateCategoriaEmpresaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllHistorialCatFaena">
+      <wsdl:input name="getAllHistorialCatFaena" message="tns:getAllHistorialCatFaena" />
+      <wsdl:output name="getAllHistorialCatFaenaResponse" message="tns:getAllHistorialCatFaenaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getEstadosInstalacion">
+      <wsdl:input name="getEstadosInstalacion" message="tns:getEstadosInstalacion" />
+      <wsdl:output name="getEstadosInstalacionResponse" message="tns:getEstadosInstalacionResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllRecursosPrincipalesActivos">
+      <wsdl:input name="getAllRecursosPrincipalesActivos" message="tns:getAllRecursosPrincipalesActivos" />
+      <wsdl:output name="getAllRecursosPrincipalesActivosResponse" message="tns:getAllRecursosPrincipalesActivosResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="buscaInstalacionesReporte">
+      <wsdl:input name="buscaInstalacionesReporte" message="tns:buscaInstalacionesReporte" />
+      <wsdl:output name="buscaInstalacionesReporteResponse" message="tns:buscaInstalacionesReporteResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getRecursosPrincipalesTipoRecurso">
+      <wsdl:input name="getRecursosPrincipalesTipoRecurso" message="tns:getRecursosPrincipalesTipoRecurso" />
+      <wsdl:output name="getRecursosPrincipalesTipoRecursoResponse" message="tns:getRecursosPrincipalesTipoRecursoResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getInstalacionRelave">
+      <wsdl:input name="getInstalacionRelave" message="tns:getInstalacionRelave" />
+      <wsdl:output name="getInstalacionRelaveResponse" message="tns:getInstalacionRelaveResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="buscaFaenasActivasEnRegion">
+      <wsdl:input name="buscaFaenasActivasEnRegion" message="tns:buscaFaenasActivasEnRegion" />
+      <wsdl:output name="buscaFaenasActivasEnRegionResponse" message="tns:buscaFaenasActivasEnRegionResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="updateHistoriaCategoriaFaena">
+      <wsdl:input name="updateHistoriaCategoriaFaena" message="tns:updateHistoriaCategoriaFaena" />
+      <wsdl:output name="updateHistoriaCategoriaFaenaResponse" message="tns:updateHistoriaCategoriaFaenaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllHistorialCatFaenaOrdenadoRegion">
+      <wsdl:input name="getAllHistorialCatFaenaOrdenadoRegion" message="tns:getAllHistorialCatFaenaOrdenadoRegion" />
+      <wsdl:output name="getAllHistorialCatFaenaOrdenadoRegionResponse" message="tns:getAllHistorialCatFaenaOrdenadoRegionResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getFaenasEmpresa">
+      <wsdl:input name="getFaenasEmpresa" message="tns:getFaenasEmpresa" />
+      <wsdl:output name="getFaenasEmpresaResponse" message="tns:getFaenasEmpresaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getInstalacionesRelaveFaena">
+      <wsdl:input name="getInstalacionesRelaveFaena" message="tns:getInstalacionesRelaveFaena" />
+      <wsdl:output name="getInstalacionesRelaveFaenaResponse" message="tns:getInstalacionesRelaveFaenaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getDetalleRecursoMinero">
+      <wsdl:input name="getDetalleRecursoMinero" message="tns:getDetalleRecursoMinero" />
+      <wsdl:output name="getDetalleRecursoMineroResponse" message="tns:getDetalleRecursoMineroResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getDetallesEmpresa">
+      <wsdl:input name="getDetallesEmpresa" message="tns:getDetallesEmpresa" />
+      <wsdl:output name="getDetallesEmpresaResponse" message="tns:getDetallesEmpresaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getTiposRecurso">
+      <wsdl:input name="getTiposRecurso" message="tns:getTiposRecurso" />
+      <wsdl:output name="getTiposRecursoResponse" message="tns:getTiposRecursoResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getInstalacionesFaena">
+      <wsdl:input name="getInstalacionesFaena" message="tns:getInstalacionesFaena" />
+      <wsdl:output name="getInstalacionesFaenaResponse" message="tns:getInstalacionesFaenaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getHistoriaCategoriaEmpresa">
+      <wsdl:input name="getHistoriaCategoriaEmpresa" message="tns:getHistoriaCategoriaEmpresa" />
+      <wsdl:output name="getHistoriaCategoriaEmpresaResponse" message="tns:getHistoriaCategoriaEmpresaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getCategoriasEmpresaMinera">
+      <wsdl:input name="getCategoriasEmpresaMinera" message="tns:getCategoriasEmpresaMinera" />
+      <wsdl:output name="getCategoriasEmpresaMineraResponse" message="tns:getCategoriasEmpresaMineraResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllFaenas">
+      <wsdl:input name="getAllFaenas" message="tns:getAllFaenas" />
+      <wsdl:output name="getAllFaenasResponse" message="tns:getAllFaenasResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getDetalleTipoRecurso">
+      <wsdl:input name="getDetalleTipoRecurso" message="tns:getDetalleTipoRecurso" />
+      <wsdl:output name="getDetalleTipoRecursoResponse" message="tns:getDetalleTipoRecursoResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getCambiosEstadoInstalacion">
+      <wsdl:input name="getCambiosEstadoInstalacion" message="tns:getCambiosEstadoInstalacion" />
+      <wsdl:output name="getCambiosEstadoInstalacionResponse" message="tns:getCambiosEstadoInstalacionResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getProvinciasRegion">
+      <wsdl:input name="getProvinciasRegion" message="tns:getProvinciasRegion" />
+      <wsdl:output name="getProvinciasRegionResponse" message="tns:getProvinciasRegionResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getCategoriasFaena">
+      <wsdl:input name="getCategoriasFaena" message="tns:getCategoriasFaena" />
+      <wsdl:output name="getCategoriasFaenaResponse" message="tns:getCategoriasFaenaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getHistoriaCategoriaFaena">
+      <wsdl:input name="getHistoriaCategoriaFaena" message="tns:getHistoriaCategoriaFaena" />
+      <wsdl:output name="getHistoriaCategoriaFaenaResponse" message="tns:getHistoriaCategoriaFaenaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="updateHistoriaCategoriaEmpresa">
+      <wsdl:input name="updateHistoriaCategoriaEmpresa" message="tns:updateHistoriaCategoriaEmpresa" />
+      <wsdl:output name="updateHistoriaCategoriaEmpresaResponse" message="tns:updateHistoriaCategoriaEmpresaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="updateCategoriaFaena">
+      <wsdl:input name="updateCategoriaFaena" message="tns:updateCategoriaFaena" />
+      <wsdl:output name="updateCategoriaFaenaResponse" message="tns:updateCategoriaFaenaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getRecursosSecundariosInstalacion">
+      <wsdl:input name="getRecursosSecundariosInstalacion" message="tns:getRecursosSecundariosInstalacion" />
+      <wsdl:output name="getRecursosSecundariosInstalacionResponse" message="tns:getRecursosSecundariosInstalacionResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getEmpresaFromRut">
+      <wsdl:input name="getEmpresaFromRut" message="tns:getEmpresaFromRut" />
+      <wsdl:output name="getEmpresaFromRutResponse" message="tns:getEmpresaFromRutResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getInstalacionesRelave">
+      <wsdl:input name="getInstalacionesRelave" message="tns:getInstalacionesRelave" />
+      <wsdl:output name="getInstalacionesRelaveResponse" message="tns:getInstalacionesRelaveResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getDetallesRegion">
+      <wsdl:input name="getDetallesRegion" message="tns:getDetallesRegion" />
+      <wsdl:output name="getDetallesRegionResponse" message="tns:getDetallesRegionResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getInstalacionesDeclarablesAccFaena">
+      <wsdl:input name="getInstalacionesDeclarablesAccFaena" message="tns:getInstalacionesDeclarablesAccFaena" />
+      <wsdl:output name="getInstalacionesDeclarablesAccFaenaResponse" message="tns:getInstalacionesDeclarablesAccFaenaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getComunasProvincia">
+      <wsdl:input name="getComunasProvincia" message="tns:getComunasProvincia" />
+      <wsdl:output name="getComunasProvinciaResponse" message="tns:getComunasProvinciaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getHistoriaFaenaByCategorias">
+      <wsdl:input name="getHistoriaFaenaByCategorias" message="tns:getHistoriaFaenaByCategorias" />
+      <wsdl:output name="getHistoriaFaenaByCategoriasResponse" message="tns:getHistoriaFaenaByCategoriasResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getComunasPorRegionCut">
+      <wsdl:input name="getComunasPorRegionCut" message="tns:getComunasPorRegionCut" />
+      <wsdl:output name="getComunasPorRegionCutResponse" message="tns:getComunasPorRegionCutResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getInstalacionBasicaSIMIO">
+      <wsdl:input name="getInstalacionBasicaSIMIO" message="tns:getInstalacionBasicaSIMIO" />
+      <wsdl:output name="getInstalacionBasicaSIMIOResponse" message="tns:getInstalacionBasicaSIMIOResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getRegiones">
+      <wsdl:input name="getRegiones" message="tns:getRegiones" />
+      <wsdl:output name="getRegionesResponse" message="tns:getRegionesResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getDetallesFaena">
+      <wsdl:input name="getDetallesFaena" message="tns:getDetallesFaena" />
+      <wsdl:output name="getDetallesFaenaResponse" message="tns:getDetallesFaenaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="cuentaEmpresasModificadas">
+      <wsdl:input name="cuentaEmpresasModificadas" message="tns:cuentaEmpresasModificadas" />
+      <wsdl:output name="cuentaEmpresasModificadasResponse" message="tns:cuentaEmpresasModificadasResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="buscaFaenasEnRegion">
+      <wsdl:input name="buscaFaenasEnRegion" message="tns:buscaFaenasEnRegion" />
+      <wsdl:output name="buscaFaenasEnRegionResponse" message="tns:buscaFaenasEnRegionResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="insertHistoriaCategoriaEmpresa">
+      <wsdl:input name="insertHistoriaCategoriaEmpresa" message="tns:insertHistoriaCategoriaEmpresa" />
+      <wsdl:output name="insertHistoriaCategoriaEmpresaResponse" message="tns:insertHistoriaCategoriaEmpresaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getRecursosMinerosUMRecursoPrincipal">
+      <wsdl:input name="getRecursosMinerosUMRecursoPrincipal" message="tns:getRecursosMinerosUMRecursoPrincipal" />
+      <wsdl:output name="getRecursosMinerosUMRecursoPrincipalResponse" message="tns:getRecursosMinerosUMRecursoPrincipalResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getFaenaBasica">
+      <wsdl:input name="getFaenaBasica" message="tns:getFaenaBasica" />
+      <wsdl:output name="getFaenaBasicaResponse" message="tns:getFaenaBasicaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="buscaEmpresasAll">
+      <wsdl:input name="buscaEmpresasAll" message="tns:buscaEmpresasAll" />
+      <wsdl:output name="buscaEmpresasAllResponse" message="tns:buscaEmpresasAllResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getInstalacionRYR">
+      <wsdl:input name="getInstalacionRYR" message="tns:getInstalacionRYR" />
+      <wsdl:output name="getInstalacionRYRResponse" message="tns:getInstalacionRYRResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getDetallesEstadoInstalacion">
+      <wsdl:input name="getDetallesEstadoInstalacion" message="tns:getDetallesEstadoInstalacion" />
+      <wsdl:output name="getDetallesEstadoInstalacionResponse" message="tns:getDetallesEstadoInstalacionResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getDetalleCategoriaEmpresa">
+      <wsdl:input name="getDetalleCategoriaEmpresa" message="tns:getDetalleCategoriaEmpresa" />
+      <wsdl:output name="getDetalleCategoriaEmpresaResponse" message="tns:getDetalleCategoriaEmpresaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getTiposInstalacion">
+      <wsdl:input name="getTiposInstalacion" message="tns:getTiposInstalacion" />
+      <wsdl:output name="getTiposInstalacionResponse" message="tns:getTiposInstalacionResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getProvinciaBasica">
+      <wsdl:input name="getProvinciaBasica" message="tns:getProvinciaBasica" />
+      <wsdl:output name="getProvinciaBasicaResponse" message="tns:getProvinciaBasicaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getDigitoVerificador">
+      <wsdl:input name="getDigitoVerificador" message="tns:getDigitoVerificador" />
+      <wsdl:output name="getDigitoVerificadorResponse" message="tns:getDigitoVerificadorResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllHistorialCatEmpresa">
+      <wsdl:input name="getAllHistorialCatEmpresa" message="tns:getAllHistorialCatEmpresa" />
+      <wsdl:output name="getAllHistorialCatEmpresaResponse" message="tns:getAllHistorialCatEmpresaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getTiposInstalacionDefinicion">
+      <wsdl:input name="getTiposInstalacionDefinicion" message="tns:getTiposInstalacionDefinicion" />
+      <wsdl:output name="getTiposInstalacionDefinicionResponse" message="tns:getTiposInstalacionDefinicionResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getDetalleTipoInstalacionDefinicion">
+      <wsdl:input name="getDetalleTipoInstalacionDefinicion" message="tns:getDetalleTipoInstalacionDefinicion" />
+      <wsdl:output name="getDetalleTipoInstalacionDefinicionResponse" message="tns:getDetalleTipoInstalacionDefinicionResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getInstalacionBasica">
+      <wsdl:input name="getInstalacionBasica" message="tns:getInstalacionBasica" />
+      <wsdl:output name="getInstalacionBasicaResponse" message="tns:getInstalacionBasicaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getDetalleTipoInstalacion">
+      <wsdl:input name="getDetalleTipoInstalacion" message="tns:getDetalleTipoInstalacion" />
+      <wsdl:output name="getDetalleTipoInstalacionResponse" message="tns:getDetalleTipoInstalacionResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getInstalacionesCercanas">
+      <wsdl:input name="getInstalacionesCercanas" message="tns:getInstalacionesCercanas" />
+      <wsdl:output name="getInstalacionesCercanasResponse" message="tns:getInstalacionesCercanasResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getInstalacion">
+      <wsdl:input name="getInstalacion" message="tns:getInstalacion" />
+      <wsdl:output name="getInstalacionResponse" message="tns:getInstalacionResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="insertHistoriaCategoriaFaena">
+      <wsdl:input name="insertHistoriaCategoriaFaena" message="tns:insertHistoriaCategoriaFaena" />
+      <wsdl:output name="insertHistoriaCategoriaFaenaResponse" message="tns:insertHistoriaCategoriaFaenaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getIdsFaenasModificadasRegion">
+      <wsdl:input name="getIdsFaenasModificadasRegion" message="tns:getIdsFaenasModificadasRegion" />
+      <wsdl:output name="getIdsFaenasModificadasRegionResponse" message="tns:getIdsFaenasModificadasRegionResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getDetalleHistorialCatFaena">
+      <wsdl:input name="getDetalleHistorialCatFaena" message="tns:getDetalleHistorialCatFaena" />
+      <wsdl:output name="getDetalleHistorialCatFaenaResponse" message="tns:getDetalleHistorialCatFaenaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getDetalleCategoriaFaena">
+      <wsdl:input name="getDetalleCategoriaFaena" message="tns:getDetalleCategoriaFaena" />
+      <wsdl:output name="getDetalleCategoriaFaenaResponse" message="tns:getDetalleCategoriaFaenaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="cuentaEmpresasActivas">
+      <wsdl:input name="cuentaEmpresasActivas" message="tns:cuentaEmpresasActivas" />
+      <wsdl:output name="cuentaEmpresasActivasResponse" message="tns:cuentaEmpresasActivasResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getFaenaBasicaSIMIO">
+      <wsdl:input name="getFaenaBasicaSIMIO" message="tns:getFaenaBasicaSIMIO" />
+      <wsdl:output name="getFaenaBasicaSIMIOResponse" message="tns:getFaenaBasicaSIMIOResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getDetallesComuna">
+      <wsdl:input name="getDetallesComuna" message="tns:getDetallesComuna" />
+      <wsdl:output name="getDetallesComunaResponse" message="tns:getDetallesComunaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllRecursosMinerosActivos">
+      <wsdl:input name="getAllRecursosMinerosActivos" message="tns:getAllRecursosMinerosActivos" />
+      <wsdl:output name="getAllRecursosMinerosActivosResponse" message="tns:getAllRecursosMinerosActivosResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getIdsInstalacionesModificadasRegion">
+      <wsdl:input name="getIdsInstalacionesModificadasRegion" message="tns:getIdsInstalacionesModificadasRegion" />
+      <wsdl:output name="getIdsInstalacionesModificadasRegionResponse" message="tns:getIdsInstalacionesModificadasRegionResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getDetalleHistorialCatEmp">
+      <wsdl:input name="getDetalleHistorialCatEmp" message="tns:getDetalleHistorialCatEmp" />
+      <wsdl:output name="getDetalleHistorialCatEmpResponse" message="tns:getDetalleHistorialCatEmpResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllInstalacionesFaena">
+      <wsdl:input name="getAllInstalacionesFaena" message="tns:getAllInstalacionesFaena" />
+      <wsdl:output name="getAllInstalacionesFaenaResponse" message="tns:getAllInstalacionesFaenaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getRegionesCut">
+      <wsdl:input name="getRegionesCut" message="tns:getRegionesCut" />
+      <wsdl:output name="getRegionesCutResponse" message="tns:getRegionesCutResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getFaenasDeclarables">
+      <wsdl:input name="getFaenasDeclarables" message="tns:getFaenasDeclarables" />
+      <wsdl:output name="getFaenasDeclarablesResponse" message="tns:getFaenasDeclarablesResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getDetalleRecursoPrincipal">
+      <wsdl:input name="getDetalleRecursoPrincipal" message="tns:getDetalleRecursoPrincipal" />
+      <wsdl:output name="getDetalleRecursoPrincipalResponse" message="tns:getDetalleRecursoPrincipalResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getComunasRegion">
+      <wsdl:input name="getComunasRegion" message="tns:getComunasRegion" />
+      <wsdl:output name="getComunasRegionResponse" message="tns:getComunasRegionResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getRecursosMinerosRecursoPrincipal">
+      <wsdl:input name="getRecursosMinerosRecursoPrincipal" message="tns:getRecursosMinerosRecursoPrincipal" />
+      <wsdl:output name="getRecursosMinerosRecursoPrincipalResponse" message="tns:getRecursosMinerosRecursoPrincipalResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getFaenasDeclarablesEmpresa">
+      <wsdl:input name="getFaenasDeclarablesEmpresa" message="tns:getFaenasDeclarablesEmpresa" />
+      <wsdl:output name="getFaenasDeclarablesEmpresaResponse" message="tns:getFaenasDeclarablesEmpresaResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+    <wsdl:operation name="getRecursosPrincipalesUMTipoRecurso">
+      <wsdl:input name="getRecursosPrincipalesUMTipoRecurso" message="tns:getRecursosPrincipalesUMTipoRecurso" />
+      <wsdl:output name="getRecursosPrincipalesUMTipoRecursoResponse" message="tns:getRecursosPrincipalesUMTipoRecursoResponse" />
+      <wsdl:fault name="Exception" message="tns:Exception" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AtlasSoapBinding" type="tns:Atlas">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="buscaEmpresasEnRegion">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="buscaEmpresasEnRegion">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="buscaEmpresasEnRegionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getIdsFaenasActivasRegion">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getIdsFaenasActivasRegion">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getIdsFaenasActivasRegionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="buscaEmpresas">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="buscaEmpresas">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="buscaEmpresasResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getIdsFaenasActivas">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getIdsFaenasActivas">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getIdsFaenasActivasResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPaginaEmpresas">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getPaginaEmpresas">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getPaginaEmpresasResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAllHistorialCatFaena">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getAllHistorialCatFaena">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getAllHistorialCatFaenaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="updateCategoriaEmpresa">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="updateCategoriaEmpresa">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="updateCategoriaEmpresaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAllRecursosPrincipalesActivos">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getAllRecursosPrincipalesActivos">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getAllRecursosPrincipalesActivosResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getEstadosInstalacion">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getEstadosInstalacion">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getEstadosInstalacionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="buscaInstalacionesReporte">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="buscaInstalacionesReporte">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="buscaInstalacionesReporteResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getRecursosPrincipalesTipoRecurso">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getRecursosPrincipalesTipoRecurso">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getRecursosPrincipalesTipoRecursoResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getInstalacionRelave">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getInstalacionRelave">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getInstalacionRelaveResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="buscaFaenasActivasEnRegion">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="buscaFaenasActivasEnRegion">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="buscaFaenasActivasEnRegionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAllHistorialCatFaenaOrdenadoRegion">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getAllHistorialCatFaenaOrdenadoRegion">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getAllHistorialCatFaenaOrdenadoRegionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="updateHistoriaCategoriaFaena">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="updateHistoriaCategoriaFaena">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="updateHistoriaCategoriaFaenaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getFaenasEmpresa">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getFaenasEmpresa">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getFaenasEmpresaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDetalleRecursoMinero">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getDetalleRecursoMinero">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDetalleRecursoMineroResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getInstalacionesRelaveFaena">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getInstalacionesRelaveFaena">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getInstalacionesRelaveFaenaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDetallesEmpresa">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getDetallesEmpresa">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDetallesEmpresaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getHistoriaCategoriaEmpresa">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getHistoriaCategoriaEmpresa">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getHistoriaCategoriaEmpresaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getInstalacionesFaena">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getInstalacionesFaena">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getInstalacionesFaenaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getTiposRecurso">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getTiposRecurso">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getTiposRecursoResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAllFaenas">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getAllFaenas">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getAllFaenasResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getCategoriasEmpresaMinera">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getCategoriasEmpresaMinera">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getCategoriasEmpresaMineraResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDetalleTipoRecurso">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getDetalleTipoRecurso">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDetalleTipoRecursoResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getCambiosEstadoInstalacion">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getCambiosEstadoInstalacion">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getCambiosEstadoInstalacionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getProvinciasRegion">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getProvinciasRegion">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getProvinciasRegionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getCategoriasFaena">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getCategoriasFaena">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getCategoriasFaenaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getHistoriaCategoriaFaena">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getHistoriaCategoriaFaena">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getHistoriaCategoriaFaenaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="updateHistoriaCategoriaEmpresa">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="updateHistoriaCategoriaEmpresa">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="updateHistoriaCategoriaEmpresaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="updateCategoriaFaena">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="updateCategoriaFaena">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="updateCategoriaFaenaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getEmpresaFromRut">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getEmpresaFromRut">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getEmpresaFromRutResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getRecursosSecundariosInstalacion">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getRecursosSecundariosInstalacion">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getRecursosSecundariosInstalacionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getInstalacionesRelave">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getInstalacionesRelave">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getInstalacionesRelaveResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDetallesRegion">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getDetallesRegion">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDetallesRegionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getInstalacionesDeclarablesAccFaena">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getInstalacionesDeclarablesAccFaena">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getInstalacionesDeclarablesAccFaenaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getComunasProvincia">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getComunasProvincia">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getComunasProvinciaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getComunasPorRegionCut">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getComunasPorRegionCut">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getComunasPorRegionCutResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getHistoriaFaenaByCategorias">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getHistoriaFaenaByCategorias">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getHistoriaFaenaByCategoriasResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getInstalacionBasicaSIMIO">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getInstalacionBasicaSIMIO">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getInstalacionBasicaSIMIOResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getRegiones">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getRegiones">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getRegionesResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="cuentaEmpresasModificadas">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="cuentaEmpresasModificadas">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="cuentaEmpresasModificadasResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDetallesFaena">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getDetallesFaena">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDetallesFaenaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="buscaFaenasEnRegion">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="buscaFaenasEnRegion">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="buscaFaenasEnRegionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="insertHistoriaCategoriaEmpresa">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="insertHistoriaCategoriaEmpresa">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="insertHistoriaCategoriaEmpresaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getRecursosMinerosUMRecursoPrincipal">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getRecursosMinerosUMRecursoPrincipal">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getRecursosMinerosUMRecursoPrincipalResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getFaenaBasica">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getFaenaBasica">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getFaenaBasicaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="buscaEmpresasAll">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="buscaEmpresasAll">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="buscaEmpresasAllResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getInstalacionRYR">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getInstalacionRYR">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getInstalacionRYRResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDetallesEstadoInstalacion">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getDetallesEstadoInstalacion">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDetallesEstadoInstalacionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDetalleCategoriaEmpresa">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getDetalleCategoriaEmpresa">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDetalleCategoriaEmpresaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getTiposInstalacion">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getTiposInstalacion">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getTiposInstalacionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getProvinciaBasica">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getProvinciaBasica">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getProvinciaBasicaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAllHistorialCatEmpresa">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getAllHistorialCatEmpresa">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getAllHistorialCatEmpresaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDigitoVerificador">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getDigitoVerificador">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDigitoVerificadorResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getTiposInstalacionDefinicion">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getTiposInstalacionDefinicion">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getTiposInstalacionDefinicionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDetalleTipoInstalacionDefinicion">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getDetalleTipoInstalacionDefinicion">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDetalleTipoInstalacionDefinicionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getInstalacionBasica">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getInstalacionBasica">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getInstalacionBasicaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDetalleTipoInstalacion">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getDetalleTipoInstalacion">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDetalleTipoInstalacionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getInstalacionesCercanas">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getInstalacionesCercanas">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getInstalacionesCercanasResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getInstalacion">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getInstalacion">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getInstalacionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getIdsFaenasModificadasRegion">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getIdsFaenasModificadasRegion">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getIdsFaenasModificadasRegionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="insertHistoriaCategoriaFaena">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="insertHistoriaCategoriaFaena">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="insertHistoriaCategoriaFaenaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDetalleHistorialCatFaena">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getDetalleHistorialCatFaena">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDetalleHistorialCatFaenaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDetalleCategoriaFaena">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getDetalleCategoriaFaena">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDetalleCategoriaFaenaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="cuentaEmpresasActivas">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="cuentaEmpresasActivas">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="cuentaEmpresasActivasResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDetallesComuna">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getDetallesComuna">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDetallesComunaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getFaenaBasicaSIMIO">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getFaenaBasicaSIMIO">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getFaenaBasicaSIMIOResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAllRecursosMinerosActivos">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getAllRecursosMinerosActivos">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getAllRecursosMinerosActivosResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAllInstalacionesFaena">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getAllInstalacionesFaena">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getAllInstalacionesFaenaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDetalleHistorialCatEmp">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getDetalleHistorialCatEmp">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDetalleHistorialCatEmpResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getIdsInstalacionesModificadasRegion">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getIdsInstalacionesModificadasRegion">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getIdsInstalacionesModificadasRegionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getRegionesCut">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getRegionesCut">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getRegionesCutResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getFaenasDeclarables">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getFaenasDeclarables">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getFaenasDeclarablesResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDetalleRecursoPrincipal">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getDetalleRecursoPrincipal">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDetalleRecursoPrincipalResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getComunasRegion">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getComunasRegion">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getComunasRegionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getFaenasDeclarablesEmpresa">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getFaenasDeclarablesEmpresa">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getFaenasDeclarablesEmpresaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getRecursosMinerosRecursoPrincipal">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getRecursosMinerosRecursoPrincipal">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getRecursosMinerosRecursoPrincipalResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getRecursosPrincipalesUMTipoRecurso">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getRecursosPrincipalesUMTipoRecurso">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getRecursosPrincipalesUMTipoRecursoResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Atlas">
+    <wsdl:port name="AtlasImplPort" binding="tns:AtlasSoapBinding">
+      <soap:address location="http://simin.sernageomin.cl:80/atlas/Atlas" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

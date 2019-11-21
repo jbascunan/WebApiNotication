@@ -1,0 +1,3163 @@
+{
+    "Cantidad": 612,
+    "FechaCreacion": "2019-11-20T22:09:57.94",
+    "Version": "v1",
+    "Listado": [
+      {
+        "CodigoExterno": "2123-34-L119",
+        "Nombre": "Insumos para el funcionamiento de distintos programas de la SEREMI de Salud regional",
+        "CodigoEstado": 5,
+        "FechaCierre": "2019-11-26T23:31:00"
+      },
+        {
+            "CodigoExterno": "2448-278-L119",
+            "Nombre": "ADQ. CARTABON Y TENSIOMETRO ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:00:00"
+        },
+        {
+            "CodigoExterno": "4011-78-L119",
+            "Nombre": "REPARACIÓN Y MANTENCIÓN DE LA COCINA DE LA OFICINA DE TURISMO Y MUSEO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T19:00:00"
+        },
+        {
+            "CodigoExterno": "4011-76-L119",
+            "Nombre": "BEBIDAS GASEOSAS PARA NAVIDAD 2019",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T13:49:00"
+        },
+        {
+            "CodigoExterno": "1000813-32-E219",
+            "Nombre": "SERVICIO DE MANTENIMIENTO VEHÍCULO 80.000.-KMS.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T16:16:00"
+        },
+        {
+            "CodigoExterno": "951-17-LE19",
+            "Nombre": "POLIZA SEGURO AUTOMOTRIZ, VEHICULO FISCAL PATENTE DR CV 25",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T09:00:00"
+        },
+        {
+            "CodigoExterno": "4011-77-L119",
+            "Nombre": "HELADOS PARA CELEBRACIÓN COMUNAL DE NAVIDAD 2019",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T14:07:00"
+        },
+        {
+            "CodigoExterno": "1504-16-LE19",
+            "Nombre": "SERVICIO DE TALLER MECÁNICO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T17:00:00"
+        },
+        {
+            "CodigoExterno": "4011-79-L119",
+            "Nombre": "SERVICIO DE MOVILIZACIÓN PARA ADULTOS MAYORES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:29:00"
+        },
+        {
+            "CodigoExterno": "4009-66-L119",
+            "Nombre": "SERVICIO DE ENTREGA DE BEBIDAS DE FANTASÍA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T21:19:00"
+        },
+        {
+            "CodigoExterno": "4009-65-L119",
+            "Nombre": "SERVICIO DE ENTREGA DE PAN DE PASCUA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T20:36:00"
+        },
+        {
+            "CodigoExterno": "1736-487-L119",
+            "Nombre": "Memorándum N° 1000A/798/2019 DIRECCIÓN DE MEDIO AMBIENTE  ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T22:08:00"
+        },
+        {
+            "CodigoExterno": "3789-55-L119",
+            "Nombre": "ADQUISICION DE CORTINAS PARA DEPTO. DE SALUD",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T21:00:00"
+        },
+        {
+            "CodigoExterno": "3789-54-L119",
+            "Nombre": "ADQUISICION DE EQUIPO DE RAYOS X CON UPS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T20:07:00"
+        },
+        {
+            "CodigoExterno": "1736-486-LR19",
+            "Nombre": "Servicio de Construcción para normalización liceo",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-23T16:01:00"
+        },
+        {
+            "CodigoExterno": "2560-39-LR19",
+            "Nombre": "MANTENCIÓN DE PAVIMENTOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-27T11:00:00"
+        },
+        {
+            "CodigoExterno": "759-22-LE19",
+            "Nombre": "DESRATIZACIÓN, DESINESECTACIÓN, SANITIZACIÓN Y PAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "1953-77-LE19",
+            "Nombre": "503 Bordadora Industrial para taller de confección",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:05:00"
+        },
+        {
+            "CodigoExterno": "704093-174-LE19",
+            "Nombre": "LP 157-2019",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-05T15:30:00"
+        },
+        {
+            "CodigoExterno": "704093-173-LQ19",
+            "Nombre": "LP 156-2019",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-05T12:00:00"
+        },
+        {
+            "CodigoExterno": "704093-172-LP19",
+            "Nombre": "LP 151-2019",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-05T11:00:00"
+        },
+        {
+            "CodigoExterno": "732-26-L119",
+            "Nombre": "SEREMI DE ASEO - REGIÓN DE VALPARAÍSO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-04T15:00:00"
+        },
+        {
+            "CodigoExterno": "704093-171-LP19",
+            "Nombre": "LP 150-2019",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-05T10:00:00"
+        },
+        {
+            "CodigoExterno": "732-25-L119",
+            "Nombre": "SERVICIO DE ASEO - SEREMI DE LA ARAUCANÍA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-04T15:00:00"
+        },
+        {
+            "CodigoExterno": "3499-17-LE19",
+            "Nombre": "HABILITACIÓN PLAZA SALUDABLE VILLA EL SOL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T11:00:00"
+        },
+        {
+            "CodigoExterno": "1079689-38-LE19",
+            "Nombre": "ADQUISICION E INSTALACIÓN DE 9 VENTANAS TERMOPANEL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T19:00:00"
+        },
+        {
+            "CodigoExterno": "619284-21-LR19",
+            "Nombre": "Actualización del Plan de Transporte del Gran Concepción, Etapa II",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-23T15:00:00"
+        },
+        {
+            "CodigoExterno": "547640-27-L119",
+            "Nombre": "INSUMOS DENTALES PROGRAMA MÁS SONRISAS PARA CHILE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T16:30:00"
+        },
+        {
+            "CodigoExterno": "1001-56-LE19",
+            "Nombre": "Engrasadora y grasa para maquinarias",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T12:00:00"
+        },
+        {
+            "CodigoExterno": "675-15-L119",
+            "Nombre": "Reparación baños y pintura SIAC - Seremia BBNN Región del Maule",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:30:00"
+        },
+        {
+            "CodigoExterno": "2548-106-L119",
+            "Nombre": "ADQUISICION DE CUÑAS KINESICAS - SET AROS - CLAVOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T12:30:00"
+        },
+        {
+            "CodigoExterno": "1696-50-L119",
+            "Nombre": "FABRICACIÓN MUEBLES A MEDIDA PARA SECRETARÍA, SECRETARIA PRESIDENCIA Y SALA ACUERDOS N 2 PARA LA ILTMA. CORTE DE APELACIONES DE ARICA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:00:00"
+        },
+        {
+            "CodigoExterno": "2460-215-LE19",
+            "Nombre": "NORMALIZACION E INSCRIPCION DE CALDERAS DE CALEFACCION DE LA MUNICIPALIDAD DE PROVIDENCIA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-03T15:01:00"
+        },
+        {
+            "CodigoExterno": "2413-29-LE19",
+            "Nombre": "ADQUISICIÓN DE CAJAS NAVIDEÑAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-03T12:00:00"
+        },
+        {
+            "CodigoExterno": "780724-16-LE19",
+            "Nombre": "REMODELACIÓN OFICINAS TERCER TRIBUNAL AMBIENTAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:30:00"
+        },
+        {
+            "CodigoExterno": "3885-85-LR19",
+            "Nombre": "RECOLECCION DE RESIDUOS DOMICILIARIOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-23T15:01:00"
+        },
+        {
+            "CodigoExterno": "630-27-L119",
+            "Nombre": "Contratación del servicio de instalación y monitoreo del sistema de  seguridad  para las Secretarías Regionales Ministeriales de Tarapacá, Maule y Aysén .",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:00:00"
+        },
+        {
+            "CodigoExterno": "3134-148-L119",
+            "Nombre": "ADQUISICIÓN DE KIT DE MONTAJE Y CABLE DE EXTENSIÓN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T08:00:00"
+        },
+        {
+            "CodigoExterno": "3649-85-L119",
+            "Nombre": "SERV. DE PRODUCCIÓN SEXTA VERSIÓN FIESTA DE LA ESQUILA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T09:00:00"
+        },
+        {
+            "CodigoExterno": "218-106-LE19",
+            "Nombre": "Arriendo de Container para Permisos de Circulación",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T16:00:00"
+        },
+        {
+            "CodigoExterno": "3506-55-LE19",
+            "Nombre": "SECOPLAN (ESTUDIO, MERCADO MUNICIPAL, TOCOPILLA)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-20T17:00:00"
+        },
+        {
+            "CodigoExterno": "2548-105-L119",
+            "Nombre": "INSUMOS PARA REHABILITACION INTEGRAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T12:00:00"
+        },
+        {
+            "CodigoExterno": "4407-61-L119",
+            "Nombre": "Circuitos Pintados Programa Promocion de Salud ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T09:00:00"
+        },
+        {
+            "CodigoExterno": "3241-54-LE19",
+            "Nombre": "CONTRATO DE SUMINISTRO PARA LA PANADERÍA Y PASTELERÍA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T12:10:00"
+        },
+        {
+            "CodigoExterno": "3649-84-L119",
+            "Nombre": "SERV. BANQUETERÍA FORTALECIMIENTO DE COMUNICACIÓN INTERNA DÍA DE ASISTENTES SOCIAL Y JORNADA DIDECO 2019",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T09:00:00"
+        },
+        {
+            "CodigoExterno": "2941-24-LE19",
+            "Nombre": "ADQUISICION DE JUGUETES PARA REGALOS NAVIDEÑOS PA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T16:00:00"
+        },
+        {
+            "CodigoExterno": "4023-39-LE19",
+            "Nombre": "Adaptaciones OO.CC. Entorno inclusión EDLI Putre (II proceso)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T15:00:00"
+        },
+        {
+            "CodigoExterno": "3994-41-LE19",
+            "Nombre": "ADQUISICIÓN ÁRBOL DE NAVIDAD COMUNA DE OLIVAR",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T15:00:00"
+        },
+        {
+            "CodigoExterno": "3182-13-L119",
+            "Nombre": "INSTALACIÓN DE CORTINAS METÁLICAS ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T14:00:00"
+        },
+        {
+            "CodigoExterno": "2460-212-L119",
+            "Nombre": "REEMPLAZO CHIMENEA DE CALDERA RECINTO CENTRO DEPORTIVO PROVIDENCIA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "2458-33-L119",
+            "Nombre": "SERVICIO DE MANTENIMIENTO DE MOTOCICLETAS HONDA DE LA MUNICIPALIDAD DE PROVIDENCIA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T17:23:00"
+        },
+        {
+            "CodigoExterno": "993-133-L119",
+            "Nombre": "Servicio de Baños químicos ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T09:00:00"
+        },
+        {
+            "CodigoExterno": "2826-30-L119",
+            "Nombre": "SERVICIO REPARACIONES JARDIN INFANTIL CARACOLITOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T17:00:00"
+        },
+        {
+            "CodigoExterno": "720-66-LE19",
+            "Nombre": "CONTRATACIÓN DE PRESTACIÓN DE SERVICIOS  PARA LA FABRICACIÓN  DE CARROS PORTABANDEJAS, CPIE.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T16:00:00"
+        },
+        {
+            "CodigoExterno": "2483-215-LE19",
+            "Nombre": "ADQUISICIÓN DE MATERIALES DE OFICINA PARA ESCUELA ANA FRANK",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:01:00"
+        },
+        {
+            "CodigoExterno": "450-152-LE19",
+            "Nombre": "MEJORAMIENTO Y AMPLIACIÓN DE COBERTURA ALCANTARILLADO SANITARIO CHIFIN BAJO, SEGUNDO LLAMADO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-03T13:40:00"
+        },
+        {
+            "CodigoExterno": "2785-273-L119",
+            "Nombre": "SDA 780173-7799282/ MAQUINAS Y EQUIPOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T15:00:00"
+        },
+        {
+            "CodigoExterno": "548864-35-LE19",
+            "Nombre": "SERVICIO EJECUTIVO IOD LOS ÁNGELES IPS BÍO BÍO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-03T12:00:00"
+        },
+        {
+            "CodigoExterno": "1013353-36-LQ19",
+            "Nombre": "SERVICIO MANTENCIÓN Y CONTINGENCIA DE INFRAESTRUC",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:01:00"
+        },
+        {
+            "CodigoExterno": "3143-29-LP19",
+            "Nombre": "CONTRATACIÓN DE SEGUROS SOBRE BIENES MUNICIPALES, DAEM y DESAM, LAGO RANCO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:09:00"
+        },
+        {
+            "CodigoExterno": "2785-276-L119",
+            "Nombre": "SDA 777817 / SERVICIO DE REENCERDADO CEPILLOS BARREDORA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:00:00"
+        },
+        {
+            "CodigoExterno": "3334-80-LE19",
+            "Nombre": "Adquisición E Instalación Torre, Sist Fotovoltaico",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-03T15:00:00"
+        },
+        {
+            "CodigoExterno": "3948-93-L119",
+            "Nombre": "ADQUISICION DE TOLDOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T15:00:00"
+        },
+        {
+            "CodigoExterno": "3948-92-L119",
+            "Nombre": "ADQUISICION E INSTALACION AIRE ACONDICIONADO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:00:00"
+        },
+        {
+            "CodigoExterno": "3948-94-L119",
+            "Nombre": "BANDEJAS IMPRESORAS MUNICIPALES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:00:00"
+        },
+        {
+            "CodigoExterno": "3865-11-LE19",
+            "Nombre": "DISEÑO DE ESPECIALIDADES E INGENIERÍA, CUARTEL DE BOMBEROS, CERRO SOMBRERO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "3948-91-L119",
+            "Nombre": "SEGUROS DE VIDA CONDUCTOR",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:00:00"
+        },
+        {
+            "CodigoExterno": "1554-52-LE19",
+            "Nombre": "serv.internacion pac.discapacidad psiquiatra",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-11T09:00:00"
+        },
+        {
+            "CodigoExterno": "2332-68-LE19",
+            "Nombre": "“MEJORAMIENTO ACCESO PRINCIPAL CESFAM ANGELMO”",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "4738-15-L119",
+            "Nombre": "MARCADOR ELECTRONICO PARA GIMNACIO MUNICIPAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T09:00:00"
+        },
+        {
+            "CodigoExterno": "4829-100-L119",
+            "Nombre": "Adquisición de Carpas Tipo Iglu ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T18:55:00"
+        },
+        {
+            "CodigoExterno": "968695-19-LE19",
+            "Nombre": "Adquisición de 15 equipos de aire acondicionado",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T18:00:00"
+        },
+        {
+            "CodigoExterno": "2021-77-L119",
+            "Nombre": "Contratación del servicio de confección e instalación de persiana metálica para trituradora y portón acceso poniente del Cuartel San Ignacio.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T16:00:00"
+        },
+        {
+            "CodigoExterno": "652-147-LP19",
+            "Nombre": "SILLONES DENTALES PARA HOSPITAL DE CURANILAHUE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T16:00:00"
+        },
+        {
+            "CodigoExterno": "2021-76-L119",
+            "Nombre": "SUMINISTRO DE FILTROS PARA LOS MANTENIMIENTOS DEL GENERADOR CARTERPILLAR OLYMPIAN GEP X110, DE CARGO SECNAD, EMPLEADA POR LA UNIDAD DE DESMINADO HUMANITARIO DE ARICA.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T16:00:00"
+        },
+        {
+            "CodigoExterno": "2656-436-L119",
+            "Nombre": "ADQUISICION DE INSUMOS DEPORTIVOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:01:00"
+        },
+        {
+            "CodigoExterno": "547640-26-L119",
+            "Nombre": "INSUMOS ODONTOLÓGICOS CONVENIO GES 60 AÑOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T16:02:00"
+        },
+        {
+            "CodigoExterno": "5586-647-LP19",
+            "Nombre": "CONTRATO DE SUMINISTRO PARA PROVISION, MANTENCION ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:30:00"
+        },
+        {
+            "CodigoExterno": "3909-90-L119",
+            "Nombre": "JUEGOS INFLABLES, LICEO D.S.M.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T17:06:00"
+        },
+        {
+            "CodigoExterno": "2483-241-LE19",
+            "Nombre": "Serv. Banquetería Cierre Mes del Adult. mayor 2do",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:01:00"
+        },
+        {
+            "CodigoExterno": "1984-14-LE19",
+            "Nombre": "Serv. Mantención Preventiva y Correctiva Embarcaciones Fiscales",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T16:00:00"
+        },
+        {
+            "CodigoExterno": "3634-47-CO19",
+            "Nombre": "ILUMINACIÓN CICLOVÍA URBANA DE MALLOA 2DA. ETAPA P",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:05:00"
+        },
+        {
+            "CodigoExterno": "2483-179-LE19",
+            "Nombre": "Serv. Mantención a Grupos Electrógenos Salud",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:01:00"
+        },
+        {
+            "CodigoExterno": "1592-17-LE19",
+            "Nombre": "Reparación y mantención de dependencias de la SPS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-04T15:00:00"
+        },
+        {
+            "CodigoExterno": "548864-34-LE19",
+            "Nombre": "SERVICIO EJECUTIVO IOD CAPRI CORONEL IPS BÍO BÍO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-03T12:00:00"
+        },
+        {
+            "CodigoExterno": "522-24-L119",
+            "Nombre": "Trabajos de mejoramiento de baños y habilitación de pasillo exterior",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T19:41:00"
+        },
+        {
+            "CodigoExterno": "2333-182-L119",
+            "Nombre": "BASUREROS, EQUIPAMIENTO DE COCINA, MESA PLEGABLE MUEBLE MURAL Y FOCOS LED",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T12:00:00"
+        },
+        {
+            "CodigoExterno": "2328-309-L119",
+            "Nombre": "SERVICIO DE PERFORACION DIAMANTADA CON OPERADOR INCLUIDO PARA ESCUELA ANGELMO/DAEM 11514",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T12:00:00"
+        },
+        {
+            "CodigoExterno": "2785-275-L119",
+            "Nombre": "SDA 744127/ EMBARCACIÓN PLEGABLE Y MOTOR ELÉCTRICO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:00:00"
+        },
+        {
+            "CodigoExterno": "4617-15-L119",
+            "Nombre": "SUMINISTRO DE  REPARACIÓN Y MANTENCIÓN DE VEHÍCULOS INSTITUCIONALES DIRECCIÓN DEL TRABAJO, REGIÓN DE ANTOFAGASTA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T16:41:00"
+        },
+        {
+            "CodigoExterno": "2546-141-LQ19",
+            "Nombre": "PROPUESTA 115  ABASTO DE AGUA POTABLE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-12T16:30:00"
+        },
+        {
+            "CodigoExterno": "2230-3-LE19",
+            "Nombre": "LICITACION PARA CONTRATAR LA EJECUCION DE OBRAS DE REPARACION DE DEFENSORIA LOCAL DE LOS ANGELES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "5040-20-L119",
+            "Nombre": "ARRIENDO DE VEHICULO PARA TRASLADO DE PROFESIONALES DE LA OFICINA LOCAL DE LA NIÑEZ” ZONA RURAL Y/O URBANA COMUNA QUILLON",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T15:00:00"
+        },
+        {
+            "CodigoExterno": "2727-121-L119",
+            "Nombre": "ALIMENTOS CONVENIO HITOS LABORALES CESFAM DURAN TRUJILLO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:00:00"
+        },
+        {
+            "CodigoExterno": "4620-13-L119",
+            "Nombre": "HABILITACIÓN DE OMNICANALIDAD DE IPT PETORCA - LA LIGUA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T15:01:00"
+        },
+        {
+            "CodigoExterno": "5324-14-L119",
+            "Nombre": "SERVICIOS DE SANITIZACIÓN, FUMIGACIÓN, DESRATIZACIÓN, DESINSECTACIÓN Y EN GENERAL CONTROL DE PLAGAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T17:00:00"
+        },
+        {
+            "CodigoExterno": "4451-90-LE19",
+            "Nombre": "SERVICIO DE TELEFONIA MOVIL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-03T09:30:00"
+        },
+        {
+            "CodigoExterno": "3597-62-L119",
+            "Nombre": "Construcción de Rampas en Viviendas de Personas en situación de Discapacidad Física",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T12:00:00"
+        },
+        {
+            "CodigoExterno": "2583-694-L119",
+            "Nombre": "SP 1050-Adquisic. de insumos para control de plagas-Inspección-ptg",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T20:28:00"
+        },
+        {
+            "CodigoExterno": "1197-36-L119",
+            "Nombre": "CONTRATACIÓN DE SEGURO PARA VEHICULO FISCAL CAMIONETAS MAZDA DEL IND REGIÓN DE ATACAMA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T12:00:00"
+        },
+        {
+            "CodigoExterno": "1469-60-LE19",
+            "Nombre": "Habilitación Salas Experimentales, Cent.Psicologia",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-03T18:00:00"
+        },
+        {
+            "CodigoExterno": "4841-21-L119",
+            "Nombre": "Servicios de Relator del 1° Taller teórico de “El vitral en Chile” y Diseñador Gráfico, del Centro Nacional de Conservación y Restauración",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T18:00:00"
+        },
+        {
+            "CodigoExterno": "1058095-106-LE19",
+            "Nombre": "CONVENIO MEDICAMENTOS 21",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T10:30:00"
+        },
+        {
+            "CodigoExterno": "2743-62-LE19",
+            "Nombre": "AMPLIACIÓN SEDE SOCIAL LOS PRESIDENTES, COMUNA DE ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-03T17:30:00"
+        },
+        {
+            "CodigoExterno": "1658-900-L119",
+            "Nombre": "S197/2019/FINANZAS DEPTO. RENTAS/SERVICIO DE IMPRESION, DISTRIBUCION, CARTAS DE COBRANZA ASEO DOMICILIARIO AÑO 2019.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T17:00:00"
+        },
+        {
+            "CodigoExterno": "3696-16-L119",
+            "Nombre": "PROYECTO DE MANTENIMIENTO E INFRAESTRUCTURA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T15:00:00"
+        },
+        {
+            "CodigoExterno": "2727-120-L119",
+            "Nombre": "ALIMENTOS CONVENIO DE SALUD FAMILIAR 2019 CESFAM DURAN TRUJILLO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T17:04:00"
+        },
+        {
+            "CodigoExterno": "3651-106-L119",
+            "Nombre": "INSUMOS PROGRAMA GES ODONTOLOGICO  GES NIÑOS DE 6 AÑOS (SEGUNDA REMESA )",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T12:18:00"
+        },
+        {
+            "CodigoExterno": "3981-34-LE19",
+            "Nombre": "PROVISION E INSTALACION DE ORNAMENTACION NAVIDEÑA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T18:37:00"
+        },
+        {
+            "CodigoExterno": "5648-5-LE19",
+            "Nombre": "Servicio de Telefonia Movil e Internet Movil",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-09T15:30:00"
+        },
+        {
+            "CodigoExterno": "2887-19-LE19",
+            "Nombre": "ACTIVIDAD DE CAPACITACIÓN Y AUTOCUIDADO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:00:00"
+        },
+        {
+            "CodigoExterno": "1077210-32-LE19",
+            "Nombre": "REFACCION Y REMODELACIÓN DE GALPON",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T14:00:00"
+        },
+        {
+            "CodigoExterno": "1592-18-LE19",
+            "Nombre": "Licenciamiento de sistemas de respaldo para la SPS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "2297-329-L119",
+            "Nombre": "MATERIALES PARA TRABAJOS EN DIRMAAO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T09:00:00"
+        },
+        {
+            "CodigoExterno": "3384-78-L119",
+            "Nombre": "Adquisición de papel para plotter.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T16:00:00"
+        },
+        {
+            "CodigoExterno": "2274-122-L119",
+            "Nombre": "EXAMENES AUDIOMETRIAS E IMPEDANCIOMETRIA DEC.332",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T17:32:00"
+        },
+        {
+            "CodigoExterno": "968695-18-L119",
+            "Nombre": "La contratación del servicio de reparación para  el bus Mercedes Benz matrícula BPVR-28 de cargo de la Jefatura Administrativa y Logística del Campo Militar Peñalolén",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T23:59:00"
+        },
+        {
+            "CodigoExterno": "2483-213-LE19",
+            "Nombre": "ADQ. DE MOBILIARIO PARA ESC. LUIS CRUZ MARTINEZ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:01:00"
+        },
+        {
+            "CodigoExterno": "1058095-99-LE19",
+            "Nombre": "PENDIENTES REPOSICIÓN DICIEMBRE 2019",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T10:30:00"
+        },
+        {
+            "CodigoExterno": "1152-18-LP19",
+            "Nombre": "ASESORÍA IFO - OBRA: CONSTR. CUARTEL PDI QUILICURA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-13T11:00:00"
+        },
+        {
+            "CodigoExterno": "2789-137-L119",
+            "Nombre": "SERVICIO ALIMENTACIÓN JORNADA DE ANÁLISIS ESCUELA PINTUE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T16:30:00"
+        },
+        {
+            "CodigoExterno": "1658-899-L119",
+            "Nombre": "S.540-19/DIDECO/SERVICIO PRODUCCIÓN EVENTO ACTIVIDAD \"LANZAMIENTO SEMANA DE LA INCLUSIÓN\"",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T17:00:00"
+        },
+        {
+            "CodigoExterno": "2744-89-LE19",
+            "Nombre": "Canastas Navideñas Socios Bienestar Salud 2019",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:05:00"
+        },
+        {
+            "CodigoExterno": "1058095-105-LE19",
+            "Nombre": "CONVENIO MEDICAMENTOS 20",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T10:30:00"
+        },
+        {
+            "CodigoExterno": "2408-534-L119",
+            "Nombre": "ADQUISICIÓN DE TOLDOS PLEGABLES  PARA FERIAS CENTRO INTEGRAL DE LA MUJER",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T09:00:00"
+        },
+        {
+            "CodigoExterno": "2755-74-L119",
+            "Nombre": "Mantención de extintores ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:00:00"
+        },
+        {
+            "CodigoExterno": "4367-34-L119",
+            "Nombre": "PUERTAS ACCESO SALA PROCEDIMIENTOS  Y ACCESO PASILLO FARMACIA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T15:30:00"
+        },
+        {
+            "CodigoExterno": "1058095-104-LE19",
+            "Nombre": "CONVENIO FLUORURACILO 1000MG/20ML",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T10:30:00"
+        },
+        {
+            "CodigoExterno": "968695-17-L119",
+            "Nombre": "La contratación del servicio de reparación para la camioneta Nissan Navara matrícula CHKJ-46 de cargo de la Jefatura Administrativa y Logística del Campo Militar Peñalolén",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T23:59:00"
+        },
+        {
+            "CodigoExterno": "3756-49-CO19",
+            "Nombre": "ADQUISICIÓN DE BOMBAS PARA FUNCIONAMIENTO DE PISCINA MUNICIPAL DE PELARCO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T17:00:00"
+        },
+        {
+            "CodigoExterno": "2408-537-L119",
+            "Nombre": "INSUMOS VETERINARIOS,FARMACOS EN GENERAL PARA PROGRAMA DE ESTERILIZACION DE MASCOTAS, MEDIO AMBIENTE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:00:00"
+        },
+        {
+            "CodigoExterno": "3651-105-L119",
+            "Nombre": "INSUMOS PROGRAMA GES ODONTOLOGICO GES ADULTO 60 AÑOS (SEGUNDA REMESA)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T12:00:00"
+        },
+        {
+            "CodigoExterno": "548864-33-LE19",
+            "Nombre": "SERVICIO EJECUTIVO IOD CAPRI TALCAHUANO IPS BÍOBÍO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-03T12:00:00"
+        },
+        {
+            "CodigoExterno": "3767-33-L119",
+            "Nombre": "SERVICIO DE ATENCIÓN DE TALLERES, FAEP 2018, ESCUELAS DE LA COMUNA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T17:00:00"
+        },
+        {
+            "CodigoExterno": "2446-528-L119",
+            "Nombre": "SERVICIO DE IMPRESIÓN DE BITACORAS PARA REGISTRO DE MÓVILES MUNICIPALES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T16:06:00"
+        },
+        {
+            "CodigoExterno": "3977-91-L119",
+            "Nombre": "EXAMENES GASTRODUODENOSCOPÍA (ESOFAGOSCOPÍA), PROGRAMA FONASA EN SU COMUNIDAD TAMI MAPU MEU",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:00:00"
+        },
+        {
+            "CodigoExterno": "2408-521-L119",
+            "Nombre": "TALLER INFANTIL LANZAMIENTO TEMPORADA DE VERANO SALTOS DEL LAJA 2019",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T09:00:00"
+        },
+        {
+            "CodigoExterno": "5586-646-L119",
+            "Nombre": "M/C CARTUCHO DE DESFIBRILACIÓN  BATERÍA  ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:30:00"
+        },
+        {
+            "CodigoExterno": "5586-645-L119",
+            "Nombre": "M/C FABRICACIÓN DE ANILLO DE 2 PISTAS DE BRONCE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:30:00"
+        },
+        {
+            "CodigoExterno": "1743-66-LP19",
+            "Nombre": "Construcción Cancha de Rayuela Los Buenos Muchacho",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T15:30:00"
+        },
+        {
+            "CodigoExterno": "620304-23-L119",
+            "Nombre": "Adquisición e instalación de cielo raso. Reparación y pintado de Paredes de la sala de vestidores de la DIVAE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T17:00:00"
+        },
+        {
+            "CodigoExterno": "1736-485-LE19",
+            "Nombre": "Adquisición de Arbustos",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:05:00"
+        },
+        {
+            "CodigoExterno": "4511-22-LP19",
+            "Nombre": "\"CONST. ALUMBRADO PÚBLICO VARIOS SECTORES, COMUNA DE RETIRO\"",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T12:00:00"
+        },
+        {
+            "CodigoExterno": "4362-42-LE19",
+            "Nombre": "Construcción Gimnasio Abierto de Calistenia, Nacto",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "2546-140-LQ19",
+            "Nombre": "PROPUESTA 114 ABASTO DE AGUA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-12T15:30:00"
+        },
+        {
+            "CodigoExterno": "3907-76-L119",
+            "Nombre": "ARRIENDO  LOCAL EVENTOS PARA CAPACITACION RSH",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:00:00"
+        },
+        {
+            "CodigoExterno": "729-425-LE19",
+            "Nombre": "SP 20012117-Circuitos Integrados JLP ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T18:39:00"
+        },
+        {
+            "CodigoExterno": "3024-100-LQ19",
+            "Nombre": "Conservación Estructura Esc. R. Cabrera Beltran",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T16:30:00"
+        },
+        {
+            "CodigoExterno": "2042-71-L119",
+            "Nombre": "ADQUISICION  DE  ESTANQUE DE  COMBUSTIBLE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T17:44:00"
+        },
+        {
+            "CodigoExterno": "796305-84-L119",
+            "Nombre": "GBS 159 GM  SERV. DE CAMBIO DE PUERTA VV.FF. BACM FACH",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T09:40:00"
+        },
+        {
+            "CodigoExterno": "4329-18-L119",
+            "Nombre": "TOMA DE MAMOGRAFIAS Y ECOGRAFIAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T17:56:00"
+        },
+        {
+            "CodigoExterno": "1077412-1-LE19",
+            "Nombre": "CONSTRUCCIÓN CIERRE PATIO TECHADO Y PASILLO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T17:30:00"
+        },
+        {
+            "CodigoExterno": "4736-33-L119",
+            "Nombre": "Equipamiento e insumos para medición de cloro libre para servicio de entrega de agua potable.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T19:27:00"
+        },
+        {
+            "CodigoExterno": "4736-32-L119",
+            "Nombre": "Servicio de reparación de piscina infantil municipal",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:08:00"
+        },
+        {
+            "CodigoExterno": "4736-31-L119",
+            "Nombre": "Insumos para mantención de piscina municipal",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:00:00"
+        },
+        {
+            "CodigoExterno": "2422-539-L119",
+            "Nombre": "SOL. ADQ. 931415, IMPRESORA BROTHER MFC-8480",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T20:13:00"
+        },
+        {
+            "CodigoExterno": "4736-30-L119",
+            "Nombre": "Adquisición de máquinas para mantención de áreas verdes.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:00:00"
+        },
+        {
+            "CodigoExterno": "4306-132-L119",
+            "Nombre": "ADQUISICION DE INSUMOS HORTICOLAS PARA PARCELAS DEMOSTRATIVOAS, PDTI, ERCILLA.-",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T10:40:00"
+        },
+        {
+            "CodigoExterno": "2026-222-LP19",
+            "Nombre": "EQUIPOS DE TERAPIA, DEL PROYECTO HGF",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T18:00:00"
+        },
+        {
+            "CodigoExterno": "4459-65-L119",
+            "Nombre": "REVISOR ARQUITECTURA PATIO TECHADO COLEGIO CARDONAL DE PANILONCO,  COMUNA DE PICHILEMU",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:00:00"
+        },
+        {
+            "CodigoExterno": "1057540-80-LE19",
+            "Nombre": "SUMINISTRO DE GASES MEDICINALES ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T16:15:00"
+        },
+        {
+            "CodigoExterno": "531153-22-LE19",
+            "Nombre": "Cierre Perimetal",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:04:00"
+        },
+        {
+            "CodigoExterno": "1026-14-LE19",
+            "Nombre": "Servicio de demarcación de pavimento en la Provincia de Chañaral",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T16:21:00"
+        },
+        {
+            "CodigoExterno": "3651-107-L119",
+            "Nombre": "INSUMOS PROGRAMA ODONTOLOGICO  INTEGRAL 2019 MAS SONRISAS PARA CHILE (SEGUNDA REMESA)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T10:00:00"
+        },
+        {
+            "CodigoExterno": "3542-25-L119",
+            "Nombre": "SERVICIO DE ANALISIS DE AGUAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T10:00:00"
+        },
+        {
+            "CodigoExterno": "1987-11-LE19",
+            "Nombre": "SERVICIO ASEO OFICINAS PTO MONTT- OSORNO- CONTAO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T16:00:00"
+        },
+        {
+            "CodigoExterno": "1987-10-LE19",
+            "Nombre": "SERVICIO ASEO DIRECCION REGIONAL Y OF. CALBUCO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T16:00:00"
+        },
+        {
+            "CodigoExterno": "2446-527-L119",
+            "Nombre": "ADQUISICION DE EQUIPOS DE FUTBOL COMPLETOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:00:00"
+        },
+        {
+            "CodigoExterno": "2789-136-L119",
+            "Nombre": "SERVICIO CATERING \"DESAYUNOS COMUNIDAD EDUCATIVA - ESCUELA CHADA\"",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T16:30:00"
+        },
+        {
+            "CodigoExterno": "4139-59-LE19",
+            "Nombre": "NUEVO LLAMADO CONSTRUCCION DE PUENTES SECTOR AGUA SANTA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-04T16:00:00"
+        },
+        {
+            "CodigoExterno": "2446-526-L119",
+            "Nombre": "ADQUISICIÓN DE EQUIPAMIENTO DE SEGURIDAD",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:11:00"
+        },
+        {
+            "CodigoExterno": "5325-132-LE19",
+            "Nombre": "Telemonitoreo a distancia de pacientes crónicos",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-04T15:30:00"
+        },
+        {
+            "CodigoExterno": "3536-26-L119",
+            "Nombre": "Adquisición de Perfiles Rectangulares",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T17:00:00"
+        },
+        {
+            "CodigoExterno": "2430-64-LE19",
+            "Nombre": "CONTRATACIÓN ESTUDIO DE MECÁNICA DE SUELOS DIVERSOS SECTORES II, ANTOFAGASTA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-03T12:00:00"
+        },
+        {
+            "CodigoExterno": "4463-34-LQ19",
+            "Nombre": "CONTRATO DE SUMINISTRO DE MEDICAMENTOS INYECTABLES III PARA EL HOSPITAL SAN JUAN DE DIOS DE CURICO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:30:00"
+        },
+        {
+            "CodigoExterno": "3806-15-L119",
+            "Nombre": "ECOTOMOGRAFIAS MAMARIAS Y ABDOMINALES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:05:00"
+        },
+        {
+            "CodigoExterno": "4306-131-L119",
+            "Nombre": "ADQUISICION DE FERTILIZANTES, SEMILLAS Y OTROS PARA DEMOSTRATIVA TERRITORIO III PDTI ERCILLA.-",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T10:18:00"
+        },
+        {
+            "CodigoExterno": "3756-48-CO19",
+            "Nombre": "ADQUISICIÓN DE INSUMOS PARA MANTENCION DE PISCINA MUNICIPAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T17:00:00"
+        },
+        {
+            "CodigoExterno": "3017-877-L119",
+            "Nombre": "MATERIALES Y BOTAS PARA POLIDEPORTIVO LOTA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T11:39:00"
+        },
+        {
+            "CodigoExterno": "3710-180-L119",
+            "Nombre": "Compresero para sala rehabilitacion Cesfam Victoria",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T10:01:00"
+        },
+        {
+            "CodigoExterno": "2328-307-L119",
+            "Nombre": "ADQUISICION DE BARRAS APOYO BAÑOS DISCAPACITADOS, ESCUELA PABLO NERUDA/DAEM 11488",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T10:15:00"
+        },
+        {
+            "CodigoExterno": "740-29-LE19",
+            "Nombre": "SEGUNDA ETAPA INSTALACION ELECTRICA AREA DE CAUQUE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T16:00:00"
+        },
+        {
+            "CodigoExterno": "769-94-LE19",
+            "Nombre": "SISTEMA DE SEGURIDAD CESFAM ALEMANIA CALAMA, PTA. 98",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "3384-83-LE19",
+            "Nombre": "Suministro de planchas offset e insumos maq. CTP",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T17:30:00"
+        },
+        {
+            "CodigoExterno": "2767-30-LE19",
+            "Nombre": "Adquisición 1.500 arboles La Cisterna",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T10:00:00"
+        },
+        {
+            "CodigoExterno": "3651-109-L119",
+            "Nombre": "ADQ. INSUMOS PROGRAMA MEJORAMIENTO DEL ACCESO A LA ATENCIÓN ODONTOLOGICA 2019 (SEGUNDA REMESA)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T17:55:00"
+        },
+        {
+            "CodigoExterno": "2136-4-LQ19",
+            "Nombre": "Servicio de Aseo Hospitalario",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:30:00"
+        },
+        {
+            "CodigoExterno": "3847-39-LP19",
+            "Nombre": "PROY CULT  EN ARMONIA LA COMUNA ENCUENTRA  PAZ 19",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:05:00"
+        },
+        {
+            "CodigoExterno": "2708-333-L119",
+            "Nombre": "SERVICIO DE COLACIONES PARA ACTIVIDADES MUNICIPALES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:21:00"
+        },
+        {
+            "CodigoExterno": "2708-332-L119",
+            "Nombre": "SERVICIO DE PRODUCCIÓN ENCUENTRO REGIONAL DE MUJERES DIRIGENTAS ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:32:00"
+        },
+        {
+            "CodigoExterno": "3383-29-LE19",
+            "Nombre": "INSTRUMENTAL DENTAL QUIRÚRGICO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-04T15:00:00"
+        },
+        {
+            "CodigoExterno": "872-191-L119",
+            "Nombre": "Taladro Fresador",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T16:00:00"
+        },
+        {
+            "CodigoExterno": "2067-17-L119",
+            "Nombre": "SUMINISTROS DE ALIMENTOS PERECIBLES Y FOSFOROS PARA HOSPITAL CUNCO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:00:00"
+        },
+        {
+            "CodigoExterno": "2067-18-L119",
+            "Nombre": "Servicio Integral de Control de Plagas Hospital de Cunco",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T12:00:00"
+        },
+        {
+            "CodigoExterno": "2789-135-L119",
+            "Nombre": "SERVICIO DE ALIMENTACIÓN LICENCIATURA 4°MEDIOS - LICEO HOSPITAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T16:30:00"
+        },
+        {
+            "CodigoExterno": "2377-576-L119",
+            "Nombre": "02 MAQUINAS PARA PINTAR SP 1702",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T13:01:00"
+        },
+        {
+            "CodigoExterno": "4157-35-L119",
+            "Nombre": "servicio de sonido, luces y pantalla de 4x5 pulgadas para \"Lanzamiento del Libro Letra y Corazón VII\" Escuela Virgen del Carmen.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T19:26:00"
+        },
+        {
+            "CodigoExterno": "4195-125-LR19",
+            "Nombre": "CONSERVACION CAMINOS ISLA ,MECHUQUE Y AÑIHUE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-20T16:20:00"
+        },
+        {
+            "CodigoExterno": "2125-156-LP19",
+            "Nombre": "Arriendo de computadores de escritorio All in one",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-04T16:00:00"
+        },
+        {
+            "CodigoExterno": "1078126-52-LE19",
+            "Nombre": "EDICIÓN E IMPRESIÓN DE LIBROS DE CUENTOS INFANTILE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-04T16:30:00"
+        },
+        {
+            "CodigoExterno": "3245-24-LE19",
+            "Nombre": "Adquisición equipamiento clínico octubre 2019",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T09:00:00"
+        },
+        {
+            "CodigoExterno": "2436-525-L119",
+            "Nombre": "Adquisición de pinturas y materiales de ferretería necesarios para  trabajos en áreas verdes",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T17:00:00"
+        },
+        {
+            "CodigoExterno": "1715-31-L119",
+            "Nombre": "ADQUISICIÓN DE SERVICIO DE REPARACIONES MENORES INMUEBLE DIRECCION GENERAL DE LA CAJBIOBIO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T17:00:00"
+        },
+        {
+            "CodigoExterno": "886954-246-LQ19",
+            "Nombre": "Convenio anual de compra de otros insumos clínicos para la Sección de Neurovascular, HGGB",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T18:00:00"
+        },
+        {
+            "CodigoExterno": "612-81-LQ19",
+            "Nombre": "Servicios de Suministro y Soporte de las centrales",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-16T19:00:00"
+        },
+        {
+            "CodigoExterno": "1658-897-L119",
+            "Nombre": "S36/2019/PLANIFICACION DEPTO. PROYECTOS/INSTALACION DISPENSADOR DE AGUA POTABLE PARA CALISTENIA.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-05T12:00:00"
+        },
+        {
+            "CodigoExterno": "2328-306-L119",
+            "Nombre": "MATERIALES CAMBIO CIELO RASO Y REVESTIMIENTO INTERIOR Y OTROS, ESCUELA TRAPEN/DAEM 11470",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T10:00:00"
+        },
+        {
+            "CodigoExterno": "4306-130-L119",
+            "Nombre": "ADQUISICIÓN DE INSUMOS AGRÍCOLAS Y OTROS PARA UNIDADES DEMOSTRATIVAS DE DIFERENTES GRUPOS PDTI, ERCILLA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T10:00:00"
+        },
+        {
+            "CodigoExterno": "1079566-20-L119",
+            "Nombre": "CONSTRUCCION CIERRE PERIMETRAL CASA FISCAL UBICADA EN CALLE CLAUDIO MATTE N° 13 DE LA COMUNA DE CHANCO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T19:27:00"
+        },
+        {
+            "CodigoExterno": "4013-28-L119",
+            "Nombre": "Compra de insumos médicos APS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T17:46:00"
+        },
+        {
+            "CodigoExterno": "2422-538-L119",
+            "Nombre": "SOL. ADQ. 931203 IMPRESORA FARGO HDP 5000",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T19:58:00"
+        },
+        {
+            "CodigoExterno": "2320-33-LE19",
+            "Nombre": "CONVENIO SUMINISTRO MATERIALES DE FERRETERÍA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T15:30:00"
+        },
+        {
+            "CodigoExterno": "2176-93-L119",
+            "Nombre": "Convenio de Precios para Suministro y Ploteo de Señaléticas",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T14:00:00"
+        },
+        {
+            "CodigoExterno": "1058012-68-LP19",
+            "Nombre": "DROGAS ANTIRRETROVIRALES HCM 2020-2021",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T16:00:00"
+        },
+        {
+            "CodigoExterno": "3704-89-L119",
+            "Nombre": "Adquirir colaciones y bebidas hidratantes",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T17:55:00"
+        },
+        {
+            "CodigoExterno": "575061-59-LE19",
+            "Nombre": "HUELLAS-INSUMOS Y REACTIVOS ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "4794-8-LE19",
+            "Nombre": "HABILITACIÓN COMEDOR FUNCIONARIOS CASA CENTRAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-06T13:00:00"
+        },
+        {
+            "CodigoExterno": "1464-94-LE19",
+            "Nombre": "MASOTERAPEUTA  FERIA AUTOCUIDADO COMITE PARITARIO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T09:01:00"
+        },
+        {
+            "CodigoExterno": "4123-37-L119",
+            "Nombre": "Compra de Implementos Oftalmológicos para Sala UAPO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T14:19:00"
+        },
+        {
+            "CodigoExterno": "4559-58-L119",
+            "Nombre": "MAMOGRAFIAS Y ECO MAMARIAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:00:00"
+        },
+        {
+            "CodigoExterno": "2780-63-L119",
+            "Nombre": "COMPRA DE PAÑALES PARA ABASTECER FARMACIA POPULAR",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:00:00"
+        },
+        {
+            "CodigoExterno": "2189-93-LR19",
+            "Nombre": "ADQUISICIÓN LAMPARAS QUIRÚRGICAS HOSPITAL DE CURICO (NUEVO LLAMADO)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-23T16:00:00"
+        },
+        {
+            "CodigoExterno": "2775-38-L119",
+            "Nombre": "12 MAGNOLIAS SOLAUGEANO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:53:00"
+        },
+        {
+            "CodigoExterno": "3191-306-L119",
+            "Nombre": "L1 INSUMOS CLÍNICOS Y REACTIVOS PARA EL SERVICIO DE ESTERILIZACIÓN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:00:00"
+        },
+        {
+            "CodigoExterno": "1469-62-L119",
+            "Nombre": "Olla a presión con monómetro 22 litros (SOLPED 20-7871)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:01:00"
+        },
+        {
+            "CodigoExterno": "2189-95-LQ19",
+            "Nombre": "ADQUISICIÓN DE LAVADORAS TERMODESINFECTADORAS PARA ESTERILIZACIÓN - HOSPITAL CURICÓ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-20T16:00:00"
+        },
+        {
+            "CodigoExterno": "3326-248-L119",
+            "Nombre": "ADQUISICIÓN DE MATERIALES PARA LA REPARACIÓN DE VEHÍCULOS FISCALES DE LA 28ª COMISARIA FF.EE., DEPENDIENTE DE LA PREFECTURA FF.EE. SANTIAGO. SEGÚN BASES TEC., ADM., Y ANEXOS ADJUNTOS.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:25:00"
+        },
+        {
+            "CodigoExterno": "607-227-LE19",
+            "Nombre": "LEV. TOPORGRÁFICO MEJ. RED AGUA POTABLE CUMBRE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-04T09:00:00"
+        },
+        {
+            "CodigoExterno": "886954-247-LQ19",
+            "Nombre": "Convenio Suministro Insumos Diálisis",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-12T15:30:00"
+        },
+        {
+            "CodigoExterno": "3326-245-L119",
+            "Nombre": "ADQUISICIÓN DE NEUMÁTICOS DELANTEROS VEHÍCULOS PESADOS 385/35R22.5, PARA STOCK DE BODEGA DEL DPTO. DE TRANSPORTES L.3. SEGÚN BASES TEC., ADM. Y ANEXOS ADJUNTOS.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:25:00"
+        },
+        {
+            "CodigoExterno": "1057402-172-LE19",
+            "Nombre": "INSUMOS BOLSA DE UROSTOMIA 2020-2021",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T16:00:00"
+        },
+        {
+            "CodigoExterno": "1469-61-L119",
+            "Nombre": "Elaboración de pagina WEB para la Facultad de Ciencias de la Salud (SOLPED 20-8121)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:01:00"
+        },
+        {
+            "CodigoExterno": "3686-39-LQ19",
+            "Nombre": "CONSTRUCCIÓN CUBIERTA ESCUELA DIAGUITAS DE CHALINGA, SALAMANCA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T17:00:00"
+        },
+        {
+            "CodigoExterno": "1057402-176-LP19",
+            "Nombre": "MEDIAS DE COMPRESIÓN GRADUADAS ANTIEMBÓLICAS 2020-",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T16:00:00"
+        },
+        {
+            "CodigoExterno": "3651-108-L119",
+            "Nombre": "ADQ. KIT DE HIGIENE PROGRAMA ODONTOLOGICO INTEGRAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T17:28:00"
+        },
+        {
+            "CodigoExterno": "3326-234-L119",
+            "Nombre": "ADQUISICIÓN DE MATERIALES PARA LA REPARACIÓN DE NEUMÁTICOS PARA EL TALLER INTERNO DEL DPTO. DE TRANSPORTES L.3. SEGÚN BASES ADM., TEC., Y ANEXOS ADJUNTOS.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:25:00"
+        },
+        {
+            "CodigoExterno": "2189-91-LQ19",
+            "Nombre": "ADQUISICION RX MAMOGRAFO HOSPITAL DE CURICO (NUEVO LLAMADO)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-20T16:00:00"
+        },
+        {
+            "CodigoExterno": "1057506-30-LP19",
+            "Nombre": "CONVENIO SERVICIOS   ASEO Y LIMPIEZA ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T19:57:00"
+        },
+        {
+            "CodigoExterno": "1638-259-L119",
+            "Nombre": "Servicio de Alimentación Cóctel según Programa Senda Previene, sm6199",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:01:00"
+        },
+        {
+            "CodigoExterno": "2743-61-LE19",
+            "Nombre": "MEJORAMIENTO ÁREAS VERDES POBLACIÓN LOS PRESIDENTES, COMUNA DE ANGOL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-05T15:00:00"
+        },
+        {
+            "CodigoExterno": "1997-18-LE19",
+            "Nombre": "contratación del Servicio de Manejo de Residuos Do",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T17:30:00"
+        },
+        {
+            "CodigoExterno": "2511-6-LE19",
+            "Nombre": "Servicio transporte personal",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T20:00:00"
+        },
+        {
+            "CodigoExterno": "2762-45-LE19",
+            "Nombre": "Adquisición de fármaco",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T15:30:00"
+        },
+        {
+            "CodigoExterno": "4329-17-LP19",
+            "Nombre": "ADQUISICION DE EQUIPOS PARA SALA DE ESTERILIZACION",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T12:17:00"
+        },
+        {
+            "CodigoExterno": "813685-48-L119",
+            "Nombre": "SERVICIO DE REMODELACIÓN LOCKERS DOBLES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T12:30:00"
+        },
+        {
+            "CodigoExterno": "3187-80-L119",
+            "Nombre": "ADQUISICIÓN DE REPUESTOS DE CALEFACCIÓN PARA ALCAMAROSO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T19:00:00"
+        },
+        {
+            "CodigoExterno": "547640-29-L119",
+            "Nombre": "JORNADA AUTOCUIDADO EQUIPO CECOSF",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T16:30:00"
+        },
+        {
+            "CodigoExterno": "4617-14-L119",
+            "Nombre": "SUMINISTRO DE MANTENCION Y REPARACION DE OBRAS MENORES ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T17:13:00"
+        },
+        {
+            "CodigoExterno": "2295-85-LE19",
+            "Nombre": "CONTRATACIÓN DE SERVICIO DE GUARDIAS DE SEGURIDAD FERIA NAVIDEÑA 2019 I MUNICIPALIDAD DE TALCA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:30:00"
+        },
+        {
+            "CodigoExterno": "1549-192-LQ19",
+            "Nombre": "Medicamentos Anticonvulsivantes HSJ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T15:00:00"
+        },
+        {
+            "CodigoExterno": "1087624-2-L119",
+            "Nombre": "IMPLEMENTACIÓN DEPORTIVA TENIS DE MESA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T09:00:00"
+        },
+        {
+            "CodigoExterno": "4549-44-L119",
+            "Nombre": "HERMOSEAR ESTABLECIMIENTO ADEMAS DE TALLERES DE PINTURA Y GRAFFITI PARA LICEO POLITECNICO QUINTERO  - LEY SEP",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:31:00"
+        },
+        {
+            "CodigoExterno": "1393-34-L119",
+            "Nombre": "ARRIENDO DE FURGÓN PARA REALIZAR 29 TRASLADOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T15:01:00"
+        },
+        {
+            "CodigoExterno": "3477-218-L119",
+            "Nombre": "CAPACITACIÓN EN CULTIVO DE QUINOA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T17:00:00"
+        },
+        {
+            "CodigoExterno": "4114-47-L119",
+            "Nombre": "SERVICIO DE MONITOREO SISTEMA DE CCTV Y ALARMA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T16:30:00"
+        },
+        {
+            "CodigoExterno": "1741-299-L119",
+            "Nombre": "ASFALTO EN FRIÓ - OPERACIONES ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T09:01:00"
+        },
+        {
+            "CodigoExterno": "2705-283-L119",
+            "Nombre": "ADQUISICIÓN DE HELADOS, PARA FIESTA DE NAVIDAD DE LOS FUNCIONARIOS, DE LA UNIVERSIDAD DEL BÍO-BÍO SEDE CHILLÁN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T23:59:00"
+        },
+        {
+            "CodigoExterno": "1741-297-L119",
+            "Nombre": "PROVISIÓN E INSTALACIÓN DE BALIZAS PEATONALES - TRÁNSITO 20",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:00:00"
+        },
+        {
+            "CodigoExterno": "621-762-LP19",
+            "Nombre": "LACOSAMIDA 200 MG CM REC (1000012725)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T16:00:00"
+        },
+        {
+            "CodigoExterno": "858-98-LP19",
+            "Nombre": "Serv. Eval. Proyectos Fondeporte y Donaciones IND",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-16T15:30:00"
+        },
+        {
+            "CodigoExterno": "3540-195-L119",
+            "Nombre": "Adquisición de materiales eléctricos varios p/obra",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T16:00:00"
+        },
+        {
+            "CodigoExterno": "1057543-63-L119",
+            "Nombre": "SERV. REPARACIÓN SIST. CÁMARAS DE VIGILANCIA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:30:00"
+        },
+        {
+            "CodigoExterno": "3540-194-L119",
+            "Nombre": "Reparacion sist. electrico de Grupo Generador de 80 Kva",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:35:00"
+        },
+        {
+            "CodigoExterno": "2273-667-L119",
+            "Nombre": "CONOS DE SEÑALIZACION GENERICOS DC 2373 CPM",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T17:23:00"
+        },
+        {
+            "CodigoExterno": "5019-35-LE19",
+            "Nombre": "“SERVICIO DE RETIRO DE RESIDUOS ESPECIALES Y PELIG",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T17:30:00"
+        },
+        {
+            "CodigoExterno": "1037-23-LE19",
+            "Nombre": "MADERA DE PINO IPV Y POLINES PARA DASP",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:00:00"
+        },
+        {
+            "CodigoExterno": "4549-43-L119",
+            "Nombre": "SERVICIO DE ALIMENTACION POR SALIDA CHUCKE CHEESE COLEGIO VALLE DE NARAU - LEY SEP",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:12:00"
+        },
+        {
+            "CodigoExterno": "872-190-L119",
+            "Nombre": "Mantención Grupo Electrógeno",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T12:00:00"
+        },
+        {
+            "CodigoExterno": "3191-303-LE19",
+            "Nombre": "LE PRODUCTOS FARMACEUTICOS (FAR)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:01:00"
+        },
+        {
+            "CodigoExterno": "542753-18-L119",
+            "Nombre": "SERVICIO SALA CUNA FUNCIONARIO  ICT.  CHACAUCO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T14:00:00"
+        },
+        {
+            "CodigoExterno": "2656-435-LE19",
+            "Nombre": "ADQUISICION DE JUGUETES NAVIDAD 2019",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T15:01:00"
+        },
+        {
+            "CodigoExterno": "812-57-LR19",
+            "Nombre": "MANTENCION EQUIPAMIENTO COMPUTACIONAL CERRILLOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-23T15:30:00"
+        },
+        {
+            "CodigoExterno": "621-761-LE19",
+            "Nombre": "PETIDINA 100 MG/2 ML SOL. INY. AM (1000012659)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T16:00:00"
+        },
+        {
+            "CodigoExterno": "564162-164-L119",
+            "Nombre": "Partículas Monosizadas serie 4000 / Solicitud N°47320 de C.C 016",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T17:00:00"
+        },
+        {
+            "CodigoExterno": "2583-693-L119",
+            "Nombre": "HIALURONATO SODICO Y OLOPATADINA SOLUCION OFTALMICA/CONVENIO RESOLUTIVIDAD EX. Nº1192/DISAM/SP42077/AMS.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T10:00:00"
+        },
+        {
+            "CodigoExterno": "2467-353-L119",
+            "Nombre": "ADQUISICIÓN DE PRÓTESIS OCULAR Y LENTE ÓPTICO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T17:01:00"
+        },
+        {
+            "CodigoExterno": "2583-692-L119",
+            "Nombre": "KIT SU TURNO ALAMBRICO E INALAMBRICO/PROGRAMA APOYO A LA GESTION/DISAM/SP42078/AMS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T11:00:00"
+        },
+        {
+            "CodigoExterno": "2583-690-L119",
+            "Nombre": "S/P1048 PREVENCIÓN SEGURIDAD CIUDADANA  SERVICIO DE AUTOCUIDADO SBN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:06:00"
+        },
+        {
+            "CodigoExterno": "3793-41-LE19",
+            "Nombre": "MAQUINAS DE EJERCICIOS PROGRAMA PROMOCION DE SALUD",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:03:00"
+        },
+        {
+            "CodigoExterno": "5066-34-L119",
+            "Nombre": "Gira Técnica de Capacitación PDTI sa 816 DDC",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T16:00:00"
+        },
+        {
+            "CodigoExterno": "2467-351-L119",
+            "Nombre": "ADQUISICIÓN DE ARTÍCULOS DE DISCAPACIDAD",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T19:52:00"
+        },
+        {
+            "CodigoExterno": "439-52-LE19",
+            "Nombre": "CAPACITACION DOCENTES M.E.C",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:11:00"
+        },
+        {
+            "CodigoExterno": "4464-72-LQ19",
+            "Nombre": "PLANES DE MANTENIMIENTO PARA EQUIPOS DEL SERVICIO DE ANATOMÍA PATOLÓGICA DEL HOSPITAL “SAN JUAN DE DIOS” DE CURICO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-05T12:00:00"
+        },
+        {
+            "CodigoExterno": "1019-90-L119",
+            "Nombre": "Adquisición de Martillo Perforador Inalambrico  y Baterías para la Unidad de Glaciología y Nieves.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T17:00:00"
+        },
+        {
+            "CodigoExterno": "1199-38-LE19",
+            "Nombre": "SERVICIO CORTE DE ARBOLES PELIGROSOS PARQUE CENDYR",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T17:00:00"
+        },
+        {
+            "CodigoExterno": "2793-269-LE19",
+            "Nombre": "LEVANTAMIENTO TOPOGRÁFICO PARA 7 TERRENOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "3209-24-L119",
+            "Nombre": "ESCUELA PANGUE ARRIBA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T10:54:00"
+        },
+        {
+            "CodigoExterno": "4306-129-L119",
+            "Nombre": "ADQUISICIÓN DE INSUMOS AGRÍCOLAS Y OTROS PARA UNIDADES DEMOSTRATIVAS DE DIFERENTES GRUPOS  PDTI, ERCILLA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T10:24:00"
+        },
+        {
+            "CodigoExterno": "3289-30-LE19",
+            "Nombre": "SERVICIO DE ASEO CUARTEL COVADONGA PUERTO MONTT",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T16:00:00"
+        },
+        {
+            "CodigoExterno": "904228-4-LE19",
+            "Nombre": "ANÁLISIS DE CONFIRMACIÓN DE DROGAS EN MUESTRAS.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-05T16:00:00"
+        },
+        {
+            "CodigoExterno": "1515-8-LE19",
+            "Nombre": "Diseño e Implementac.Aplicación Intranet y App",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T15:00:00"
+        },
+        {
+            "CodigoExterno": "769-92-LP19",
+            "Nombre": "INSTRUMENTAL ESPECIALIDADES GRUPO 100, HCCC. PTA. 79",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T10:00:00"
+        },
+        {
+            "CodigoExterno": "1057390-53-LE19",
+            "Nombre": "CONVENIO SUMINISTRO DE MAMOGRAFÍA EXPANSIÓN 2019",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:04:00"
+        },
+        {
+            "CodigoExterno": "3456-18-LE19",
+            "Nombre": "Servicio de mantenimiento del sistema de seguridad",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-03T16:00:00"
+        },
+        {
+            "CodigoExterno": "4610-133-LE19",
+            "Nombre": "PRODUCCIÓN  1er FESTIVAL CAMPERO GUADAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-03T15:00:00"
+        },
+        {
+            "CodigoExterno": "948806-128-LE19",
+            "Nombre": "ADQUISICIÓN DE INSUMOS PARA EL SERVICIO DE CARDIOCIRUGÍA EN MODALIDAD DE CONSIGNACIÓN POR SISTEMA DE SUMINISTRO PARA EL HOSPITAL DIPRECA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:59:00"
+        },
+        {
+            "CodigoExterno": "732434-20-LP19",
+            "Nombre": "ARRIENDO DE CÁMARA FRÍA Y MANTENIMIENTOS CORRECTIV",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "978146-3-L119",
+            "Nombre": "CURSO DE CAPACITACIÓN Y ACTUALIZACIÓN DE CONOCIMIENTOS EN SALUD, PARA URGENCIAS Y EMERGENCIAS  EN ZONAS RURALES AISLADAS.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T18:00:00"
+        },
+        {
+            "CodigoExterno": "3767-31-L119",
+            "Nombre": "ATENCIÓN COMUNIDAD EDUCATIVA, ACCIÓN INSERTA EN PME-SEP, ESCUELA WILIBALDO NÚÑEZ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T16:00:00"
+        },
+        {
+            "CodigoExterno": "2275-79-LQ19",
+            "Nombre": "SERVICIO MANT. DE ASEO Y BARRIDO DE CALLES 2 LLAMA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-06T15:30:00"
+        },
+        {
+            "CodigoExterno": "2950-102-LE19",
+            "Nombre": "RECUPERACIÓN DE ESTRUCTURAS SECTOR LABORATORIOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-05T17:00:00"
+        },
+        {
+            "CodigoExterno": "2726-94-LE19",
+            "Nombre": "Compra materiales ferreteria, semillas y herbicidas para Liceo Agricola",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T16:23:00"
+        },
+        {
+            "CodigoExterno": "2467-350-L119",
+            "Nombre": "ADQUISICIÓN MOBILIARIO, EQUIPAMIENTO E INSUMOS CENTRO VETERINARIO MUNICIPAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T19:31:00"
+        },
+        {
+            "CodigoExterno": "4032-51-LE19",
+            "Nombre": "Juguetes de Navidad 2019",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T09:00:00"
+        },
+        {
+            "CodigoExterno": "1300-126-L119",
+            "Nombre": "Mantención y reparación Coordinación regional de O'Higgins",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T16:00:00"
+        },
+        {
+            "CodigoExterno": "5363-43-L119",
+            "Nombre": "172/2019 Juego de terraza.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T17:57:00"
+        },
+        {
+            "CodigoExterno": "816696-23-LE19",
+            "Nombre": "ADQUISICION DE CARPA PARA FERIA MUNICIPAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-06T12:00:00"
+        },
+        {
+            "CodigoExterno": "5363-42-L119",
+            "Nombre": "171/2019 Adquisición de secadora de ropa de 9 kgs.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T16:54:00"
+        },
+        {
+            "CodigoExterno": "434-265-L119",
+            "Nombre": "GIRA TECNICA PRODESAL 3, MEMO N 722-A DIDECO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T11:30:00"
+        },
+        {
+            "CodigoExterno": "1057510-48-LQ19",
+            "Nombre": "CONVENIO COMPRA DE Ss. PROFESIONALES MÉDICOS PARA I.Q. DE TRAUMATOLOGÍA DEL HOSPITAL DE SAN CARLOS DR. BENICIO ARZOLA MEDINA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T17:00:00"
+        },
+        {
+            "CodigoExterno": "872-189-L119",
+            "Nombre": "Reparación Unidades de Disparo",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:00:00"
+        },
+        {
+            "CodigoExterno": "434-264-L119",
+            "Nombre": "GIRA TECNICA PRODESAL 6, MEMO N 721-A DIDECO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T11:00:00"
+        },
+        {
+            "CodigoExterno": "2744-87-LE19",
+            "Nombre": "CAMBIO DE CUBIERTA Y CALEFACCIÓN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T19:46:00"
+        },
+        {
+            "CodigoExterno": "4032-50-LQ19",
+            "Nombre": "REHABILITACIÓN ESTRUCTURAL GIMNASIO MUNICIPAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T13:00:00"
+        },
+        {
+            "CodigoExterno": "2409-784-L119",
+            "Nombre": "ADQ. DE ALIMENTOS TALLERES DE DESARROLLO AUTOESTIMA ACADÉMICA A-61",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T12:00:00"
+        },
+        {
+            "CodigoExterno": "4459-66-LE19",
+            "Nombre": "ADQ. EQUIPO PARA DEMARCACIÓN VIAL, PICHILEMU",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:01:00"
+        },
+        {
+            "CodigoExterno": "5214-99-L119",
+            "Nombre": "SC 586 SP 3232 Educacion Pro Retencion Compra Material Pedagogico Liceo Patricio Aylwin",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:49:00"
+        },
+        {
+            "CodigoExterno": "5214-102-L119",
+            "Nombre": "SC 553 SP 3114 Educacion CCIE Compra Material Pedagogico Area Fonoaudiologia",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T17:10:00"
+        },
+        {
+            "CodigoExterno": "5214-101-L119",
+            "Nombre": "SC 566 SP 3184 Educacion SEP Escuela La Araucania compra software e implementos optimark",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T16:32:00"
+        },
+        {
+            "CodigoExterno": "548864-32-LE19",
+            "Nombre": "SERVICIO EJECUTIVO IOD CAPRI CONCEPCIÓN IPS BÍOBÍO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-03T12:00:00"
+        },
+        {
+            "CodigoExterno": "2460-213-L119",
+            "Nombre": "REPARACION CUBIERTAS CONTENEDORES DE CAMARINES Y DUCHAS EN BASE ALFEREZ REAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "3455-16-L119",
+            "Nombre": "SERVICIO DE MANTENIMIENTO Y REPARACIÓN DE CÁMARAS CONSERVADORAS DE ALIMENTOS Y MAQUINA CORTADORA DE FIAMBRES PARA EL RI Nº1 \"BUIN\"",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:00:00"
+        },
+        {
+            "CodigoExterno": "2460-207-L119",
+            "Nombre": "Servicio de grúa para el traslado de vehículos abandonados en B.N.U.P.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:00:00"
+        },
+        {
+            "CodigoExterno": "3455-17-L119",
+            "Nombre": "Servicio de mantenimiento de los 220.000 km de un vehículo administrativo",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:30:00"
+        },
+        {
+            "CodigoExterno": "2460-210-L119",
+            "Nombre": "REPARACIÓN PORTÓN RECINTO PARQUE INES DE SUAREZ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "2377-575-L119",
+            "Nombre": "MANTENCION SALA DE MAQUINAS AGUA POTABLE SP 1673",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T14:01:00"
+        },
+        {
+            "CodigoExterno": "3869-167-L119",
+            "Nombre": "MATERIALES DE CONSTRUCCIÓN CON DESTINO A CEMENTERIOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T09:52:00"
+        },
+        {
+            "CodigoExterno": "1658-835-LP19",
+            "Nombre": "PP. 282-2019 ADQUISICIÓN SET CONTENEDORES DE RECICLAJE 40 LITROS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "3477-212-LE19",
+            "Nombre": "HABILITACION BAÑOS CANCHA QUINTRILPE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T16:20:00"
+        },
+        {
+            "CodigoExterno": "4152-165-L119",
+            "Nombre": "MATERIALES ELECTRICOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:30:00"
+        },
+        {
+            "CodigoExterno": "2409-781-L119",
+            "Nombre": "CONTRATACIÓN DE OBRAS DE TEATRO PARA LICEO SANTA FE E-937 - SEP",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:00:00"
+        },
+        {
+            "CodigoExterno": "2298-76-L119",
+            "Nombre": "ASISTIENDO A LA COMUNIDAD DE MOLINA FRENTE  A LA EMERGENCIA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T16:00:00"
+        },
+        {
+            "CodigoExterno": "1049-46-LQ19",
+            "Nombre": "SERVICIOS MÚLTIPLES DE MANTENCIÓN DE TRABAJOS MENORES, SERVICIOS DE TRANSPORTES DE CARGA Y PERSONAS Y PROVEEDURÍA DE MATERIALES DE PESCA PARA EL B/C “ABATE MOLINA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T15:01:00"
+        },
+        {
+            "CodigoExterno": "4406-63-LE19",
+            "Nombre": "Obra Ampliación Sede Social Villa la Ilusión",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:01:00"
+        },
+        {
+            "CodigoExterno": "565-58-L119",
+            "Nombre": "CALZADO DE SEGURIDAD PARA PERSONAL DE SS.GG.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T17:09:00"
+        },
+        {
+            "CodigoExterno": "4193-71-L119",
+            "Nombre": "Servicio Almuerzo y coffe para Funcionarios del Cesfam de Caldera.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:00:00"
+        },
+        {
+            "CodigoExterno": "2422-537-L119",
+            "Nombre": "SOLICITUD  931230 REPUESTOS DE TALADROS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:00:00"
+        },
+        {
+            "CodigoExterno": "2200-53-LE19",
+            "Nombre": "ADQUISICIÓN DE MEDICAMENTOS TELEDERMATOLOGÍA-APS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T15:00:00"
+        },
+        {
+            "CodigoExterno": "2864-67-L119",
+            "Nombre": "Reposicion Puerta PVC Liceo B.M.G",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T10:45:00"
+        },
+        {
+            "CodigoExterno": "450-151-L119",
+            "Nombre": "Elaboración de Plan Comunal de Cultura Ilustre Municipalidad de Río Negro",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:05:00"
+        },
+        {
+            "CodigoExterno": "4412-47-LP19",
+            "Nombre": "DISEÑO DE PAVIMENTACIÓN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-09T15:30:00"
+        },
+        {
+            "CodigoExterno": "4530-19-LE19",
+            "Nombre": "INSTALACION CAMARAS DE TELEVIGILANCIA VARIOS SECTORES, CONTULMO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-04T12:00:00"
+        },
+        {
+            "CodigoExterno": "1261-39-LQ19",
+            "Nombre": "Consultoría de  Estudios y Diseño de Ciclovías",
+            "CodigoEstado": 5,
+            "FechaCierre": "2020-01-06T15:30:00"
+        },
+        {
+            "CodigoExterno": "3767-32-L119",
+            "Nombre": "RECONOCIMIENTO POR RENDIMIENTO Y EL APRENDIZAJE DEL USO DEL RELOJ ANALOGO, ACCION INSERTA EN PME-SEP, ESCUELAS HERNAN CIUDAD I, WILIBALDO NÚÑEZ Y PABLO CORREA MONTT",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T16:00:00"
+        },
+        {
+            "CodigoExterno": "3157-5-LP19",
+            "Nombre": "SERVICIO DE ASEO DIRECCIÓN DE SANIDAD DE LA ARMADA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T15:01:00"
+        },
+        {
+            "CodigoExterno": "3717-57-L119",
+            "Nombre": "Adq. Cadena de Plata y Colgante Inicial de Oro",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T13:54:00"
+        },
+        {
+            "CodigoExterno": "3749-50-L119",
+            "Nombre": "Traslado escuela San Andrés-Los Choros",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T09:01:00"
+        },
+        {
+            "CodigoExterno": "2181-50-LE19",
+            "Nombre": "SERVICIO DE ASEO PARA TRIBUNAL DE CHAITÉN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "2298-75-L119",
+            "Nombre": "PARCELA DEMOSTRATIVA HUERTO DE FRAMBUESO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:00:00"
+        },
+        {
+            "CodigoExterno": "2367-218-LE19",
+            "Nombre": "SERVICIO DE TOMA Y SISTEMATIZACION DE INVENTARIO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T18:39:00"
+        },
+        {
+            "CodigoExterno": "2324-421-L119",
+            "Nombre": "GENEROS PROG. CAPACITACION EN OFICIO Y MUJERES JEFAS HOGAR, OFICINA MUJER",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T18:00:00"
+        },
+        {
+            "CodigoExterno": "1148-71-LP19",
+            "Nombre": "Conservación SAPRl Loica Pulon",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:01:00"
+        },
+        {
+            "CodigoExterno": "1148-70-LP19",
+            "Nombre": "Conservación SAPR Villa Quilquen",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:01:00"
+        },
+        {
+            "CodigoExterno": "3171-23-L119",
+            "Nombre": "BOMBA SUMERGIBLE PLANTA ELEVADORA AGUAS SERVIDAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:18:00"
+        },
+        {
+            "CodigoExterno": "2467-348-L119",
+            "Nombre": "ADQUISICIÓN DE MONITOR MULTIPARAMETRO VETERINARIO CON CAPNOGRAFÍA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T17:56:00"
+        },
+        {
+            "CodigoExterno": "2042-70-LE19",
+            "Nombre": "ADQUISICION  DE DOS  CONTENEDORES MARITIMOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T18:37:00"
+        },
+        {
+            "CodigoExterno": "1488-84-LP19",
+            "Nombre": "Propuesta Pública Nº 502-19 denominada “CONTRATACION SERVICIO DE MANTENCIÓN Y REPARACIÓN DE EQUIPOS DE TRANSPORTE VERTICAL 2 DEL HOSPITAL DR. HERNAN HENRIQUEZ ARAVENA”",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "886954-245-LQ19",
+            "Nombre": "Convenio Anual en Consignación de insumos varios para Sección de Neurovascular del HGGB",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T18:00:00"
+        },
+        {
+            "CodigoExterno": "3231-209-LQ19",
+            "Nombre": "CONTRATO SUMINISTRO  DE COMBUSTIBLE AREA LOCAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:30:00"
+        },
+        {
+            "CodigoExterno": "5153-29-LE19",
+            "Nombre": "Analizador Cromatografo Digital para Test de Aire",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-04T17:00:00"
+        },
+        {
+            "CodigoExterno": "3117-120-LE19",
+            "Nombre": "MEJORAMIENTO ÁREAS VERDES Y JARDINES VV.FF.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-04T12:00:00"
+        },
+        {
+            "CodigoExterno": "3810-72-LE19",
+            "Nombre": "ESPECTÁCULO PIROTÉCNICO AÑO NUEVO 2020 PICHILEMU",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:01:00"
+        },
+        {
+            "CodigoExterno": "5520-50-LE19",
+            "Nombre": "Servicio de Calibración Equipos e Instrumentos RM",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T19:00:00"
+        },
+        {
+            "CodigoExterno": "1148-52-LE19",
+            "Nombre": "SERVICIOS DE VIGILANCIA DOH ARAUCANIA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:01:00"
+        },
+        {
+            "CodigoExterno": "1079659-34-LE19",
+            "Nombre": "SERVICIO DE TRANSMISIÓN EN VIVO PARA EQUIPOS DEJERO PARA AERONAVES REMOTAMENTE (RPAS PILOTADAS DE LA SECCIÓN AÉREA DE LA ZONA CONTROL ORDEN PÚBLICO”",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T18:00:00"
+        },
+        {
+            "CodigoExterno": "1079659-33-LE19",
+            "Nombre": "ADQUISICIÓN DE NEUMÁTICOS PARA MOWAG PIRAÑA 6X6",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T20:00:00"
+        },
+        {
+            "CodigoExterno": "5018-13-LE19",
+            "Nombre": "SERVICIO DE MANT. Y REPARACIÓN DE EDIFICACIONES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-11T16:30:00"
+        },
+        {
+            "CodigoExterno": "621-760-LQ19",
+            "Nombre": "BATA QUIRURGICA TALLA L DESECH ESTERIL (1000012622)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-11T16:00:00"
+        },
+        {
+            "CodigoExterno": "1028-116-LE19",
+            "Nombre": "Placa para letrero, mezcla hormigón y Poste Omega ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T10:00:00"
+        },
+        {
+            "CodigoExterno": "2767-2-LE19",
+            "Nombre": "PLAN COMPLEMENTARIO DE SALUD LA CISTERNA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-06T10:00:00"
+        },
+        {
+            "CodigoExterno": "2467-342-LE19",
+            "Nombre": "ADQUISICIÓN DE ARTICULOS INFORMATICOS PARA DEPARTAMENTO DE INFORMÁTICA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T18:44:00"
+        },
+        {
+            "CodigoExterno": "2744-88-L119",
+            "Nombre": "Arriendo espacio Físico y Servicio de Alimentos, CESFAM ALEMANIA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T19:00:00"
+        },
+        {
+            "CodigoExterno": "621-759-LQ19",
+            "Nombre": "GASA SINTET. 4 PLIEGUES 10X10 CM EST. SO (1000012442)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-11T16:00:00"
+        },
+        {
+            "CodigoExterno": "2467-345-L119",
+            "Nombre": "SERV DE LIMPIEZA FOSAS SEPTICAS, CAMINO HUAPE KM6",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T17:32:00"
+        },
+        {
+            "CodigoExterno": "4379-62-L119",
+            "Nombre": "Informe de evaluación, para alumnos del proyecto integración del Liceo Isidora Aguirre Tupper.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T14:13:00"
+        },
+        {
+            "CodigoExterno": "1029-48-L119",
+            "Nombre": "Servicio de  Mantencion y Reparación de Bodega Regional D.R.V Maule ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "4550-12-L119",
+            "Nombre": "“SERVICIOS DE DESINSECTACION, SANITIZACION DE BAÑOS Y CONTROL DE ROEDORES MUSEO REGIONAL DE ANCUD”",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T23:00:00"
+        },
+        {
+            "CodigoExterno": "903556-14-LQ19",
+            "Nombre": "Servicio de aseo y mantenimiento para CIAE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-11T17:00:00"
+        },
+        {
+            "CodigoExterno": "5602-106-L119",
+            "Nombre": "Compra de vestuario e implementos de Seguridad para Funcionarios.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T16:03:00"
+        },
+        {
+            "CodigoExterno": "434-263-L119",
+            "Nombre": "TRIBUTO A LOS BEE GEES, MEMO N 700-A DIDECO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T10:00:00"
+        },
+        {
+            "CodigoExterno": "1082417-7-LR19",
+            "Nombre": "DIGEDEP.Desarrollo y Ejecución de Cursos SAID 2019",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-20T15:00:00"
+        },
+        {
+            "CodigoExterno": "5602-105-L119",
+            "Nombre": "Compra de vestuario para Programa Continuidad CRIPAC.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:16:00"
+        },
+        {
+            "CodigoExterno": "1079694-17-LE19",
+            "Nombre": "Adquisicion de repuestos y su instalacion.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T17:40:00"
+        },
+        {
+            "CodigoExterno": "2782-39-L119",
+            "Nombre": "SERV. DE ALIMENTACIÓN ESC. E-10 OF. N°276 (SEP).",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T12:00:00"
+        },
+        {
+            "CodigoExterno": "932-8-L119",
+            "Nombre": "COMPRA DE MATERIAL DEPORTIVO PARA EL PROGRAMA COMPONENTE COMPETENCIA TODO COMPETIDOR.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T16:00:00"
+        },
+        {
+            "CodigoExterno": "1078354-4-LR19",
+            "Nombre": "SERVICIO DE ASEO CLÍNICO, LIMPIEZA DE INSTALACIONES Y MANTENCIÓN ÁREAS VERDES PARA EL HOSPITAL SAN LUIS DE BUIN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-20T16:00:00"
+        },
+        {
+            "CodigoExterno": "2452-332-L119",
+            "Nombre": "INSUMOS ENFERMERÍA RED DE SALUD",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T08:00:00"
+        },
+        {
+            "CodigoExterno": "621-758-LP19",
+            "Nombre": "EYECTOR SALIVA TRANSPARENTE DESECHABLE (1000012018)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-11T16:00:00"
+        },
+        {
+            "CodigoExterno": "5965-17-L119",
+            "Nombre": "COMPRA DE TARJETA DE ADQ. DE DATOS PARA PROYECTO 4738-19 DEPTO. DE FISICA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:00:00"
+        },
+        {
+            "CodigoExterno": "4174-40-LE19",
+            "Nombre": "Segundo llamado adquisición aire acondicionado",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-03T12:00:00"
+        },
+        {
+            "CodigoExterno": "635-272-L119",
+            "Nombre": "ADQUISICION TICKET MOVILIZACION II LLAMADO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T15:00:00"
+        },
+        {
+            "CodigoExterno": "3246-431-L119",
+            "Nombre": "DPTO LOG. 24 GM ADQ. MATERIALES DE GASFITERIA FACH AFTA.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:15:00"
+        },
+        {
+            "CodigoExterno": "3086-103-LE19",
+            "Nombre": "ADQUISICIÓN DE MATERIAL DE CONSUMO (BL)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:05:00"
+        },
+        {
+            "CodigoExterno": "2273-666-L119",
+            "Nombre": "PISTOLA AIRLSS, ETC., D- 2000-2372 mms AREA 0332",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T18:16:00"
+        },
+        {
+            "CodigoExterno": "3506-56-LE19",
+            "Nombre": "DIDECO, SP N° 880 JUGUETES PARA NAVIDAD",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T17:00:00"
+        },
+        {
+            "CodigoExterno": "744835-484-L119",
+            "Nombre": "ALIMENTOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T19:00:00"
+        },
+        {
+            "CodigoExterno": "3477-216-LE19",
+            "Nombre": "SEGUNDO LLAMADO TALA Y PODA DE ARBOLES EN COMUNA DE VILCUN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T16:22:00"
+        },
+        {
+            "CodigoExterno": "1636-55-L119",
+            "Nombre": "FARDOS DE ALFALFA PARA SERVICIO DE AGRICULTURA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T18:35:00"
+        },
+        {
+            "CodigoExterno": "1636-52-L119",
+            "Nombre": "CONTENEDORES Y BINS PLÁSTICO CON RUEDAS PARA TRANSPORTE DE RESIDUOS Y ALIMENTOS ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T18:43:00"
+        },
+        {
+            "CodigoExterno": "2924-19-LP19",
+            "Nombre": "MEJORAMIENTO ESPACIO PÚBLICO ACCESOS DE CHAÑARAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-06T17:01:00"
+        },
+        {
+            "CodigoExterno": "2467-355-LE19",
+            "Nombre": "Mejoramiento Cancha Parque Oriente, Chillán (2° llamado)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "2483-217-LQ19",
+            "Nombre": "Serv. de  lavandería municipal solidaria",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T15:01:00"
+        },
+        {
+            "CodigoExterno": "635-273-L119",
+            "Nombre": "ADQUISICION DE SILLON DENTAL, SERVICIO DE SALUD ARICA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T16:00:00"
+        },
+        {
+            "CodigoExterno": "1523-100-L119",
+            "Nombre": "SUMINISTRO DE PASAJES PARA HOSPITAL DR. ABRAHAM GODOY PEÑA DE LAUTARO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:00:00"
+        },
+        {
+            "CodigoExterno": "1946-8-LE19",
+            "Nombre": "Módulo 20 pies bateria baño CUENTA INTERNA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T18:00:00"
+        },
+        {
+            "CodigoExterno": "2403-229-L119",
+            "Nombre": "Asfalto Caliente medio especial.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T16:45:00"
+        },
+        {
+            "CodigoExterno": "5051-74-LE19",
+            "Nombre": " ROCURONIO 50 MG 5 ML ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:01:00"
+        },
+        {
+            "CodigoExterno": "3117-119-LE19",
+            "Nombre": "CERCO ELÉCTRICO VILLA NAVAL SANTA INÉS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:01:00"
+        },
+        {
+            "CodigoExterno": "2273-665-L119",
+            "Nombre": "SACO DE CAL PARA MORTERO,D.C N° 2374 ear.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T17:20:00"
+        },
+        {
+            "CodigoExterno": "3117-121-LE19",
+            "Nombre": "RECUPERACIÓN PINTURA CAJA ESCALA POBL. ESC. NAVAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:01:00"
+        },
+        {
+            "CodigoExterno": "691-9-L119",
+            "Nombre": "Servicio Telefonía Móvil ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T12:00:00"
+        },
+        {
+            "CodigoExterno": "3730-181-L119",
+            "Nombre": "MOVILIZACION,  A RENCA (OF. DE LA JUVENTUD)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:22:00"
+        },
+        {
+            "CodigoExterno": "4337-121-L119",
+            "Nombre": "Medicamentos Cesfam Renaico",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T14:01:00"
+        },
+        {
+            "CodigoExterno": "1078636-3-LE19",
+            "Nombre": "Serv. Administración del Beneficio Sala Cuna MBN.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:10:00"
+        },
+        {
+            "CodigoExterno": "2467-341-L119",
+            "Nombre": "ADQUISICIÓN JAULAS TRANSPORTADORAS PARA MASCOTAS, DIFERENTES TAMAÑOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T17:08:00"
+        },
+        {
+            "CodigoExterno": "1057500-84-LQ19",
+            "Nombre": "SERVICIO DE ASISTENCIA VENTILATORIA INVASIVA ABS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T15:01:00"
+        },
+        {
+            "CodigoExterno": "621-757-LR19",
+            "Nombre": "INDACAT/GLICOP 110/50 MCG POLVO P/INH CP (1000012651)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-20T16:00:00"
+        },
+        {
+            "CodigoExterno": "2077-29-L119",
+            "Nombre": "Servicio Fumigación Complejo Fronterizo Agua Negra",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T17:00:00"
+        },
+        {
+            "CodigoExterno": "3289-29-LE19",
+            "Nombre": "SERVICIO DE ASEO COMPLEJO POLICIAL PUERTO MONTT",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:11:00"
+        },
+        {
+            "CodigoExterno": "4493-68-L119",
+            "Nombre": "ADQUISICIÓN DE EQUIPO DE ASEO PARA SAR PENCO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T10:00:00"
+        },
+        {
+            "CodigoExterno": "2467-354-LP19",
+            "Nombre": "Reemplazo de Colector y Habilitación de Cámaras Domiciliarias de Alcantarillado en población Rosita O\"Higgins, Chillán (2° llamado)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T11:00:00"
+        },
+        {
+            "CodigoExterno": "682965-8-L119",
+            "Nombre": "Mantención de Alcantarillado Juzgado de Familia Valparaíso.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:00:00"
+        },
+        {
+            "CodigoExterno": "2452-331-L119",
+            "Nombre": "INSUMOS DENTALES RED DE SALUD",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T08:00:00"
+        },
+        {
+            "CodigoExterno": "548872-16-LE19",
+            "Nombre": "PROVISIÓN, HABILITACIÓN E INSTALACIÓN DE MUEBLES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:01:00"
+        },
+        {
+            "CodigoExterno": "3447-157-L119",
+            "Nombre": "Suminitro Show Infantiles para Activ. Municipales",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T09:31:00"
+        },
+        {
+            "CodigoExterno": "2307-129-LE19",
+            "Nombre": "ADQUISICIÓN DE INSUMOS E INSTRUMENTAL MÉDICO ORL PARA LA IMPLEMENTACIÓN DE UAPORRINO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T17:00:00"
+        },
+        {
+            "CodigoExterno": "2307-127-LE19",
+            "Nombre": "ADQUISICIÓN EQUIPOS E INSTRUMENTOS CLÍNICOS PARA EXPLORACIÓN FÍSICA ORL UAPORRINO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T11:55:00"
+        },
+        {
+            "CodigoExterno": "2743-59-LE19",
+            "Nombre": "EMG REPOSICIÓN DE CUBIERTA Y MEJORAMIENTO ACCESIBILIDAD RESIDENCIA NIÑA ADOLESCENTE, ANGOL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-06T13:32:00"
+        },
+        {
+            "CodigoExterno": "3870-27-LE19",
+            "Nombre": "Materiales de enseñanza -  Pemuco",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T15:00:00"
+        },
+        {
+            "CodigoExterno": "1057500-92-LE19",
+            "Nombre": "INSTRUMENTAL DENTAL CASR",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:01:00"
+        },
+        {
+            "CodigoExterno": "1057417-248-LQ19",
+            "Nombre": "CONVENIO DE MANTENCIÓN PREVENTIVA, CORRECTIVA Y REPUESTOS DE AUTOCLAVE MMM Y ESTERILIZADOR POR PLASMA ASP DE LA UNIDAD DE ESTERILIZACIÓN (pmv)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T17:00:00"
+        },
+        {
+            "CodigoExterno": "744835-483-L119",
+            "Nombre": "Vasos, galletas, jugos y otros.-",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T17:30:00"
+        },
+        {
+            "CodigoExterno": "3159-39-L119",
+            "Nombre": "Construcción Caseta Multifuncional de Primeros Auxilios - Centro Recreativo \"Huayquique\"",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T08:00:00"
+        },
+        {
+            "CodigoExterno": "643-26-LE19",
+            "Nombre": "ADQUISICIÓN ALIMENTOS JARDÍN INFANTIL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "3593-65-L119",
+            "Nombre": "SERVICIO DE IMPLEMENTACIÓN DE SISTEMA DE CALEFACCI",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T13:39:00"
+        },
+        {
+            "CodigoExterno": "4229-19-L119",
+            "Nombre": "SUMINISTRO DE CÓCTEL DE EGRESO ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T15:00:00"
+        },
+        {
+            "CodigoExterno": "3849-1-LE19",
+            "Nombre": "Servicio de mantención y reparación Revista",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "2360-114-L119",
+            "Nombre": "ADQUISICIÓN DE HERRAMIENTAS E INSUMOS PARA JARDIN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T13:13:00"
+        },
+        {
+            "CodigoExterno": "4115-19-L119",
+            "Nombre": "SERVICIOS ALIMENTACION ENCUENTRO AM CURACAUTIN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T11:00:00"
+        },
+        {
+            "CodigoExterno": "2074-2-LE19",
+            "Nombre": "Remodelación Serv. higiénicos Deprov Magallanes",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T16:39:00"
+        },
+        {
+            "CodigoExterno": "2713-251-LP19",
+            "Nombre": "Ampliación y Mejoramiento CECOSF Puerto Aysén, Ribera Sur",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T13:00:00"
+        },
+        {
+            "CodigoExterno": "1175-130-LQ19",
+            "Nombre": "Licit.133.19 Sum.Fcos.Antiparkinson,Antiarritmico,",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T15:30:00"
+        },
+        {
+            "CodigoExterno": "3907-75-L119",
+            "Nombre": "INDUMENTARIA  RSH",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:05:00"
+        },
+        {
+            "CodigoExterno": "5413-196-L119",
+            "Nombre": "Servicio de Muestreo y Análisis de ensilaje de Peces",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T15:00:00"
+        },
+        {
+            "CodigoExterno": "2341-405-L119",
+            "Nombre": "ADQ 3669-3671 / DIDECO EMPRENDIMIENTO/ SP 1275-1339/  ADQUISICION VISICOOLER Y CONGELADORA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T13:31:00"
+        },
+        {
+            "CodigoExterno": "3568-156-L119",
+            "Nombre": "SERVICIO DE TRASLADO DE PROFESIONALES DE EQUIPO PROGRAMA FIADI",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:05:00"
+        },
+        {
+            "CodigoExterno": "5413-198-L119",
+            "Nombre": "Reparación de cámaras submarinas,  carros monitor  y sensores de equipo de conteo de peces Vaki",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T15:45:00"
+        },
+        {
+            "CodigoExterno": "2496-16-LP19",
+            "Nombre": "CONSERVACIÓN DE SS.HH. ESC. BAQUEDANO Y JASO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T15:00:00"
+        },
+        {
+            "CodigoExterno": "622134-69-LE19",
+            "Nombre": "Mantenimiento y reparación anual ascensores EEB",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "3887-135-L119",
+            "Nombre": "Erradicación de palomas Gimnasio Municipal Carlos Martinez ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T20:33:00"
+        },
+        {
+            "CodigoExterno": "858-96-L119",
+            "Nombre": "Provisión e Instalación de Protección Alcolchada para Pilares Multicancha  CEVS Lo Espejo",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T15:30:00"
+        },
+        {
+            "CodigoExterno": "3887-134-L119",
+            "Nombre": "Adquisición de Regalos de Navidad ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:00:00"
+        },
+        {
+            "CodigoExterno": "3439-38-L119",
+            "Nombre": "PRODUCTOS PARA EL CONTROL DE PLAGAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:30:00"
+        },
+        {
+            "CodigoExterno": "2343-342-L119",
+            "Nombre": "Jornada de autocuidado Ped. 2769",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T10:00:00"
+        },
+        {
+            "CodigoExterno": "1697-48-CO19",
+            "Nombre": "“MANTENCIÓN  MENSUAL  ASCENSORES TRIBUNALES CALAMA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T16:00:00"
+        },
+        {
+            "CodigoExterno": "3439-37-L119",
+            "Nombre": "DELTAMETRINA PARA HIGIENE AMBIENTAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T16:09:00"
+        },
+        {
+            "CodigoExterno": "2289-52-LP19",
+            "Nombre": "OBRAS CENTRO COMUNITARIO ASPADIF, FRUTILLAR",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-17T16:00:00"
+        },
+        {
+            "CodigoExterno": "5215-677-L119",
+            "Nombre": "CALCITRIOL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:00:00"
+        },
+        {
+            "CodigoExterno": "3714-25-LE19",
+            "Nombre": "Mejoramiento de patios recreativos y deportivos",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T19:54:00"
+        },
+        {
+            "CodigoExterno": "3995-48-L119",
+            "Nombre": "CENA FUNCIONARIOS DAEM",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T12:00:00"
+        },
+        {
+            "CodigoExterno": "517903-22-L119",
+            "Nombre": "Confección e instalación de rejas metálicas para protección del acceso hacia el pabellón de solteros del CCA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:00:00"
+        },
+        {
+            "CodigoExterno": "2782-38-LE19",
+            "Nombre": "COMPRA TABLEROS DE BASQUETBOL OF. 262 ESC.E-10 SEP",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T18:38:00"
+        },
+        {
+            "CodigoExterno": "2452-330-L119",
+            "Nombre": "INSUMOS ENFERMERÍA RED DE SALUD",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T08:00:00"
+        },
+        {
+            "CodigoExterno": "2933-63-L119",
+            "Nombre": "Bacterias Plantas de Tratamiento Agua Residuales",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T10:00:00"
+        },
+        {
+            "CodigoExterno": "872-188-L119",
+            "Nombre": "Dosímetro Personal ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T15:00:00"
+        },
+        {
+            "CodigoExterno": "652180-53-LE19",
+            "Nombre": "Servicio de Aseo y Retiro de Residuos de Playas diversos Sectores Comuna de Mejillones 2020",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T18:41:00"
+        },
+        {
+            "CodigoExterno": "1552-48-LE19",
+            "Nombre": "Suministros Farmacos e insumos medicos",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T17:00:00"
+        },
+        {
+            "CodigoExterno": "4359-26-L119",
+            "Nombre": "Insumos Dentales para Depto. de Salud",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T10:29:00"
+        },
+        {
+            "CodigoExterno": "5740-39-L119",
+            "Nombre": "HORNOS PANADEROS CON 03 CAMARAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T17:30:00"
+        },
+        {
+            "CodigoExterno": "3024-99-L119",
+            "Nombre": "MAT. DE OFICINA Y ÚTILES ESCOLARES ESC. SAN ISIDRO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T13:10:00"
+        },
+        {
+            "CodigoExterno": "3868-18-LE19",
+            "Nombre": "ADQUISICIÓN DE INSUMOS PARA LAS SIP",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T17:00:00"
+        },
+        {
+            "CodigoExterno": "2403-227-L119",
+            "Nombre": "Bolsas de Asfalto frío",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T16:21:00"
+        },
+        {
+            "CodigoExterno": "2773-115-L119",
+            "Nombre": "MOBILIARIO PARA CESFAM PINARES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T10:30:00"
+        },
+        {
+            "CodigoExterno": "1660-215-L119",
+            "Nombre": "ESTADIOMETRO O TALLIMETRO MÓVIL TIPO SECA 213 O SIMILAR ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:00:00"
+        },
+        {
+            "CodigoExterno": "1079566-19-LE19",
+            "Nombre": "MANTENCION Y REPARACION VIVIENDAS FISCALES COMISIÓN POBLACIONES PREFECTURA LINARES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T16:13:00"
+        },
+        {
+            "CodigoExterno": "2311-152-L119",
+            "Nombre": "artículos de oficina",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T15:00:00"
+        },
+        {
+            "CodigoExterno": "761391-337-L119",
+            "Nombre": "EA/264/EDU/RRM/ MATERIALES CLUB AEROMODELISMO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T19:34:00"
+        },
+        {
+            "CodigoExterno": "1058024-81-LQ19",
+            "Nombre": "CONV. SUM. FARMACOS ANTIBACTERIANOS ORALES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T19:00:00"
+        },
+        {
+            "CodigoExterno": "2789-134-L119",
+            "Nombre": "SERVICIO COFFE BREAK \"DANZA MODERNA 2019\"  -  LICEO HOSPITAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T16:30:00"
+        },
+        {
+            "CodigoExterno": "3625-16-LE19",
+            "Nombre": "Contratación ITO-E para Reparación y Mejora Multicancha El Manzano, SJM",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-04T14:00:00"
+        },
+        {
+            "CodigoExterno": "1607-16-LQ19",
+            "Nombre": "Servicio remodelación y habilitación piso 6",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-05T16:20:00"
+        },
+        {
+            "CodigoExterno": "1943-12-LE19",
+            "Nombre": "Servicio mantención y reparación parque vehicular",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T16:00:00"
+        },
+        {
+            "CodigoExterno": "2341-404-L119",
+            "Nombre": "ADQ 3557-3567-3569-3562 / DIDECO EMPRENDIMIENTO/ SP 1309-1319-1321-1314/  ADQUISICION LONCHERA Y FREIDORAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T12:28:00"
+        },
+        {
+            "CodigoExterno": "2704-271-L119",
+            "Nombre": "SC 5890 PROVISIÓN E INSTALACIÓN DE MUEBLES DE LABORATORIO ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-27T23:59:00"
+        },
+        {
+            "CodigoExterno": "3420-15-LE19",
+            "Nombre": "Servicio suministro e instalación de láminas solar",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-03T09:00:00"
+        },
+        {
+            "CodigoExterno": "2408-523-LE19",
+            "Nombre": "IV VERSIÓN LANZAMIENTO DE LA TEMPORADA DE VERANO EN LOS SALTOS DEL LAJA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T09:00:00"
+        },
+        {
+            "CodigoExterno": "1082943-7-L119",
+            "Nombre": "Servicio de mantención, reparación y otros de los sistemas de aire acondicionado de la Subsecretaría de Relaciones Económicas Internacionales.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T11:00:00"
+        },
+        {
+            "CodigoExterno": "3690-46-LE19",
+            "Nombre": "Mobiliario Urbano, Programa Promocion",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T10:00:00"
+        },
+        {
+            "CodigoExterno": "1017312-58-LE19",
+            "Nombre": "Serv. Proc. Diagnósticos y Terapéuticos Arica",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-20T16:00:00"
+        },
+        {
+            "CodigoExterno": "2367-221-LE19",
+            "Nombre": "ADQUISICIÓN DE REGALOS ESCUELA D-4 Y CIEF",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:30:00"
+        },
+        {
+            "CodigoExterno": "3843-30-L119",
+            "Nombre": "CONTRATACION SERVICIOS DE ORQUESTA MUSICAL Y AUDIO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:30:00"
+        },
+        {
+            "CodigoExterno": "4451-89-L119",
+            "Nombre": "Adquisición de set de bingo, para OO.CC.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:05:00"
+        },
+        {
+            "CodigoExterno": "2324-411-LE19",
+            "Nombre": "LICITACIÓN PÚBLICA N°144/2019 \"EXTENSIÓN RED DE AGUA POTABLE RURAL PUTENIO- ILQUE PUERTO MONTT\".",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T15:30:00"
+        },
+        {
+            "CodigoExterno": "3506-54-E219",
+            "Nombre": "ASEO Y ORNATO ADQUISICION DE VACUNAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T13:00:00"
+        },
+        {
+            "CodigoExterno": "2273-659-L119",
+            "Nombre": "PROYECTOR LED 400,LUMINARIA TIPO VIAL DECRETO 2000-2356 mms AREA 056",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T12:22:00"
+        },
+        {
+            "CodigoExterno": "2258-276-LQ19",
+            "Nombre": "LICITACION DE COMPRA DE SERVICIOS DE CORONARIOGRAFIA Y ANGIOPLASTIA DE URGENCIA PARA EL HOSPITAL REGIONAL DE ANTOFAGASTA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T18:42:00"
+        },
+        {
+            "CodigoExterno": "643-25-LQ19",
+            "Nombre": "SERVICIO DE DIGITADORES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-10T11:00:00"
+        },
+        {
+            "CodigoExterno": "3445-104-L119",
+            "Nombre": "REPARACION DE RECINTO PISCINA MUNICIPAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T12:40:00"
+        },
+        {
+            "CodigoExterno": "2785-274-LE19",
+            "Nombre": "SDA 780400 / SERVICIO DE PRODUCCION DE EVENTO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T16:00:00"
+        },
+        {
+            "CodigoExterno": "1676-61-LE19",
+            "Nombre": "Remodelacion de Pabellones Centrales - HPH",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-03T17:00:00"
+        },
+        {
+            "CodigoExterno": "1638-242-L119",
+            "Nombre": "Adquisición de Formularios de pago de permiso de circulación, sm0354",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T15:01:00"
+        },
+        {
+            "CodigoExterno": "1499-129-LE19",
+            "Nombre": "Adquisición de Equipamiento clínico 20",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T19:00:00"
+        },
+        {
+            "CodigoExterno": "4055-123-L119",
+            "Nombre": "SERVICIO ALIMENTACION CERTIFICACION TALLERES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T12:39:00"
+        },
+        {
+            "CodigoExterno": "4157-33-L119",
+            "Nombre": "FABRICACIÓN E INSTALACIÓN DE MAMPARA PARA ACCESO A SERVICIOS HIGIÉNICOS ESCUELA MAIPO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T17:01:00"
+        },
+        {
+            "CodigoExterno": "2658-384-L119",
+            "Nombre": "LINTERNA MINERA OP 208 OPERACIONES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T17:46:00"
+        },
+        {
+            "CodigoExterno": "4157-34-L119",
+            "Nombre": "SERVICIO DE AMPLIFICACIÓN E ILUMINACIÓN Y PANTALLA PARA 3° ENCUENTRO PROVINCIAL DE ORQUESTAS ESCUELA ELISE MOTTART, EL CARMEN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:00:00"
+        },
+        {
+            "CodigoExterno": "712307-121-LE19",
+            "Nombre": "Elaboración de Sondajes en terreno fiscal urbano",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-06T15:00:00"
+        },
+        {
+            "CodigoExterno": "548864-31-L119",
+            "Nombre": "SALA CUNA Y JARDÍN INFANTIL PARA HIJOS DE FUNCIONARIOS DEL CAPRI TALCAHUANO DEL INSTITUTO DE PREVISIÓN SOCIAL, REGIÓN DEL BIOBIO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T16:12:00"
+        },
+        {
+            "CodigoExterno": "1905-17-L119",
+            "Nombre": "Construcción de cerco en oficina de Guadal",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-25T15:00:00"
+        },
+        {
+            "CodigoExterno": "3723-26-L119",
+            "Nombre": "SERVICIO DE TRASLADO DE EQUIPO DE TRABAJO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T09:00:00"
+        },
+        {
+            "CodigoExterno": "3477-217-E219",
+            "Nombre": "CAPACITACION EN GASTRONOMIA MEDICINAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T10:00:00"
+        },
+        {
+            "CodigoExterno": "1017312-57-LE19",
+            "Nombre": "Serv. Proced. Diagnóst y Terapéuticos Chillán",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-20T16:00:00"
+        },
+        {
+            "CodigoExterno": "2453-82-L119",
+            "Nombre": "PM 725  DIDECO / ORG. COMUNITARIO (BOLSAS PLASTICAS).",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T20:00:00"
+        },
+        {
+            "CodigoExterno": "3206-117-L119",
+            "Nombre": "ADQUISICION MATERIALES PARA REHABILITACION",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T12:25:00"
+        },
+        {
+            "CodigoExterno": "1069417-206-L119",
+            "Nombre": "Adquisición de batería ADOS para CESFAM San Ramón Nonato",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T12:26:00"
+        },
+        {
+            "CodigoExterno": "1017312-56-LE19",
+            "Nombre": "Serv. Proced. Diagnóst y Terapéuticos Los Ángeles.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-20T16:00:00"
+        },
+        {
+            "CodigoExterno": "3203-191-LE19",
+            "Nombre": "172 CANASTAS NAVIDEÑAS SEGUN ADJUNTO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T16:56:00"
+        },
+        {
+            "CodigoExterno": "744835-482-L119",
+            "Nombre": "Equipo aire acondicionado.-",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T15:08:00"
+        },
+        {
+            "CodigoExterno": "3962-71-L119",
+            "Nombre": "MATERIALES TRABAJO EN TERRENO MAESTROS DEPARTAMENTO DE TRANSITO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T13:08:00"
+        },
+        {
+            "CodigoExterno": "2341-400-L119",
+            "Nombre": "ADQ 3556 / DIDECO EMPRENDIMIENTO/ SP 1304/  ADQUISICION COMPUTADOR",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-26T17:47:00"
+        },
+        {
+            "CodigoExterno": "2273-663-L119",
+            "Nombre": "S26 PROMIL GOLD DECRETO 2000-2368 mms AREA 0223",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-28T11:58:00"
+        },
+        {
+            "CodigoExterno": "3378-79-L119",
+            "Nombre": "Fabricación de Intercambiadores de Calor para Equipos Fan Coil del HMS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T16:00:00"
+        },
+        {
+            "CodigoExterno": "5209-164-LE19",
+            "Nombre": "SUM. SALBUTAMOL 5 MG  ML 20 ML SOLUCION PARA NEBU",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-04T16:00:00"
+        },
+        {
+            "CodigoExterno": "652-81-LE19",
+            "Nombre": "TROTADORA ALTO RENDIMIENTO REPOSICIÓN EQUIPOS Y EQUIPAMIENTO HOSPITAL INTERCULTURAL KALLVU LLANKA CAÑETE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-02T16:00:00"
+        },
+        {
+            "CodigoExterno": "548871-7-LE19",
+            "Nombre": "Servicio de Reparación del Departamento de Huésped",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-12-03T10:00:00"
+        },
+        {
+            "CodigoExterno": "3596-20-LE19",
+            "Nombre": "CONSTRUCCION INFRAESTRUCTURA TURISMO Y EMPRENDIMIE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2019-11-29T14:30:00"
+        }
+    ]
+}

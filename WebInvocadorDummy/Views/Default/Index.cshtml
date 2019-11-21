@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Formulario DUMMY FEC</h2>
+<div style="padding-bottom:15px; text-align:right;font-size: x-large;">
+    <a href="@Url.Action("SimulacionToken","Token")">Simulación get token simple</a>
+</div>
+
+@using (Html.BeginForm("GoForm", "Default"))
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"><span class="control-label">Rut:</span></div>
+            <div class="col-md-4">
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <i class="glyphicon glyphicon-user"></i>
+                    </span>
+                    <input id="rut" class="form-control" type="text" name="rut" placeholder="Ingrese un RUT" value="78186160-K" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"><span class="control-label">Formulario:</span></div>
+            <div class="col-md-4">
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <i class="glyphicon glyphicon-file"></i>
+                    </span>
+                    <select id="formCode" name="formCode" class="form-control">
+                        <option value="RPM-MAYOR">RPM Mayor</option>
+                        <option value="RPM-MENOR">RPM Menor</option>
+                        <option value="RPC">RPC</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <br />
+        <input type="submit" class="btn btn-primary" value="Ir al formulario :)" />
+    </div>
+}
