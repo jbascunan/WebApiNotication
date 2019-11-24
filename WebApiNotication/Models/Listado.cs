@@ -13,5 +13,7 @@ namespace WebApiProxy.Models
         public DateTime FechaCierre { get; set; }
         public string Rubro { get; set; }
         public int Estado { get; set; }
+        public int DiasPorVencer { get; set; }
+        public DateTime FechaPublicacion { get; set; }
     }
 }

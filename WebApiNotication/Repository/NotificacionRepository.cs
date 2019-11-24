@@ -55,8 +55,9 @@ namespace WebApiProxy.Repository
                 query.AppendFormat(",[Nombre]");
                 query.AppendFormat(",[CodigoEstado]");
                 query.AppendFormat(",[FechaCierre]");
-                query.AppendFormat(",[Rubro]) ");
-                query.AppendFormat("VALUES (@CodigoExterno, @Nombre, @CodigoEstado,@FechaCierre,@Rubro)");
+                query.AppendFormat(",[Rubro]");
+                query.AppendFormat(",[FechaPublicacion]) ");
+                query.AppendFormat("VALUES (@CodigoExterno, @Nombre, @CodigoEstado,@FechaCierre,@Rubro,@FechaPublicacion)");
 
                 return db.Execute(query.ToString(), new
                 {
@@ -64,7 +65,8 @@ namespace WebApiProxy.Repository
                     lic.Nombre,
                     lic.CodigoEstado,
                     lic.FechaCierre,
-                    lic.Rubro
+                    lic.Rubro,
+                    FechaPublicacion=DateTime.Now
                 });
             }
         }
@@ -73,7 +75,7 @@ namespace WebApiProxy.Repository
         {
             using (IDbConnection db = new SqlConnection(_connectionString))
             {
-                string query = "SELECT * FROM [dbo].[LicitacionesSugeridas] order by Estado asc";
+                string query = "SELECT *,DATEDIFF(day,GETDATE(),FechaCierre) DiasPorVencer FROM [dbo].[LicitacionesSugeridas] order by Estado asc";
                 return db.Query<Listado>(query).ToList();
             }
         }
